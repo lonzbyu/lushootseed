@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    
+    <!-- similar to Zenk's "Petit catéchisme des indiens", p. 430 (line 274+)-->
+    
+    <body>
+        <p>LESSON II. </p>
+            
+      <l n="1">
+        
+        <app>
+          <rdg wit="#Bo">1. Stab tihîlh lawha?</rdg>
+          <rdg wit="#BL">1. stab  tiʔiɬ lawha?</rdg> 
+          <rdg wit="#LG">1. What is faith?</rdg> 
+        </app></l>
+            
+            
+      <l n="1">
+         <app>
+           <rdg wit="#Bo">Tihîlh lawha tolsherk sabaleku gwalh Sherk-Siam obechad al ku selechelh, </rdg>
+           <rdg wit="#BL">tiʔiɬ lawha tulʼ šəq sʔabalikʷ gʷəɬ šəq siʔab ʔubəčad ʔal kʷi shəliʔčəɬ, </rdg>    
+           <rdg wit="#LWG">the faith from heaven gift from sky nobleman ?? to the souls+our</rdg>
+           <rdg wit="#LG">Faith is a heavenly gift from God ??? for our souls </rdg> 
+        </app></l>
+            
+                  
+      
+      <l n="2">
+        <app>
+          <rdg wit="#Bo">tlhdahu tlelduhchelh ku sgwas sgwadgwads dhual leglis.</rdg>
+          <rdg wit="#BL">ɬ(u)dəxʷ tɬildxʷ čəɬ kʷi sgʷaʔs sgʷadgʷads dxʷʔal leglis.</rdg>    
+          <rdg wit="#LG">by+which we believe his own revelation to the church.</rdg> 
+        </app></l>
+            
+                        
+      <l n="3">
+        <app>
+          <rdg wit="#Bo">2. Elid gwalh lawha siayus.</rdg>
+          <rdg wit="#BL"> 2. ʔilid gʷəɬ lawha syayus.</rdg> 
+          <rdg wit="#LG">2. Repeat the act of faith. </rdg>
+        </app></l>
+            
+                              
+      <l n="4">
+        <app>
+          <rdg wit="#Bo">O Sherk-Siam dayai chahu, &amp;c, page 9.</rdg>
+          <rdg wit="#BL">ʔu šəq-siʔab dayʼayʼ čəxʷ, &amp;c, page 9.</rdg>    
+        </app></l>
+            
+                                    
+      <l n="5">
+        <app>
+          <rdg wit="#Bo">3. Stab tihilh lespelans?</rdg>
+          <rdg wit="#BL">3. stab tiʔiɬ lespelans.</rdg> 
+          <rdg wit="#LG">3. What is hope? </rdg>
+        </app></l>
+            
+                                          
+      <l n="6">
+        <app>
+          <rdg wit="#Bo">Tihîlh lespelans tolsherk sabaleku, gwalh Sherk-Siam obechad al ku selechelh, </rdg>
+          <rdg wit="#BL">tiʔiɬ lespelans  tulʼ šəq sʔabalikʷ, gʷəɬ šəq siʔab ʔubəčad ʔal kʷi shəliʔčəɬ, </rdg>    
+          <rdg wit="#LG">Hope is a heavenly gift from God ??? for our souls </rdg> 
+        </app></l>
+            
+                                                
+      <l n="7">
+        <app>
+          <rdg wit="#Bo">tlhdahu kwerkrwels te rechchielh dhual kwi tlhdahu orchelh duhsherk, </rdg>
+          <rdg wit="#BL"> tɬdəxʷ qʷiqʼʷils tə x̌əččəɬ dxʷʔal kʷi tɬdəxʷ ʔux̌ʷ dəxʷšəq,</rdg>    
+          <rdg wit="#LG">truly? strengthen our minds unto the truly? ascending to heaven</rdg> 
+        </app></l>
+            
+                                                      
+      <l n="8">
+        <app>
+          <rdg wit="#Bo">'tlalba asista dhual kwi tlhdahu kwawhatobchelh a kwi Sherk-Siam.</rdg>
+          <rdg wit="#BL">ƛʼəlbəʔəsʔistəʔ dxʷʔal kʷi tɬdəxʷ kʷaxʷatəbčəɬ ʔə kʷi šəq siʔab.</rdg>    
+          <rdg wit="#LG">?? until we are truly taken by God</rdg> 
+        </app></l>
+            
+                                                            
+      <l n="9">
+        <app>
+          <rdg wit="#Bo">4. Elid gwalh lespelans siyayus.</rdg>
+          <rdg wit="#BL">4. ʔilid gʷəɬ lespelans syayus.</rdg>    
+          <rdg wit="#LG">4. Repeat the act of hope. </rdg>
+        </app></l>
+            
+                                                                  
+      <l n="10">
+        <app>
+          <rdg wit="#Bo">O Sherk-Siam gwa, &amp;c. page 9.</rdg>
+          <rdg wit="#BL">ʔu šəq siʔab gʷə, &amp;c. page 9.</rdg>    
+        </app></l>
+            
+                                                                        
+      <l n="11">
+        <app>
+          <rdg wit="#Bo">5. Abil o whe gwas kwawhatobchelh a kwi Sherk-Siam, </rdg>
+          <rdg wit="#BL">5. ʔabilʼ ʔu xʷiʔ gʷəskʷaxʷatəbcəɬ ʔə kʷi šəq siʔab, </rdg>      
+          <rdg wit="#LG">5. What if we aren't taken by God,</rdg> 
+        </app></l>
+            
+                                                                              
+      <l n="12">
+        <app>
+           <rdg wit="#Bo">gula whe o la asared gwas halhilchelh aku telh dhual kwi gwa dahu orchelh duhsherk, </rdg>
+          <rdg wit="#BL">gʷəl xʷiʔ ʔu ləʔəsʔəx̌id gʷəshaʔɬilčəɬ ʔə kʷi təɬ dxʷʔal kʷi gʷədəxʷʔux̌ʷčəɬ dəxʷšəq, </rdg>    
+          <rdg wit="#LG">then is there no way whereby we can become good so that we can ascend to heaven,</rdg> 
+         </app></l>
+            
+                                                                                    
+      <l n="13">
+          <app>
+           <rdg wit="#Bo">'tlalba asista whe la asared o kwi gwa dahu lililchelh tolal ku boku tskwadad? </rdg>
+            <rdg wit="#BL">ƛʼəlbəʔəsʔistəʔ xʷiʔ ləʔəsʔəx̌id ʔu kʷi gʷədəxʷlilčəɬ tulʼʔal kʷi bəkʼʷ dᶻəkʼʷadad?</rdg>    
+            <rdg wit="#LG">or is there no way whereby we can distance ourselves from all of our sins?</rdg> 
+        </app></l>
+            
+                                                                                          
+      <l n="14">
+        <app>
+          <rdg wit="#Bo">E, abil whe gwas kwawhatobchelh a kwi Sherk-Siam </rdg>
+          <rdg wit="#BL">ʔi, ʔabilʼ xʷiʔ gʷəskʷaxʷatəbčəɬ ʔə kʷi šəq siʔab </rdg> 
+          <rdg wit="#LG">Yes, if we aren't taken by God,</rdg> 
+        </app></l>
+            
+                                                                                                
+      <l n="15">
+        <app>
+          <rdg wit="#Bo">gula whe la asared gwas halhilchelh aku telh dhual kwi dahu orchelh duhsherk, </rdg>
+          <rdg wit="#BL">gʷəl  xʷiʔ  ləʔəsʔəx̌id gʷəshaʔɬilčəɬ ʔə kʷi təɬ dxʷʔal kʷi dəxʷʔux̌ʷčəɬ dəxʷšəq,</rdg>    
+          <rdg wit="#LG">then there is no way whereby we can become good so that we can ascend to heaven,</rdg> 
+        </app></l>
+            
+                                                                                                      
+      <l n="16">
+        <app>
+          <rdg wit="#Bo"> 'tlalba asista whe la asared kwi gwa dahu lililchelh tolal ku boku tskwadad.  </rdg>
+          <rdg wit="#BL">ƛʼəlbəʔəsʔistəʔ xʷiʔ ləʔəsʔəx̌id kʷi gʷədəxʷlililčəɬ tulʼʔal kʷi bəkʼʷ dᶻəkʼʷadad</rdg>   
+          <rdg wit="#LG">and is there no way whereby we can distance ourselves from all of our sins.</rdg> 
+        </app></l>
+            
+                                                                                                            
+      <l n="17">
+        <app>
+          <rdg wit="#Bo">6. Ahutsotab o kwi Sherk-Siam tskwakredchelh go o'tegwid tsedîlh? </rdg>
+          <rdg wit="#BL">6. ʔəxʷcutəb ʔu kʷi šəq siʔab ckʼʷaqid čəɬ gʷ(ə)ut'igʷid cədiɬ?</rdg>
+          <rdg wit="#LG">6. Did God say that we should always pray to Him?</rdg>
+        </app></l>
+            
+                                                                                                                  
+      <l n="18">
+        <app>
+          <rdg wit="#Bo">E, ahutsotab kwi Sherk-Siam tskwakredchelh go o'tegwid tsidîlh.</rdg>
+          <rdg wit="#BL">ʔi,  ʔəxʷcutəb kʷi šəq siʔab ckʼʷaqidčəɬ gʷ(ə)ut'igʷid cədiɬ.</rdg>    
+          <rdg wit="#LG">Yes, God did say that we should always pray to Him.</rdg>
+        </app></l>
+            
+                                                                                                                        
+      <l n="19">
+        <app>
+          <rdg wit="#Bo">7. Stab tihîlh lasharite?</rdg>
+          <rdg wit="#BL">7. stab tiʔiɬ lasharite.</rdg>
+          <rdg wit="#LG">7. What is charity?</rdg>
+        </app></l>
+            
+                                                                                                                              
+      <l n="20">
+        <app>
+          <rdg wit="#Bo">Tihîlh lasharite, tolsherk sabaleku gwalh Sherk-Siam obechad al ku selechelh </rdg>
+          <rdg wit="#BL">tiʔiɬ lasharite, tulʼ šəq sʔabalikʷ gʷəɬ šəq siʔab ʔubəčad ʔal kʷi shəliʔčəɬ, </rdg>    
+          <rdg wit="#LG">Charity is a gift from heaven from God ??? to our lives,</rdg>
+          </app></l>
+            
+                                                                                                                                   
+      <l n="21">
+         <app>
+           <rdg wit="#Bo">tlhdahu ra'tleduhchelh ku Sherk-Siam, eku boku atsilhtalbihu. </rdg>
+           <rdg wit="#BL">ɬ(u)dəxʷ x̌aƛ'ildxʷ čəɬ kʷi šəq siʔab, ʔi kʷi bəkʼʷ ʔaciɬtalbixʷ. </rdg>    
+           <rdg wit="#LG">whereby we love God and all people.</rdg>
+         </app></l>
+                                                                                                                                         
+                                                                                                                                          
+      <l n="22">
+         <app>
+          <rdg wit="#Bo">8. Elid gwalh lasharite siayus.  </rdg>
+           <rdg wit="#BL">8. ʔilid gʷəɬ lacharite syayus. </rdg>
+           <rdg wit="#LG">8. Repeat the act of charity.</rdg>
+         </app></l>
+            
+                                                                                                                                                
+      <l n="23">
+         <app>
+           <rdg wit="#Bo">O Sherk-Siam dayai, &amp;c. page 9. </rdg>
+           <rdg wit="#BL">ʔu šəq siʔab dayʼay, &amp;c. pagə 9. </rdg>    
+          </app></l>
+                                                                                                                                                
+    </body>
+  </text>
+</TEI>

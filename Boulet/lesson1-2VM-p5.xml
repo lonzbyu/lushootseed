@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG"/>
+          <witness xml:id="LG"/>
+        </listWit>
+      </div>
+    </front>
+    
+    <!-- very similar to Zenk's "Petit catéchisme des Indiens", 1ere leçon -->
+    
+    <body>
+        <p>LESSON II.</p>
+
+      <l n="1">
+        <app>
+          <rdg wit="#Bo">1. Stab kwi Sherk-Siam ?</rdg>  
+          <rdg wit="#BL">1. stab kʷi šəq siʔab.</rdg> 
+          <rdg wit="#LWG">1. what the heaven nobleman</rdg>
+          <rdg wit="#LG">1. What is God?</rdg>
+        </app></l>
+
+      <l n="2">
+        <app> 
+          <rdg wit="#Bo">Rol rech kwi Sherk-Siam whe la asared gwas haiduhcheh asared kwis halh a kwi Sherk-Siam.</rdg>  
+          <rdg wit="#BL">x̌ʷulʼ x̌əč kʷi šəq siʔab xʷiʔ ləʔəsʔəx̌id gʷəshaydxʷčəɬ ʔəsʔəx̌id kʷi shaʔɬ ʔə kʷi šəq siʔab.</rdg>
+          <rdg wit="#LWG">only spirit the sky nobleman not how know+we how the goodness of the sky nobleman</rdg>
+          <rdg wit="#LG">God is merely spirit; we are not able to know how much is the goodness of God.</rdg>
+        </app></l>
+          
+            
+                      
+      <l n="3">
+        <app>  
+          <rdg wit="#Bo"> 2. Abstsokwab o kwi Sherk-Siam, rwekokru o, rebech o?</rdg>  
+          <rdg wit="#BL">2. abscʼukʼʷəb ʔu kʷi šəq siʔab, x̌ʷəqʷəqʼʷ ʔu, x̌ibəč' ʔu.</rdg>
+          <rdg wit="#LWG">2 has+body Q the sky nobleman, white Q, black Q</rdg>
+          <rdg wit="#LG"> Does God have a body? Is He white? Is He black?</rdg>
+        </app></l>
+          
+      <l n="4">     
+        <app>
+          <rdg wit="#Bo">Whe la abstsokwab kwi Sherk-Siam, whe la rwekokru whe la rebech.</rdg>  
+          <rdg wit="#BL">xʷiʔ ləʔabscʼukʼʷəb kʷi šəq siʔab, xʷiʔ ləx̌ʷəqʷəqʼʷ xʷiʔ ləx̌ibəč'.</rdg>  
+          <rdg wit="#LWG"> not have+body the sky nobleman, not white, not black</rdg>
+          <rdg wit="#LG"> He does not have a body. He is not white, He isn't black.</rdg>
+        </app></l>
+    
+      <l n="5">
+        <app>
+          <rdg wit="#Bo">3. Tskwakred o a kwi Sherk-Siam ?</rdg>  
+          <rdg wit="#BL"> 3. ckʼʷaqid ʔu ʔə kʷi šəq siʔab.</rdg>
+          <rdg wit="#LWG"> 3. forever Q of the sky nobleman</rdg>
+          <rdg wit="#LG"> 3. Is God eternal?</rdg>
+        </app></l>
+
+      <l n="6">
+        <app>             
+          <rdg wit="#Bo">E, tskwakred a kwi Sherk-Siam, tolal ku di tu haku tskwakred a kwi Sherk-Siam a al tihîlh i kwi tlhba tskwakred tlus as.</rdg>  
+          <rdg wit="#BL">ʔi, ckʼʷaqid ʔə kʷi šəq siʔab, tulʼʔal kʷədiʔ tuhaʔkʷ ckʼʷaqid ʔə kʷi šəq siʔab ʔa ʔal tiʔiɬ ʔi kʷi ɬəbəckʼʷaqid ɬusʔaʔs.</rdg>
+          <rdg wit="#LWG"> yes forever of the sky nobleman, from the long_ago forever of the sky nobleman exist to the and the future+forever future+exist</rdg>
+          <rdg wit="#LG"> Yes, God is eternal, from the remote past God always existed, He exists now, and He will always exist.</rdg>
+        </app></l>
+                 
+      <l n="7">        
+        <app>
+          <rdg wit="#Bo">4. Boku o dahu as kwi boku lilhchad kwi Sherk-Siam, gula boku o ashuts kwi bokw stab? </rdg>  
+          <rdg wit="#BL">4. bəkʼʷ ʔu dəxʷʔas kʷi bəkʼʷ liɬčad kʷi šəq siʔab, gʷəl bəkʼʷ ʔu ʔəshuyuc  kʷi bəkʼʷ stab?</rdg>
+          <rdg wit="#LWG"> 4. all Q means the all which+way the sky nobleman, then all Q made the all thing</rdg>
+          <rdg wit="#LG">4. ??? and did he make everything that was made?</rdg>
+        </app></l>
+          
+      <l n="8">
+        <app>
+          <rdg wit="#Bo">E, boku dahu as kwi boku lilhchad kwi Sherk-Siam, gula boku ashuts kwi boku stab.</rdg>  
+          <rdg wit="#BL">ʔi, bəkʼʷ dəxʷʔas kʷi bəkʼʷ liɬčad kʷi šəq siʔab, gʷəl bəkʼʷ ʔəshuyuc kʷi bəkʼʷ stab.</rdg>
+          <rdg wit="#LWG"> yes all means the all which+way the sky nobleman, then all made the all thing</rdg>
+          <rdg wit="#LG">Yes, ??? and did he make everything that was made.</rdg>
+        </app></l>
+
+      <l n="9">
+        <app>
+          <rdg wit="#Bo">5. Whe la asared o gwas haiduhchelh asared kwerkru kwi Sherk-Siam?</rdg>  
+          <rdg wit="#BL">5. xʷiʔ ləʔəsʔəx̌id ʔu gʷəshaydxʷčəɬ ʔəsʔəx̌id qʷiqʼʷ kʷi šəq siʔab.</rdg>
+          <rdg wit="#LWG">5. not how Q IRR+know+us how powerful the sky nobleman</rdg>
+          <rdg wit="#LG">5. Aren't we able to know how powerful God is?</rdg>
+        </app></l>
+      
+      <l n="10">
+        <app>
+          <rdg wit="#Bo">Whe la asared gwas haiduhchelh asared kwerkru kwi Sherk-Siam; </rdg>  
+          <rdg wit="#BL">xʷiʔ ləʔəsʔəx̌id gʷəshaydxʷčəɬ ʔəsʔəx̌id qʷiqʼʷ kʷi šəq siʔab</rdg>
+          <rdg wit="#LWG">not how IRR+know+us how powerful the sky nobleman</rdg>
+          <rdg wit="#LG">We are not able to know how powerful God is;</rdg>
+        </app></l>
+                  
+      <l n="11">
+        <app>
+          <rdg wit="#Bo">yare boku stab kria dhual tsidîlh.</rdg>  
+          <rdg wit="#BL">yəx̌i bəkʼʷ stab kria dxʷʔal cədiɬ</rdg>
+          <rdg wit="#LWG">but all things rien=nothing unto him</rdg>
+          <rdg wit="#LG">but all things are nothing unto him.</rdg>
+        </app></l>
+
+    </body>
+  </text>
+</TEI>

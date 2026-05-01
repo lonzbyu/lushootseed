@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    
+    <!-- similar to Zenk's "Petit catéchisme des indiens", 3e leçon -->
+    
+    <body>
+        <p>LESSON IV. </p>
+            
+      <l n="1">
+        <app>
+          <rdg wit="#Bo">1. Kraa o kwi Sherk-Siam?</rdg>  
+          <rdg wit="#BL">1. x̌aʔ ʔu kʷi šəq siʔab. </rdg> 
+          <rdg wit="#LWG">1. many Q the sky nobleman</rdg>
+          <rdg wit="#LG">1. Are there many gods?</rdg>
+        </app></l>
+            
+      <l n="2">
+        <app>
+          <rdg wit="#Bo">Whe la kraa kwi Sherk-Siam, rol diecho kwi Sherk-Siam.</rdg>  
+          <rdg wit="#BL">xʷiʔ ləx̌aʔ kʷi šəq siʔab, x̌ʷulʼ dəč'uʔ kʷi šəq siʔab.</rdg> 
+          <rdg wit="#LWG">not many the sky nobleman, only one the sky nobleman</rdg>
+          <rdg wit="#LG">There are not many gods, there is only one God.</rdg>
+        </app></l>
+            
+      <l n="3">
+        <app>
+          <rdg wit="#Bo">2. Kraa o kwi parson al kwi Sherk-Siam?</rdg>  
+          <rdg wit="#BL">2. x̌aʔ ʔu kʷi parson ʔal kʷi šəq siʔab?</rdg>  
+          <rdg wit="#LWG">2. many Q the person in the sky nobleman</rdg>
+          <rdg wit="#LG">2. Are there many persons in God?</rdg>
+        </app></l>
+                        
+      <l n="4">
+        <app>
+          <rdg wit="#Bo">Tlewhehu parson al kwi Sherk-Siam: Bads, Bedas, Sent-Ospli.</rdg>  
+          <rdg wit="#BL">ɬixʷəxʷ parson ʔal kʷi šəq siʔab: bads, bədaʔs, Sent-Ospli.</rdg>  
+          <rdg wit="#LWG">three person in the sky nobleman: Father, Son, Holy Spirit</rdg>
+          <rdg wit="#LG">There are three persons in God: the Father, the Son, the Holy Spirit.</rdg>
+        </app></l>
+                              
+      <l n="5">
+        <app>
+          <rdg wit="#Bo">3. Bads o rol o Bads, Bedas o rol o Bedas, Sent-Ospli o rol o Sent-Ospli?</rdg>  
+          <rdg wit="#BL">3. bads ʔu x̌ʷulʼ ʔu bads, bədaʔs ʔu x̌ʷulʼ ʔu bədaʔs, Sent-Ospli ʔu x̌ʷulʼ Sent-Ospli.</rdg>  
+          <rdg wit="#LWG">3. father Q only Q father, son Q only Q son, holy-spirit Q only holy-spirit</rdg>
+          <rdg wit="#LG">3. Is the Father only the Father, is the Son only the Son, is the Holy Spirit only the Holy Spirit?</rdg>
+        </app></l>
+                                    
+      <l n="6">
+        <app>
+          <rdg wit="#Bo">E, Bads hoi rol Bads, Bedas hoi rol Bedas, Sent-Ospli hoi rol Sent-Ospli. </rdg>  
+          <rdg wit="#BL">ʔi, bads huy x̌ʷulʼ bads, bədaʔs huy x̌ʷulʼ bədaʔs, Sent-Ospli huy x̌ʷulʼ Sent-Ospli.</rdg>  
+          <rdg wit="#LWG">yes father well only father, son well only son, holy-spirit well only holy-spirit</rdg>
+          <rdg wit="#LG">Yes, the Father is only the Father, the Son is only the Son, the Holy Spirit is only the Holy Spirit.</rdg>
+        </app></l>
+                                          
+      <l n="7">
+        <app>
+          <rdg wit="#Bo">4. Bads, Bedas, Sent-Ospli, tlewhehu o ta tsahadilh parson, tor o rol diecho Sherk-Siam?</rdg>  
+          <rdg wit="#BL">4. bads, bədas, Sent-Ospli, ɬixʷəxʷ ʔu tə cədiɬ parson, tux̌ʷ ʔu x̌ʷulʼ dəč'uʔ šəq siʔab.</rdg>  
+          <rdg wit="#LWG">4. father, son, holy spirit, three Q the them person, simply Q one sky nobleman</rdg>
+          <rdg wit="#LG">4. Are the Father, Son, and Holy Spirit three persons, are they just only one God?</rdg>
+        </app></l>
+                                                
+      <l n="8">
+        <app>
+          <rdg wit="#Bo">E, Bad, Bedas, Sent-Ospli, tlewhehu ta tsahadilh parson dididiecho, tor rol diecho Sherk-Siam.</rdg>  
+          <rdg wit="#BL">ʔi, bad, bədaʔs, Sent-Ospli,  ɬixʷəxʷ tə cədiɬ parson dididəc'uʔ, tux̌ʷ x̌ʷulʼ dəč'uʔ šəq siʔab.</rdg>  
+          <rdg wit="#LWG">yes, Father, Son, holy spirit, three the them person one-by-one, simply only one sky nobleman</rdg>
+          <rdg wit="#LG">Yes, the Father, Son, and Holy Spirit are three separate persons, and are just only one God.</rdg>
+        </app></l>
+                                                      
+      <l n="9">
+        <app>
+          <rdg wit="#Bo">5. Telh o Bads, Bedas, Sent-Ospli, rol lekralgwas dhual kwi boku stab?</rdg>  
+          <rdg wit="#BL">5. təɬ ʔu bads, bədaʔs, Sent-Ospli, x̌ʷulʼ ləx̌algʷas dxʷʔal kʷi bəkʼʷ stabʔ</rdg>  
+          <rdg wit="#LWG">5. true Q father, son, holy spirit, only equal above the all things</rdg>
+          <rdg wit="#LG">5. Is it true that the Father, Son, and Holy Spirit alone are equal above all things?</rdg>
+        </app></l>
+                                                            
+      <l n="10">
+        <app>
+          <rdg wit="#Bo">E, telh Bads, Bedas, Sent-Ospli, rol lekralgwas dhual kwi boku stab.</rdg>  
+          <rdg wit="#BL">ʔi, təɬ bads, bədaʔs, Sent-Ospli, x̌ʷulʼ ləx̌algʷas dxʷʔal kʷi bəkʼʷ stab.</rdg>  
+          <rdg wit="#LWG">yes, true father, son, holy spirit, only equal above the all things</rdg>
+          <rdg wit="#LG">Yes, it is true that the Father, Son, and Holy Spirit alone are equal above all things?</rdg>
+        </app></l>
+    </body>
+  </text>
+</TEI>

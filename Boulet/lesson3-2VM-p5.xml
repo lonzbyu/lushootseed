@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    
+    <!-- similar to Zenk's "Petit catéchisme des indiens", pp. 428-429 -->
+    <!-- http://eucharisticadoration.com/articles/36/1/Baltimore-Catechism-4/Page1.html helped a lot too -->
+    
+    <body>
+        <p>LESSON II.</p>
+            
+      <l n="1">
+        <app>
+          <rdg wit="#Bo">1. Stab tihîlh Lokaristi?</rdg>
+          <rdg wit="#BL">1. stab tiʔiɬ Lokaristi.</rdg>   
+          <rdg wit="#LWG">1. what  the eucharist</rdg> 
+          <rdg wit="#LG">1. What is the eucharist?</rdg> 
+        </app></l>
+            
+          
+      <l n="2">
+        <app>
+          <rdg wit="#Bo">Tihilh Lokaristi dcho Sakrema aku tsokwab eku stolegwad gwalh Shesu-Kri askro, aku tsidîlh Shesu-Kri boku.</rdg>
+          <rdg wit="#BL">tiʔiɬ Lokaristi dəč'uʔ Sakrema ʔə kʷi cʼukʼʷəb ʔi kʷi stuligʷəd gʷəɬ Shesu-Kri ʔəsqʼʷuʔ, ʔə kʷi cədiɬ Shesu-Kri bəkʼʷ.</rdg>   
+          <rdg wit="#LWG">the eucharist one sacrament of the body and the blood belonging_to Jesus_Christ together of the that Jesus_Christ all</rdg> 
+          <rdg wit="#LG">The eucharist is a sacrament of the body and the blood of Jesus Christ together, of the entire Jesus Christ.</rdg> 
+        </app></l>
+            
+              
+      <l n="3">
+        <app>
+          <rdg wit="#Bo">Whe gwa stab gwa saplel, dayai srwekrokus saplels, eta stlokos saplels, eta saplel alakrops.</rdg>
+          <rdg wit="#BL">xʷiʔ gʷəstab gʷəsaplil, dayʼayʼ sqʷəqʼʷus saplils, ʔi tə sɬaʔx̌us saplils, ʔi tə saplil ʔə ləkʼʷəbs.</rdg>   
+          <rdg wit="#LWG">not much bread only white bread and the round bread and the bread of eaten</rdg>
+          <rdg wit="#LG">Not a lot of bread, only white bread, and round bread, and edible bread.</rdg>
+        </app></l>
+            
+                      
+      <l n="5">
+        <app>
+          <rdg wit="#Bo">Dilh dahu as gwalh Shesu-Kri tsokwab eta boku Shesu-Kri askro. </rdg>
+          <rdg wit="#BL">diɬ dəxʷəs gʷəɬ Shesu-Kri cʼukʼʷəb ʔi tə bəkʼʷ Shesu-Kri ʔəsqʼʷuʔ .</rdg>   
+          <rdg wit="#LWG">that way belonging_to Jesus_Christ body and the all Jesus_Christ together</rdg>
+          <rdg wit="#LG">That is how the body of Jesus Christ and Jesus Christ entire.</rdg>
+        </app></l>
+            
+                          
+      <l n="6">
+        <app>
+          <rdg wit="#Bo">Whe gwa stab gwa wain dayai gwalh wain rlhte kro, eta gwalh wain skwalhs, etas wain alakrops. </rdg>
+          <rdg wit="#BL">xʷiʔ gʷəstab gʷəwain dayʼayʼ gʷəɬ wain x̌əɬ ti qʼʷuʔ , ʔi tə gʷəɬ wain skʼʷəɬs,  ʔi tə swain ʔə ləkʼʷəbs.</rdg>  
+          <rdg wit="#LG">not much wine only belonging_to wine seems the water and IRR wine pouring and the wine of ingestible </rdg>
+          <rdg wit="#LG">A little bit of wine only, water that looks like wine, and pouring some wine, and drinkable wine.</rdg>
+        </app></l>
+            
+                              
+      <l n="7">
+        <app>
+          <rdg wit="#Bo">Dilh dahu as gwalh Shesu-Kri stolegwad, eta boku Shesi-Kri askro.</rdg>
+          <rdg wit="#BL">diɬ dəxʷəs gʷəɬ Shesu-Kri stuligʷəd, ʔi tə bəkʼʷ Shesu-kri ʔəsqʼʷuʔ.</rdg>   
+          <rdg wit="#LWG">that how IRR Jesus_Christ blood and the entire Jesus Christ together</rdg>
+          <rdg wit="#LG">That is how the blood of Jesus Christ, and the entire Jesus Christ together.</rdg>
+        </app></l>
+           
+            
+                                  
+      <l n="8">
+        <app>
+          <rdg wit="#Bo">2. Alchad kus o hoyutobs lale aku leple ku saplel gwa tla hoyil gwalh Shesu-Kri tsokwab, </rdg>
+          <rdg wit="#BL">2. ʔal čad sʔuhuyutəbs ləliʔ ʔə kʷi leple kʷi saplil gʷəɬuhuyil gʷəɬ Shesu-Kri cʼukʼʷəb, </rdg> 
+          <rdg wit="#LWG">2. at where made other by the priest the bread change belonging_to Jesus_Christ's body</rdg>
+          <rdg wit="#LG">2. Where is the bread changed into Jesus Christ's body by the priest?</rdg>
+        </app></l>
+            
+                                      
+      <l n="9">
+        <app>
+          <rdg wit="#Bo">'tlalba alchad kus o hoyutobs lale aku leple ku wain gwa tla hoyil gwalh Shesu-Kri stolegwad?</rdg>
+          <rdg wit="#BL"> ƛ'alʼbə ʔal čad kʷi sʔuhuyutəbs ləliʔ ʔə kʷi ləplə kʷi  wain  gʷəɬuhuyil  gʷəɬ Shesu-Kri stuligʷəd?</rdg>   
+          <rdg wit="#LWG">and at where the made other by the priest the wine made belonging_to Jesus_Christ blood</rdg>
+          <rdg wit="#LG">and where is the wine changed into Jesus Christ's blood by the priest?</rdg>
+        </app></l>
+            
+                                          
+      <l n="10">
+        <app>
+          <rdg wit="#Bo">Al lames kus o hoyutobs lale aku leple ku saplel gwa tla hoyil gwalh Shesu-Kri tsokwab, </rdg>
+          <rdg wit="#BL">ʔal laməs  kʷi suhuyutəbs ləliʔ ʔə kʷi ləplə kʷi saplil gʷəɬuhuyil gwəɬShesu-Kri cʼukʼʷəb, </rdg>  
+          <rdg wit="#LWG">at mass the making other by the priest the bread changed belonging_to Jesus Christ body</rdg>
+          <rdg wit="#LG">At the mass is where the bread is changed into Jesus Christ's body by the priest</rdg>
+        </app></l>
+            
+                                              
+      <l n="11">
+        <app>
+          <rdg wit="#Bo"> 'tlalba al lames kus o hoyutobs lale aku leple ku wain, gwa tla hoyil gwalh Shesu-Kri stolegwad.</rdg>
+          <rdg wit="#BL">ƛ'alʼbə ʔal lames  kʷi suhuyutəbs ləliʔ ʔə kʷi leple kʷi wain, gʷəɬuhuyil gʷəɬ Shesu-Kri stuligʷəd</rdg>  
+          <rdg wit="#LWG">and at mass the made other by the priest the wine changed belonging_to Jesus_Christ blood</rdg>
+          <rdg wit="#LG">and at the mass is where the wine is changed into Jesus Christ's blood by the priest.</rdg>
+        </app></l>
+            
+                                                  
+      <l n="12">
+                                                    
+        <app>
+          <rdg wit="#Bo">3. Stab tihîlh lames?</rdg>
+          <rdg wit="#BL">3. stab  tiʔiɬ lames.</rdg>   
+          <rdg wit="#LWG">3. what the mass</rdg>   
+          <rdg wit="#LG">3. What is the mass?</rdg>   
+        </app></l>
+            
+                                                      
+      <l n="13">
+        <app>
+          <rdg wit="#Bo">Tihîlh lames gwalh Shesu-Kri tsokwab, eku stolegwad tu sabijobs, rolab aku tu dhual lekwe. </rdg>
+          <rdg wit="#BL"> tiʔiɬ lames gʷəɬ Shesu-Kri cʼukʼʷəb, ʔi kʷi stuligʷəd tusʔabiyitəbs, x̌ʷulʼab ʔə kʷi tudxʷʔal lekwe.</rdg>   
+          <rdg wit="#LG">The mass is the body of Christ and the blood gotten only ??????? on the cross.</rdg>   
+        </app></l>
+            
+                                                          
+      <l n="14">
+        <app>
+          <rdg wit="#Bo">4. Asared ku tlo alaluschelh al kus lames?</rdg>
+          <rdg wit="#BL">4. ʔəsʔəx̌id kʷi ɬuʔalalusčəɬ ʔal kʷsi lames.</rdg>   
+          <rdg wit="#LWG">4. how the behave+we at the mass</rdg>   
+          <rdg wit="#LG">4. How should we behave at the mass?</rdg>   
+        </app></l>
+            
+                                                              
+      <l n="15">
+        <app>
+          <rdg wit="#Bo">Tlo achelh al kus lames aku halh, tlo tegwidchelh di Sherk-Siam tlo petêdegwassebchelh aku tsoku, </rdg>
+          <rdg wit="#BL">ɬuʔaʔčəɬ ʔal kʷsi lames ʔə kʷi haʔɬ, ɬutʼigʷid čəɬ di šəq siʔab ɬupətidgʷasəbčəɬ ʔə kʷi cəkʷ,</rdg> 
+          <rdg wit="#LWG">be+we at the mass of the good FUT pray+we the sky nobleman thinking+we  of the correct</rdg>  
+          <rdg wit="#LG">We should be good at the mass, we pray to God that our thoughts be correct,</rdg>   
+        </app></l>
+            
+                                                                  
+      <l n="16">
+        <app>
+          <rdg wit="#Bo">gula whe kwi tlo sogukrtsutchelh aku pa'tla'tl. </rdg>
+          <rdg wit="#BL">gʷəl xʷiʔ kʷi ɬugəqʼcutčəɬ ʔə kʷi pʼaƛʼaƛʼ. </rdg>   
+          <rdg wit="#LWG">then not the open+self+we of the foolishness</rdg> 
+          <rdg wit="#LG">and we don't open ourselves up to foolishness</rdg> 
+        </app></l>
+
+    </body>
+  </text>
+</TEI>

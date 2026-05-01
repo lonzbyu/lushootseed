@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader><fileDesc>
+            <titleStmt>
+                <title>Versions of Act of Faith in Lushootseed</title>
+                <author> Dawn Bates and Deryle Lonsdale </author>
+                <respStmt><resp> Text Encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>Deryle Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without the explicit permission from the copyright holder. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+            <notesStmt>
+                <note anchored="true">This has two Romanized versions and our updated orthography.</note>
+                <!--             <note type="image">
+                    <witDetail wit="Ch" target="val">
+                    <figure entity="chirouse1"></figure>
+                    </witDetail>
+                    </note> -->
+            </notesStmt>
+            <sourceDesc><p>Source description</p>
+            </sourceDesc>
+        </fileDesc><encodingDesc> 
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc></teiHeader>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="Ch">Chirouse</witness>
+                    <witness xml:id="Bo">Boulet</witness>
+                    <witness xml:id="LB">Bates and Lonsdale</witness>
+                    <witness xml:id="CBL">Chirouse -- Bates and Lonsdale</witness>
+                </listWit>
+            </div>
+            
+        </front>
+        <body style="font-family:'arial unicode ms'">
+            <l n="1">
+                <app>
+                    <rdg wit="#Ch">An act of faith</rdg>
+                    <rdg wit="#Bo">ACT OF FAITH</rdg>                  
+                    <rdg wit="#LB">ACT OF FAITH</rdg>
+                    <rdg wit="#CBL">An act of faith</rdg>
+                </app></l>
+            
+            <l n="2">
+                <app>
+                    <rdg wit="#Ch"> Gwal la foi siayus: </rdg>
+                    <rdg wit="#Bo">Gwalh lawha siayus.</rdg>
+                    <rdg wit="#LB">gʷəɬ lawha syayus.</rdg>
+                    <rdg wit="#CBL"> gʷəɬ lawha syayus.</rdg>
+                </app></l>
+            
+            <l n="3">
+                <app>
+                    <rdg wit="#Ch">O Sherk Siam, Dāyāĭ degwe</rdg>
+                    <rdg wit="#Bo">O Sherk-Siam dayai chahu dgwe</rdg>
+                    <rdg wit="#LB">ʔu šəq siʔab dayʼayʼ čəxʷ dəgʷi</rdg>
+                    <rdg wit="#CBL"> ʔu šəq siʔab dayʼayʼ dəgʷi </rdg>
+                </app></l>
+            
+            <l n="4">
+                <app>
+                    <rdg wit="#Ch"> kte āĭdurhtur k gwalh tsěkh-duhrhstēwilh skhokho, </rdg>
+                    <rdg wit="#Bo">tu haidhu gwalh tsoku duhs'tewielh skrokro</rdg>
+                    <rdg wit="#LB">tuhayxʷ gʷəɬ cəkʼʷ dxʷst'iwiɬ sqʼʷuʔqʼʷuʔ</rdg>
+                    <rdg wit="#CBL"> kʷi tuhayxʷ ??? kʷi gʷəɬ cukʷ (or cəkʼʷ?) dxʷst'iwiɬ sqʼʷuʔqʼʷuʔ</rdg>
+                </app></l>
+            
+            <l n="5">
+                <app>
+                    <rdg wit="#Ch"> delh sa sŏrhtlēldŭchěd tolăldē mok derhach </rdg>
+                    <rdg wit="#Bo">dilh tsahu tleldubitsid aku telh tolal boku drech, </rdg>
+                    <rdg wit="#LB">diɬ ʔəcaəxʷ tɬildubicid ʔə kʷi  təɬ tulʼʔal bəkʼʷ dx̌əč,</rdg>
+                    <rdg wit="#CBL"> diɬ saʔ səxʷƛ'əldxʷ tulʼʔal diʔ bəkʼʷ dx̌əč,</rdg>
+                </app></l>
+            
+            <l n="6">
+                <app>
+                    <rdg wit="#Ch"> twulta gwalh tsekh durhstewilh skhokho sgwădgwad,</rdg>
+                    <rdg wit="#Bo">dhual ta gwalh tsoku  duhs'tewielh skrokro sgwadgwad,</rdg>
+                    <rdg wit="#LB">dxʷʔal tə  gʷəɬ cəkʼʷ dxʷst'iwiɬ sqʼʷuʔqʼʷuʔ sgʷadgʷad,</rdg>
+                    <rdg wit="#CBL"> dxʷʔal tə  gʷəɬ cəkʷ dxʷst'iwiɬ sqʼʷuʔqʼʷuʔ sgʷadgʷad,</rdg>
+                </app></l>
+            
+            <l n="7">
+                <app>
+                    <rdg wit="#Ch"> klalbassista twalta gwalh tsekh durhstewilh skhokho shelrhachem. </rdg>
+                    <rdg wit="#Bo"> 'tlalba asista dhual ta gwalh tsoku duhs'tewielh skrokro schelhrachem, </rdg>
+                    <rdg wit="#LB">  ƛ'alʼbəasʔistəʔ dxʷʔal tə gʷəɬ cəkʼʷ dxʷst'iwiɬ sqʼʷuʔqʼʷuʔ sčəɬx̌əčəb,</rdg>
+                    <rdg wit="#CBL">  ƛ'alʼbəasʔistəʔ dxʷʔal tə dxʷst'iwiɬ sqʼʷuʔqʼʷuʔ sčəɬx̌əčəb,</rdg>
+                </app></l>
+            
+            <l n="8">
+                <app>
+                    <rdg wit="#Ch"> (not in Ch) </rdg>
+                    <rdg wit="#Bo"> yare dgwe ku bastelhs kwi ta adsgwadgwad astsuts. </rdg>
+                    <rdg wit="#LB"> yəx̌i dəgʷi kʷi bəstəɬs kʷi t(i) adsgʷadgʷad ʔəscuts.</rdg>
+                    <rdg wit="#CBL"> (not in Ch)</rdg>
+                </app></l>
+            
+            <l n="9">
+                <app>
+                    <rdg wit="#Ch"> Klob assista! </rdg>
+                    <rdg wit="#Bo"> 'Tlob asista. </rdg>
+                    <rdg wit="#LB"> ƛ'ub ʔəsʔistəʔ.</rdg>
+                    <rdg wit="#CBL"> ƛ'ub ʔəsʔistəʔ.</rdg>
+                </app></l>
+  
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    
+    <!-- similar to Zenk's "Petit catéchisme des indiens", p. 417+ -->
+    
+    <body>
+      <p>LESSON V.</p>
+ 
+ 
+<l n="1">
+ <app>
+<rdg wit="#Bo">1. Stab kwi Lekopilmasio?</rdg>  
+   <rdg wit="#BL">1. stab kʷi Lekopilmasio.</rdg>    
+   <rdg wit="#LG">1. What is confirmation?</rdg>    
+ </app></l>
+      
+<l n="2">
+<app>
+  <rdg wit="#Bo">Tihîlh Lakopilmasio dcho Sakrema dahu kudadchelh ku Sent-Ospli; </rdg>  
+  <rdg wit="#BL"> tiʔiɬ Lakopilmasio dəč'uʔ Sakrema dəxʷkʷədadchəɬ kʷi Sent-Ospli;</rdg>  
+  <rdg wit="#LG">Confirmation is a sacrament whereby we receive the Holy Ghost; </rdg>
+</app></l>
+      
+<l n="3">
+<app>
+  <rdg wit="#Bo">al tihîlh Lekopilmasio sasralchelh ata gwalh kwerkru kretia sral.</rdg>  
+  <rdg wit="#BL">ʔal tiʔiɬ ləkopilmasio səsx̌alčəɬ ʔə tə gʷəɬ qʷiqʼʷ kretia sx̌al.</rdg>    
+  <rdg wit="#LG">With confirmation we are numbered among the number of powerful Christians.</rdg>
+</app></l>
+      
+<l n="4">
+<app>
+<rdg wit="#Bo">2. Stab tihilh Lekstlemasio?</rdg>  
+  <rdg wit="#BL">2. stab  tiʔiɬ Lekstlemasio.</rdg>   
+  <rdg wit="#LG">2. What is the extreme unction?</rdg>
+</app></l>
+      
+<l n="5">
+<app>
+  <rdg wit="#Bo">Tihîlh Lekstlemasio dcho Sakrema, tlhdahu kwawhatobs gwalh tib asralh kretia sele eku tsokwabs. </rdg>  
+  <rdg wit="#BL">tiʔiɬ ləkstləmasio dəč'uʔ sakrəma , ɬədəxʷ kʷaxʷatəbs gʷəɬ tib ʔəsx̌əɬ kretia shəliʔ ʔi kʷi cʼukʼʷəbs.</rdg>    
+  <rdg wit="#LG">The extreme unction is a sacrament that is received by a very sick Christian's soul and body.</rdg>
+</app></l>
+      
+<l n="6">
+<app>
+<rdg wit="#Bo">3. Stab tihilh Lordl?</rdg>  
+  <rdg wit="#BL">3. stab tiʔiɬ Lordl.</rdg>    
+ <rdg wit="#LG">3. What is the order?</rdg>  
+</app></l>
+      
+<l n="7">
+<app>
+  <rdg wit="#Bo">Tihîlh Lordl dcho Sakrema sahuchelh leple eku ba sahuchelhab leple.</rdg>  
+  <rdg wit="#BL">tiʔiɬ Lordl dəč'uʔ Sakrema səxʷčəɬ leple ʔi kʷi bəsəxʷčəɬəb leple.</rdg>
+  <rdg wit="#LG">The order is a sacrament where we ?? a priest and we are ??? by the priest.</rdg>  
+</app></l> 
+      
+<l n="8">
+<app>
+<rdg wit="#Bo">4. Stab tihilh Lemaliash?</rdg>  
+  <rdg wit="#BL">4. stab  tiʔiɬ Lemaliash.</rdg>    
+  <rdg wit="#LG">4. What is mariage?</rdg>   
+</app></l>
+      
+<l n="9">
+<app>
+  <rdg wit="#Bo">Tihîlh Lemaliash dcho Sakrema tlhdahu krekr aku stobsh eku sladai tlhdahu hois halh.</rdg>  
+  <rdg wit="#BL">tiʔiɬ Lemaliash dəč'uʔ Sakrema  tɬdəxʷ   qʷiqʼʷ  ʔə kʷi stubš ʔi kʷi sɬadəyʔ tɬdəxʷ huys haʔɬ.</rdg>    
+</app></l>
+      
+<l n="10">
+<app>
+<rdg wit="#Bo">5. Asared ku tlus kwebitsut aku stobsh eku sladai dhual Lemaliash?</rdg>  
+  <rdg wit="#BL">5. ʔəsʔəx̌id kʷi ɬusqʷibicut ʔə kʷi stubš ʔi kʷi sɬaday dxʷʔal Lemaliash.</rdg>  
+  <rdg wit="#LG">5. How do a man and a woman prepare for marriage?</rdg>
+</app></l>
+      
+<l n="11">
+<app>
+<rdg wit="#Bo">Asista ate ku tlus kwebitsut aku stobsh eku sladai dhual Lemaliash. </rdg>  
+  <rdg wit="#BL">ʔəsistəʔ ʔə ti kʷi ɬusqʷibicut ʔə kʷi stubš ʔi kʷi sɬaday dxʷʔal Lemaliash.</rdg>    
+ <rdg wit="#LG">This is how a man and a woman prepare for marriage.</rdg>
+</app></l>
+      
+<l n="12">
+<app>
+<rdg wit="#Bo">Zihu ku tlus haidhus halgwa gula tlo tleldhu halgwa gwalh Sherk-Siam sgwadgwad. </rdg>  
+  <rdg wit="#BL">dᶻixʷ kʷi ɬushaydxʷs həlgʷə gʷələɬuɬildxʷ həlgʷə gwəɬ šəq siʔab sgʷadgʷad. </rdg>    
+</app></l>
+      
+<l n="13">
+<app>
+<rdg wit="#Bo">Lakrahu gwa tla whobed aku tsoku ku boku sa alalus ; </rdg>  
+  <rdg wit="#BL">lakšahu_ gwa_ tla_whʷbəd_ ʔə kʷi cəkʷ kʷi bəkʼʷ saʔ ʔalalus ;</rdg>  
+</app></l>  
+      
+<l n="14">
+<app>
+<rdg wit="#Bo">al slelels whatlels, abil aku tskwadads halgwa gwa tla hoyud halgwa whe; </rdg>  
+  <rdg wit="#BL">ʔal slələls_ whatləls, ʔəbilʼ ʔə kʷi dᶻəkʼʷadads həlgʷə gʷəɬuhuyud həlgʷə whə;</rdg>    
+</app></l>
+      
+<l n="15">
+<app>
+<rdg wit="#Bo">al sbosatlels, halh kwi gwas ors halgwa dhual rarasmilalam. </rdg>  
+  <rdg wit="#BL">ʔal sbuusaɬils, haʔɬ kʷi gʷəsʔux̌ʷs həlgʷə dxʷʔal x̌ax̌a sbilʼʔallahəb.</rdg>    
+</app></l>
+      
+<l n="16">
+<app>
+<rdg wit="#Bo">6: Abil o halh kretia stobsh eku sladai </rdg>  
+  <rdg wit="#BL">6. ʔəbilʼ ʔu haʔɬ kretia stubš ʔi kʷi sɬaday </rdg>   
+  <rdg wit="#BL">6. Are they good Christian men and women, </rdg>   
+</app></l>      
+      
+<l n="17">
+<app>
+  <rdg wit="#Bo">gula gwa chalad halgwa gwalh Sherk-Siam schelhrachem eku gwalh leglis schelhrachem? </rdg>  
+  <rdg wit="#BL">gʷəl gʷəčalad həlgʷə gwəɬ šəq siʔab sčəɬx̌əčəb ʔi kʷi gʷəɬ ləglis sčəɬx̌əčəb.</rdg>   
+  <rdg wit="#LG">if they go according to the commandment of God, and the commandment of the church, </rdg>  
+</app></l>           
+
+<l n="19">
+<app>
+<rdg wit="#Bo">E, abil halh kretia stobsh eku sladai, </rdg>  
+  <rdg wit="#BL">ʔi, ʔəbilʼ haʔɬ kretia stubš ʔi kʷi sɬaday, </rdg>    
+  <rdg wit="#BL">Yes, if they are good Christian men and women, </rdg>                           
+</app></l>                       
+      
+<l n="20">
+<app>
+  <rdg wit="#Bo">gula gwa chalad halgwa gwalh Sherk-Siam schelhrachem,  eku gwalh leglis schelhrachem.</rdg>  
+  <rdg wit="#BL">gʷəla gʷəčalad həlgʷə gʷəɬ šəq siʔab sčəɬx̌əčəb, ʔi kʷi gʷəɬ ləglis sčəɬx̌əčəb.</rdg>  
+  <rdg wit="#LG">and they go according to the commandment of God, and the commandment of the church.</rdg>  
+</app></l>                                        
+
+<l n="22">
+ <app>
+  <rdg wit="#Bo">7. Asared kwi tlo alalus ata tsahadilh asmalie?</rdg>  
+   <rdg wit="#BL">7. ʔəsʔəx̌id kʷi ɬuʔalalus ʔə tə caadiɬ ʔəsmalie.</rdg>    
+</app></l>                                        
+      
+<l n="23">
+ <app>
+   <rdg wit="#Bo">Tihîlh asmalie halgwa, tlo chalad halgwa gwalh halh kretia alalus,</rdg>  
+   <rdg wit="#BL">tiʔiɬ ʔəsmalie həlgʷə, ɬučalad həlgʷə gʷəɬ haʔɬ kretia ʔalalus,</rdg>    
+   <rdg wit="#LG">their marriage will bring them to good christian's circumstance</rdg> 
+  </app></l>                                               
+      
+<l n="24">
+<app>
+<rdg wit="#Bo">tlo ratltagwalb halgwa, tlo kwawhat gwalh halgwa dhual ku tsokwabs eku dhual seles halgwa.</rdg>                 
+  <rdg wit="#BL">ɬux̌aƛ'tagʷələb həlgʷə, ɬukʷaxʷat gʷəɬ həlgʷə dxʷʔal kʷi cʼukʼʷəbs ʔi kʷi dxʷʔal shəliʔs həlgʷə.</rdg>                           
+</app></l>                                                     
+      
+<l n="25">
+<app>
+<rdg wit="#Bo">Whe la patam kwi tlus balits ku tus aldakrabs halgwa. </rdg>  
+  <rdg wit="#BL">xʷiʔ ləpə(d)tab kʷi ɬusbalyic kʷi tusʔaldaqəbs həlgʷə. </rdg> 
+  <rdg wit="#BL">They will not ever forget the things that were promised to them.</rdg>
+</app></l>
+      
+<l n="26">
+<app>
+<rdg wit="#Bo">Abil tlo chelhtob beda halgwa a kwi Sherk-Siam gula halh kwi tlsashuts halgwa, </rdg>  
+  <rdg wit="#BL">ʔəbilʼ ɬučəɬtəbbədaʔ həlgʷə ʔə kʷi šəq siʔab gʷəl haʔɬ kʷi ɬusəshuyuc həlgʷə,</rdg>    
+  <rdg wit="#LG">if they make children unto God then they will do good by</rdg> 
+</app></l>
+      
+<l n="27">
+<app>
+  <rdg wit="#Bo">ku tlo bedas halgwa dhual kwi gwa dahu orthus halgwa duhsherk. </rdg>  
+  <rdg wit="#BL">kʷi ɬubədaʔs həlgʷə dxʷʔal kʷi gʷədəxʷʔux̌ʷtxʷs həlgʷə dxʷsšəq.</rdg>    
+  <rdg wit="#LG">their future children so that they may ascend to heaven.</rdg>  
+</app></l>
+ 
+    </body>
+  </text>
+</TEI>

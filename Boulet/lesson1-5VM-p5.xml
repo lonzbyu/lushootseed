@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    
+    <!-- similar to Zenk's "Petit catéchisme des indiens", 4e leçon -->
+    
+    <body>
+      <p>LESSON V.</p>
+            
+      <l n="1">
+        <app>
+          <rdg wit="#Bo">1. Tu e'tl o kwi Beda a kwi Sherk-Siam dhual swatihuhted, gula tu hoyutsut atsilhtalbihu? </rdg>
+          <rdg wit="#BL">1. tuʔəƛʼ ʔu kʷi bədaʔ ʔə kʷi šəq siʔab dxʷʔal swatixʷtəd, gʷəl tuhuyutcut ʔaciɬtalbixʷ.</rdg> 
+          <rdg wit="#LWG">1. went Q the son of the sky nobleman unto earth then made+self man</rdg>
+          <rdg wit="#LG">1. Did the Son of God go to earth and make himself a man?</rdg>
+        </app></l>
+
+      <l n="2">
+        <app>
+          <rdg wit="#Bo">E, tu e'tl kwi Beda a kwi Sherk-Siam dhual ku swatihuhted gula tu hoyutsut atsilhtalbihu.</rdg>
+          <rdg wit="#BL">ʔi, tuʔəƛʼ kʷi bədaʔ ʔə kʷi šəq siʔab dxʷʔal kʷi swatixʷtəd gʷəl tuhuyutcut ʔaciɬtalbixʷ.</rdg>
+          <rdg wit="#LWG">yes went the son of the sky nobleman unto earth then made+self man</rdg>
+          <rdg wit="#LG">Yes, the Son of God did go to earth and make himself a man.</rdg>
+        </app></l>
+            
+      <l n="3">
+        <app>
+          <rdg wit="#Bo">2. Tu kudatob o a kwi Beda a kwi Sherk-Siam ku dcho tsokwab rolab aku tsokwabchelh eku dcho sele rolab aku selechelh.</rdg>
+          <rdg wit="#BL">2. tukʷədatəb ʔu ʔə kʷi bədaʔ ʔə kʷi šəq siʔab kʷi dəč'uʔ cʼukʼʷəb x̌ʷulʼab ʔə kʷi cʼukʼʷəbčəɬ ʔi kʷi dəč'uʔ shəli? x̌ʷulʼab ʔə kʷi shəliʔčəɬ.</rdg>
+          <rdg wit="#LWG">2. taken Q by the son of the sky nobleman the one body like of the body+our and the one soul like of the soul+our</rdg>
+          <rdg wit="#LG">2. Did the Son of God take a body like our body and a soul like our soul?</rdg>
+        </app></l>
+            
+      <l n="4">
+        <app>
+          <rdg wit="#Bo">E, tu kudatob a kwi Beda a kwi Sherk-Siam ku dcho tsokwab rolab aku tsokwabchelh eku dcho sele rolab aku selechelh;</rdg>
+          <rdg wit="#BL">ʔi, tukʷədatəb ʔə kʷi bədaʔ ʔə kʷi šəq siʔab kʷi dəč'uʔ cʼukʼʷəb x̌ʷulʼab ʔə kʷi cʼukʼʷəbčəɬ ʔi kʷi dəč'uʔ shəliʔ x̌ʷulʼab ʔə kʷi shəliʔčəɬ</rdg>
+          <rdg wit="#LWG">yes taken by the son of the sky nobleman the one body like of the body+our and the one soul like of the soul+our</rdg>
+          <rdg wit="#LG">Yes, the Son of God took a body like our body and a soul like our soul.</rdg>
+        </app></l>          
+       
+      <l n="5">
+        <app>
+          <rdg wit="#Bo">asista ku tu dahu hoyils atsilhtalbihu.  </rdg>
+          <rdg wit="#BL">ʔəsʔistəʔ kʷi tudəxʷhuyils ʔaciɬtalbixʷ.</rdg>
+          <rdg wit="#LWG">this the way-made human</rdg>
+          <rdg wit="#LG">This is how He became man.</rdg>
+        </app></l>
+            
+      <l n="6">
+        <app>
+          <rdg wit="#Bo">3. Al o ku 'tlach akus halh duhkralap Mari ku tus hois atsilhtalbihu Beda, a kwi Sherk-Siam?  </rdg>
+          <rdg wit="#BL">3. ʔal ʔu kʷi ƛʼač ʔə kʷsi haʔɬ dxʷqalap Mali kʷi tushuys ʔaciɬtalbixʷ bədaʔ, ʔə kʷi šəq siʔab.</rdg>
+          <rdg wit="#LWG">3. in Q the belly of the good virgin Mary the making man son of the sky nobleman</rdg>
+          <rdg wit="#LG">3. Was it in the womb of the blessed virgin Mary that the Son of God was made man?</rdg>
+        </app></l>
+                
+      <l n="7">
+        <app>
+          <rdg wit="#Bo">E, al ku 'tlach akus halh duhkralap Mari ku tus hois atsilhtalbihu Beda a kwi Sherk-Siam. </rdg>
+          <rdg wit="#BL"> ʔi, ʔal kʷi ƛʼač ʔə kʷsi haʔɬ dxʷqalap Mali kʷi tushuys ʔaciɬtalbixʷ bədaʔ ʔə kʷi šəq siʔab. </rdg>
+          <rdg wit="#LWG">yes in the belly of the good virgin Mary the making man son of the sky nobleman</rdg>
+          <rdg wit="#LG">Yes, it was in the womb of the blessed virgin Mary that the Son of God was made man.</rdg>
+        </app></l>
+                        
+      <l n="8">
+        <app>
+          <rdg wit="#Bo">4. Whe o ku tus willes kwi dokwibalh Beda adokwibalh a aku tus hois atsilhtalbihu?</rdg>
+          <rdg wit="#BL">4. xʷiʔ ʔu kʷi tusx̌ʷilʼi(l)s kʷi dukʷibəɬ bədaʔ ʔə dukʷibəɬ ʔa ʔə kʷi tushuys ʔaciɬtalbixʷ.</rdg>
+          <rdg wit="#LWG">4. not Q the lose the Changer son  Changer there of the made man</rdg>
+          <rdg wit="#LG">Didn't the Son of God lose God when He became man?</rdg>
+        </app></l>
+            
+                            
+      <l n="9">
+        <app>
+          <rdg wit="#Bo">Whe ku tus willes kwi dokwibalh Beda a dokwibalh a aku tus hois atsilhtalbihu; </rdg>
+          <rdg wit="#BL">xʷiʔ kʷi tusx̌ʷilʼi(l)s kʷi dukʷibəɬ bədaʔə dukʷibəɬ ʔa ʔə kʷi tushuys ʔaciɬtalbixʷ ; </rdg>
+          <rdg wit="#LWG">not the lose the changer son of changer there of the made man</rdg>
+          <rdg wit="#LG">No, the Son of God did not lose God when He became man.</rdg>
+        </app></l>
+                                
+      <l n="10">
+        <app>
+          <rdg wit="#Bo">tskwakred dokwibalh tsidîlh tor ba atsilhtalbihu. </rdg>
+          <rdg wit="#BL">ckʼʷaqid dukʷibəɬ cədiɬ tux̌ʷ bəʔaciɬtalbixʷ.</rdg>
+          <rdg wit="#LWG">always changer that although man</rdg>
+          <rdg wit="#LG">He is always God even though man.</rdg>
+        </app></l>
+            
+                                    
+      <l n="11">
+        <app>
+          <rdg wit="#Bo">5. Gwat kwi tu sda a kwi Beda a kwi Sherk-Siam aku tus hois atsilhtalbihu?</rdg>
+          <rdg wit="#BL">5. gʷwat kʷi tusdaʔ ʔə kʷi bədaʔ ʔə kʷi šəq siʔab ʔə kʷi tushuys ʔaciɬtalbixʷ.</rdg>
+          <rdg wit="#LWG">5. what the past  name of the son of the sky nobleman at+the past made man</rdg>
+          <rdg wit="#LG">5. What was the name of the Son of God when he was made man?</rdg>
+        </app></l>
+            
+                                        
+      <l n="12">
+        <app>
+          <rdg wit="#Bo">Shesu-Kri ku tu sda a kwi Beda a kwi Sherk-Siam aku tus hois atsilhtalbihu.</rdg>
+          <rdg wit="#BL">Shesu-Kri kʷi tusdaʔ ʔə kʷi bəda ʔə kʷi šəq siʔab ʔə kʷi tushuys ʔaciɬtalbixʷ.</rdg>
+          <rdg wit="#LWG">Jesus Christ the past  name of the son of the sky nobleman at+the past made man</rdg>
+          <rdg wit="#LG">Jesus Christ was the name of the Son of God when he was made man?</rdg>
+        </app></l>
+            
+                                            
+      <l n="13">
+        <app>
+          <rdg wit="#Bo">6. Dhual asared ku tus hoyutsuts atsilhtalbihu Beda akwi Sherk-Siam? </rdg>
+          <rdg wit="#BL">6. dxʷʔal ʔəsʔəx̌id kʷi tushuyucuts ʔaciɬtalbixʷ bədaʔ ʔə kʷi šəq siʔab.</rdg>
+          <rdg wit="#LWG">6. unto why the past made+self man son of+the sky nobleman</rdg>
+          <rdg wit="#LG">Why did the Son of God make himself a man?</rdg>
+        </app></l>
+            
+                                                
+      <l n="14">
+        <app>
+          <rdg wit="#Bo">Tu hoyutsut atsilhtalbihu Beda a kwi Sherk-Siam </rdg>
+          <rdg wit="#BL">tuhuyutcut ʔaciɬtalbixʷ bəda ʔə kʷi šəq siʔab </rdg>
+          <rdg wit="#LWG">past made+self man son of+the sky nobleman</rdg>
+          <rdg wit="#LG">The Son of God made himself a man</rdg>
+        </app></l>
+            
+                                                    
+      <l n="15">
+        <app>
+          <rdg wit="#Bo">dhual kwi gwas trotobolhs tolal ku tskwadadchelh eku tolal ku gwed hud eba dhual kwi gwas ortobolhs duhsherk. </rdg>
+          <rdg wit="#BL">dxʷʔal kʷi gʷəstx̌ʷutubuɬs tulʼʔal kʷi ʤəkʼʷadadčəɬ  ʔi kʷi tulʼʔal kʷi gʷəd hud ʔibə dxʷʔal kʷi gʷəsʔux̌ʷutubuɬs dəxʷsšəq.</rdg>
+          <rdg wit="#LWG">unto the IRREAL pull+us from the sin+us and+the from the IRREAL fire</rdg>
+          <rdg wit="#LG">in order to pull us from our sins and from the fire and in order to make us ascend to heaven.</rdg>
+        </app></l>
+                                                                
+      <l n="16">
+        <app>
+          <rdg wit="#Bo">7. To abijtobolh o ku Shesu-Kri aku tus atebeds al lekwe ?</rdg>
+          <rdg wit="#BL">7. tuʔabyitubuɬ ʔu kʷi Shesu-Kri ʔə kʷi tusʔatəbəds ʔal ləkwə.</rdg>
+          <rdg wit="#LWG">7. past receive Q the Jesus Christ the past death on the+cross</rdg>
+          <rdg wit="#LG">7. Was Jesus Christ put to death on the cross?</rdg>
+        </app></l>
+            
+                                                                    
+      <l n="17">
+        <app>
+          <rdg wit="#Bo">E, tu abijtobolh ku Shesu-Kri a ku tus atebeds al lekwe.</rdg>
+          <rdg wit="#BL">ʔi, tuʔabyitubuɬ kʷi Shesu-Kri ʔə kʷi tusʔatəbəds ʔal ləkwə.</rdg>
+          <rdg wit="#LWG">yes, past receive the Jesus Christ the past death on the+cross</rdg>
+          <rdg wit="#LG">Yes, Jesus Christ was put to death on the cross.</rdg>
+        </app></l>
+            
+                                                                        
+      <l n="18">
+        <app>
+          <rdg wit="#Bo">8. Tu atebed o kwi Shesu-Kri al stselatselh datils gula tu palil o al raraalhdat?</rdg>
+          <rdg wit="#BL">8. tuʔatəbəd ʔu kʷi Shesu-Kri ʔal cəlacəɬdatils gʷəl tup̕alil ʔu ʔal x̌aʔx̌aʔəɬdat.</rdg>
+          <rdg wit="#LWG">8. died Q the Jesus-Christ on fifth-day then regain_consciousness Q on holy_day</rdg>
+          <rdg wit="#LG">8. Did Jesus die on Friday and did He resurrect on Sunday?</rdg>
+        </app></l>
+            
+                                                                            
+      <l n="19">
+        <app>
+          <rdg wit="#Bo"> E, tu atebed ku Shesu-Kri al stselatselh datils gula tu palil al raraalhdat.</rdg>
+          <rdg wit="#BL">ʔi, tuʔatəbəd kʷi Shesu-Kri ʔal cəlacəɬdatils gʷəl tup̕alil ʔal x̌aʔx̌aʔəɬdat.</rdg>
+          <rdg wit="#LWG">yes died Q the Jesus-Christ on fifth-day then regain_consciousness on holy_day</rdg>
+          <rdg wit="#LG">Yes, Jesus did die on Friday and resurrect on Sunday.</rdg>
+        </app></l>
+            
+                                                                                
+      <l n="20">
+        <app>
+          <rdg wit="#Bo">9. Sbosache o slar^el ku tus als swatihuhted Shesu-Kri tolal ku tus palils gula tu orduhsherk?</rdg>
+          <rdg wit="#BL">9. sbuusačiʔ ʔu sləx̌il kʷi tusʔals swatixʷtəd Shesu-Kri tulʼʔal kʷi tusp̕alils gʷəl tuʔux̌ʷdxʷšəq.</rdg>
+          <rdg wit="#LWG">9. forty Q days the past be world Jesus Christ from the revival+his then past go+up+heaven</rdg>
+          <rdg wit="#LG">9. Was Jesus Christ on the earth for forty days from when he resurrected and then ascended to heaven?</rdg>
+        </app></l>
+                                                                                        
+      <l n="21">
+        <app>
+          <rdg wit="#Bo">E, sbosache slarêl ku tus als swatihuhted Shesu-Kri tolal ku tus palils gula tu orduhsherk.</rdg>
+          <rdg wit="#BL">ʔə, sbuusačiʔ sləx̌il kʷi tusʔals swatihuhtəd Shesu-Kri tulʼʔal kʷi tusp̕alils gʷəl  tuʔux̌ʷdxʷšəq.</rdg>
+          <rdg wit="#LWG">yes forty days the past be world Jesus Christ from the revival+his then past go+up+heaven</rdg>
+          <rdg wit="#LG">Yes, Jesus Christ was on the earth for forty days from when he resurrected and then ascended to heaven.</rdg>                            
+        </app></l>          
+                                                                                                
+      <l n="22">
+        <app>
+          <rdg wit="#Bo">10. Olob o slarêl tolal ku tus ors duhsherk Shesu-Kri gula tu chissâd ku Sent-Ospli dhual elesapot? </rdg>
+          <rdg wit="#BL">10. ʔulub ʔu sləx̌il tulʼʔal kʷi tuʔx̌ʷdxʷšəq Shesu-Kri gʷəl tučəsad kʷi Sent-Ospli dxʷʔal ʔə lesapot.</rdg>
+          <rdg wit="#LWG">10. ten Q days from the go+up Jesus+Christ then sent the Holy+Spirit unto the apostles</rdg>
+          <rdg wit="#LG">10. Was it ten days after His ascension to heaven that He sent the Holy Spirit to the apostles?</rdg>
+        </app></l>
+                                                                                                        
+      <l n="23">
+        <app>
+          <rdg wit="#Bo">E, olob slarêl tolal ku tus ors duhsherk Shesu-Kri gula tu chissâd ku Sent-Ospli dhual elesapot.</rdg>
+          <rdg wit="#BL">ʔi,  ʔulub sləx̌il tulʼʔal kʷi tuʔux̌ʷsdxʷšəq  šhesu-kli gʷəl tučəsad kʷi sənt-Ospli dxʷʔal ʔə lesapot.</rdg>
+          <rdg wit="#LWG">yes ten Q days from the go+up Jesus+Christ then sent the Holy+Spirit unto the apostles</rdg>
+          <rdg wit="#LG">Yes, it was ten days after His ascension to heaven that He sent the Holy Spirit to the apostles.</rdg>
+        </app></l>
+      
+    </body>
+  </text>
+</TEI>

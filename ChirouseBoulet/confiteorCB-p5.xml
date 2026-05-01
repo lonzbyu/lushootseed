@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Confiteor in Lushootseed</title>
+          <author> Dawn Bates and Deryle Lonsdale </author>
+          <respStmt><resp> Text Encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+      </titleStmt>
+      <publicationStmt><publisher>Deryle Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without the explicit permission from the copyright holder. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+        <notesStmt>
+            <note anchored="true">This is the Chirouse version of the Confiteor in Romanized Lushootseed.</note>
+        </notesStmt>
+        <sourceDesc><p>Source description</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+          <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc></teiHeader>
+  <text>
+      <front>
+          <div>
+              <listWit>
+                      <witness xml:id="Ch">Chirouse</witness>
+                      <witness xml:id="CBL">Chirouse -- Bates and Lonsdale</witness>
+              </listWit>
+          </div>
+      </front>
+      
+      
+      <!-- 
+          From http://www.roman-catholic-catechism.com/confiteor.html:
+          
+          I confess to Almighty God, to Blessed Mary, ever Virgin, to Blessed Michael the Archangel, 
+          to Blessed John the Baptist, to the Holy Apostles Peter and Paul, and to all the Saints, 
+          that I have sinned exceedingly in thought, word and deed, 
+          through my fault, through my fault, through my most grievous fault. 
+          Therefore, I beseech Blessed Mary, ever Virgin, Blessed Michael the Archangel, 
+          Blessed John the Baptist, the Holy Apostles Peter and Paul, and all the Saints, 
+          to pray to the Lord our God for me. Amen. 
+          -->
+      
+      <body style="font-family:'arial unicode ms'">
+          <l n="1">
+              <app>
+                  <rdg wit="#Ch">Confiteor</rdg>
+                  <rdg wit="#CBL">The Confiteor</rdg>
+             </app></l>
+            
+          <l n="2">
+              <app>
+                  <rdg wit="#Ch"> Ŏrhārhă-sbilālămchĕd twal de Sherhk Siam, lilzir kwēkr twal ki mok stam, </rdg> 
+                  <rdg wit="#CBL"> ʔux̌̌ax̌asbil'ʔallaʔəb čəd dxʷʔal di šəq siʔab liɬʤixʷ qʷiqʼʷ dxʷʔal  kʷi bəkʼʷ stab, </rdg>
+              </app></l>
+          
+          <l n="3">
+              <app>
+                  <rdg wit="#Ch"> twalde telh alh Maly skwākhēd durhkalap,</rdg> 
+                  <rdg wit="#CBL"> dxʷʔal di təɬ haʔɬ mari ckʼʷaqid dxʷqaləp,</rdg>
+              </app></l>
+            
+          <l n="4">
+              <app>
+                  <rdg wit="#Ch"> twaldē St. Michel alcange, twal dĕ St. Jean Baptiste, twalde les Apōtres St. Piere e St. Paul (gwal Sherk Siam Tjussand) </rdg>
+                  <rdg wit="#CBL"> dxʷʔal di sən-michəl akash, dxʷʔal di sən-šan-batis, dxʷʔal di les apōt sən-piəl ʔi sən-pol (gʷəɬ šəq siʔab čəsad)  </rdg>
+              </app></l>
+
+          <l n="5">
+              <app>
+                  <rdg wit="#Ch"> ema twal mok tol sherk assǐlhtamērh, </rdg>
+                  <rdg wit="#CBL"> ʔi ??? dxʷʔal bəkʼʷ tul' šəq ʔaciɬtalbixʷ, </rdg>
+              </app></l>
+          
+          <l n="6">
+              <app>
+                  <rdg wit="#Ch"> klal bassīsta, twal degwe dsgwa deban (Leplet.)  </rdg>
+                  <rdg wit="#CBL">  ƛalʼb(ə)asʔistəʔ, dxʷʔal dəgʷi dsgʷaʔ dbad (ləplət), </rdg>
+              </app></l>
+   
+          <l n="7">
+              <app>
+                  <rdg wit="#Ch"> Tēēlh khā tudskwadched atechispetedgwassem, </rdg>
+                  <rdg wit="#CBL"> tiʔiɬ qa tudᶻəkʼʷad čəd ʔə dišəʔ (or tiʔiɬ?) spətidgʷasəb, </rdg>
+              </app></l>
+          
+          <l n="8">
+              <app>
+                  <rdg wit="#Ch"> Atēdesch gwādgwăd, atedech sǐayus, atedesch wēladsiāyus, </rdg>
+                  <rdg wit="#CBL"> ʔə tiʔiɬ dxʷsgʷadgʷad, ʔə tə dxʷsyayus,  ʔə tə dxʷswəladsyayus, </rdg>
+              </app></l>
+          
+          <l n="9">
+              <app>
+                  <rdg wit="#Ch"> Atēdsgwā skhop derhach (bis). ătedsgwā ik ăskhŏp drăch </rdg>
+                  <rdg wit="#CBL"> ʔə t(ə) dsgʷaʔ sqəp dx̌əč, ʔə t(ə) dsgʷaʔ sqəp dx̌əč,  ʔə t(ə) dsgʷaʔ hikʷ ʔəsqəp dx̌əč. </rdg>
+              </app></l>
+          
+          <l n="10">
+              <app>
+                  <rdg wit="#Ch"> Delh sorhotēēch twal tsēēlh alh Maly skwakhed dukālăp, </rdg>
+                  <rdg wit="#CBL"> diɬ səxʷut'iwiɬ dxʷʔal tsiʔiɬ  haʔɬ  mali ckʼʷaqid dxʷqaləp,</rdg>
+              </app></l>
+          
+          <l n="11">
+              <app>
+                  <rdg wit="#Ch"> Twal ta St. Mishel alcange, twal ta St. Jean Baptiste,</rdg>
+                  <rdg wit="#CBL"> dxʷʔal tə sən-mišəl alkaš, dxʷʔal tə sən-šan-batis ,</rdg>
+              </app></l>
+          
+          <l n="12">
+              <app>
+                  <rdg wit="#Ch"> twalta St. Pierre ema St. Paul gwalh Sherk Siam chussand</rdg>
+                  <rdg wit="#CBL"> dxʷʔal tə sən-piəl ʔi ??? sən-pol, gʷəɬ  šəq siʔab čəsad  </rdg>
+              </app></l>
+
+          <l n="13">
+              <app>
+                  <rdg wit="#Ch"> twal mok gwalh Sherhk āssǐlhtămērh </rdg>
+                  <rdg wit="#CBL"> dxʷʔal bəkʼʷ gʷəɬ šəq ʔaciɬtalbixʷ  </rdg>
+              </app></l>
+
+          <l n="14">
+              <app>
+                  <rdg wit="#Ch">  ema twalh Dĕgwā  dĕbān (lĕplēt) ,</rdg>
+                  <rdg wit="#CBL"> ʔi ??? dxʷʔal dəgʷi dəbad (ləplət). </rdg>
+              </app></l>
+          
+          <l n="15">
+              <app>
+                  <rdg wit="#Ch">chalap tlha tēēchtomsh twăl dē  Sherkh-Siam sgwachelh sērhsǐāmchelh (twal tsa)</rdg>
+                  <rdg wit="#CBL">čələp ɬut'iwiɬtubš dxʷʔal di  šəq siʔab sgʷaʔčəɬ sixʷsiʔabčəɬ dxʷʔal ʔəca.</rdg>
+              </app></l>
+          
+          <l n="16">
+              <app>
+                  <rdg wit="#Ch"> Klob assista</rdg>
+                  <rdg wit="#CBL"> ƛ'ub ʔəsʔistəʔ.</rdg>
+              </app></l>
+
+    </body>
+  </text>
+</TEI>

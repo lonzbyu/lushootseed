@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    <body>
+      <p>LESSON III.</p>
+        
+      <!--- The Catechism of St. Pius VII was very helpful for this: http://www.facebook.com/note.php?note_id=152234008140015 -->
+        
+      <l n="1">
+        <app>
+          <rdg wit="#Bo">1. Abil gwat kretia okudad ku Lokaristi gula stab ku obokred?</rdg>
+          <rdg wit="#BL">1. ʔəbilʼ gʷat kretia ʔukʷədad kʷi Lokaristi gʷəl stab kʷi ʔubəqʼəd.</rdg> 
+          <rdg wit="#LWG">1. when someone Christian take the eucharist then what the ingest</rdg> 
+          <rdg wit="#LG">1. How do Christians take the eucharist and what do they ingest?</rdg> 
+        </app></l>
+        
+      <l n="2">
+        <app>
+          <rdg wit="#Bo">Abil gwat kretia okudad ku Lokaristi gula obokred ku Shesu-Kri rlhte satled dhual ku seles.</rdg>
+          <rdg wit="#BL">ʔəbilʼ gʷat kretia ʔukʷədad kʷi lokaristi gʷəl ʔubəqʼəd kʷi Shesu-Kri x̌əɬ ti sʔəɬəd dxʷʔal kʷi shəliʔs.</rdg>    
+          <rdg wit="#LWG">when some Christian take the eucharist then eat the Jesus Christ as_if the food unto their souls</rdg> 
+          <rdg wit="#LG">The way Christians take the eucharist is to eat Jesus Christ as though food unto their souls.</rdg> 
+        </app></l>
+        
+      <l n="3">
+        <app>
+          <rdg wit="#Bo">2. Asared kwi tla adskwebitsut dhual kwi tla adskudad ku Shesu-Kri?</rdg>
+          <rdg wit="#BL">2. ʔəsʔəx̌id kʷi ɬuadsqʷibicut dxʷʔal kʷi ɬuadskʷadad kʷi Shesu-Kri.</rdg>    
+          <rdg wit="#LWG">2. how the prepare+self unto the partake the Jesus_Christ</rdg>
+          <rdg wit="#LG">2. How do you prepare yourself to partake of Jesus Christ?</rdg>
+        </app></l>
+        
+                  
+      <l n="4">
+        <app>
+          <rdg wit="#Bo">Abil aku dtskwadad al ku drech ched tla or dhual rarasmilalam, </rdg>
+          <rdg wit="#BL">ʔəbilʼ ʔaʔ kʷi ddᶻəkʼʷadad ʔal kʷi dx̌əč čəd ɬuʔux̌ʷ dxʷʔal x̌ax̌a sbilʼʔallaʔəb. </rdg>    
+          <rdg wit="#LWG">perhaps be the sin on the mind I go unto holy confession</rdg>
+          <rdg wit="#LG">If I have sins on my mind I will go to confession.</rdg>
+        </app></l>
+        
+                      
+      <l n="5">
+        <app>
+          <rdg wit="#Bo">ched tla absh ti drech dhual Shesu-Kri, ched tla whe la atled tolal ku chergwas, ched tla hoyud halh ta dsokwab.</rdg>
+          <rdg wit="#BL"> čəd ɬuʔahabš ti dx̌əč dxʷʔal Shesu-Kri, čəd ɬuxʷiʔ ləʔəƛ'əd tulʼʔal kʷi čəgʷas, čəd ɬuhuyud haʔl tə dc̕ukʼʷəb.</rdg>   
+          <rdg wit="#LWG">I have the mind upon Jesus_Christ, I not go toward the wife, I make good the body</rdg>
+          <rdg wit="#LG">I will have my mind on Jesus Christ, I will not come unto my wife, I will make my body good.</rdg>
+        </app></l>
+                              
+      <l n="7">
+        <app>
+          <rdg wit="#Bo">3. Aschal kwi tla adsgwadgwad zihubid a kwi tla adskudad ku Shesu-Kri?</rdg>
+          <rdg wit="#BL">3. ʔəsčal kʷi ɬ(u)adsgʷadgʷad dᶻixʷbid ʔə kʷi ɬuadskʷadad kʷi Shesu-Kri.</rdg>    
+          <rdg wit="#LWG">3. how the speak first of the partake the Jesus_Christ</rdg>
+          <rdg wit="#LG">3. How will you speak first of partaking of Jesus Christ?</rdg>
+        </app></l>
+        
+                                  
+      <l n="8">
+        <app>
+          <rdg wit="#Bo">Zihubid aku tlo dskudad ku Shesu-Kri ku tlo ds'tewielh aku tlehu.</rdg>
+          <rdg wit="#BL">dᶻixʷbid ʔə kʷi ɬudskʷadad kʷi Shesu-Kri kʷi ɬudstʼiwiɬ ʔə kʷi ɬixʷ.</rdg>    
+          <rdg wit="#LWG">first of the partake the Jesus Christ the pray of the three</rdg>
+          <rdg wit="#LG">First when I partake of Jesus Christ I pray three times.</rdg>
+        </app></l>
+        
+                                      
+      <l n="9">
+        <app>
+          <rdg wit="#Bo">(See Acts before  Communion page 13.)</rdg>
+          <rdg wit="#BL">(See Acts before  Communion page 13.)</rdg>    
+          <rdg wit="#LWG"/>    
+          <rdg wit="#LG">(See Acts before  Communion page 13.)</rdg>    
+        </app></l>
+        
+                                          
+      <l n="10">
+        <app>
+          <rdg wit="#Bo">4. Asared kwi tlo adalalus aku tla adskudad ku Shesu-Kri?</rdg>
+          <rdg wit="#BL">4. ʔəsʔəx̌id kʷi ɬuadʔalalus ʔə kʷi ɬuadskʷadad kʷi Shesu-Kri.</rdg>   
+          <rdg wit="#LWG">4. how the behave of the partake the Jesus_Christ</rdg>
+          <rdg wit="#LG">4. How will you behave when you partake of Jesus Christ?</rdg>
+        </app></l>
+        
+                                              
+      <l n="11">
+        <app>
+          <rdg wit="#Bo">Tlo orched dhual gwalh Lokaristi latam ched tla rwelch, </rdg>
+          <rdg wit="#BL">ɬuʔux̌ʷ čəd dxʷʔal gʷəɬ lokaristi latam čəd ɬux̌ʷilič, </rdg>   
+          <rdg wit="#LWG">go I unto belonging_to eucharist table I kneel</rdg>
+          <rdg wit="#LG">I will go to the eucharist table and I will kneel,</rdg>
+        </app></l>
+        
+                                                  
+      <l n="12">
+        <app>
+          <rdg wit="#Bo">ched tla kudad tihîlh sil ata sale dchalas, </rdg>
+          <rdg wit="#BL">čəd ɬukʷədad tiʔiɬ sil ʔə tə saliʔ dčaləs,</rdg>    
+          <rdg wit="#LWG">I take the sil??? of the two hand</rdg>  
+          <rdg wit="#LG">I will take the chalice? with both hands,</rdg>  
+        </app></l>
+        
+                                                      
+      <l n="13">
+        <app>
+          <rdg wit="#Bo">ched tla tlarad al ta dsgwedayutsid, </rdg>
+          <rdg wit="#BL">čəd ɬuɬəx̌əd ʔal tə dsgʷədayucid,</rdg> 
+          <rdg wit="#LG">I will spread out with my chin,</rdg> 
+        </app></l>
+        
+                                                          
+      <l n="14">
+        <app>
+          <rdg wit="#Bo">gula al tihîlh ched tla abietob aku leple aku Lokaristi, </rdg>
+          <rdg wit="#BL">gʷəl ʔal tiʔiɬ čəd ɬuʔabyitəb ʔə kʷi ləplə ʔə kʷi lokaristi,</rdg>
+          <rdg wit="#LG">then I will receive the eucharist from the priest,</rdg>
+        </app></l>
+        
+                                                              
+      <l n="15">
+        <app>
+          <rdg wit="#Bo">ched tla dahu shishkrosob, ched tla sheshuts, </rdg>
+          <rdg wit="#BL">čəd ɬudəxʷ šišqusəb, čəd ɬu šišuuc,</rdg>
+          <rdg wit="#LG">I will lift up my face a little, I will look briefly/modestly/humbly,</rdg>
+        </app></l>
+
+                                                                  
+      <l n="16">
+        <app>
+          <rdg wit="#Bo">ched tla kahades, ched tla tlalksheb; </rdg>
+          <rdg wit="#BL">čəd ɬukahədus, čəd ɬuɬalqsəb;</rdg> 
+          <rdg wit="#LWG">I open=mouth I park=end</rdg> 
+          <rdg wit="#LG">I open my mouth, I stick out my tongue,</rdg>
+        </app></l>
+        
+                                                                      
+      <l n="17">
+        <app>
+          <rdg wit="#Bo">tlo a hahu al ku detlalap ku loste, ched tla bokred.</rdg>
+          <rdg wit="#BL">ɬuʔahəxʷ ʔal kʷi dɬalap kʷi loste, čəd ɬubəqʼəd.</rdg>
+          <rdg wit="#LWG">there on the tongue the Host(fr=hostie), I eat </rdg>
+          <rdg wit="#LG">there will be on my tongue the Host, I will eat it.</rdg>
+        </app></l>
+        
+                                                                          
+      <l n="18">
+        <app>
+          <rdg wit="#Bo">5. Aschal kwi tla adsgwagwad dhual Shesu-Kri, al ku tlsasbechsahu al dgwe?</rdg>
+          <rdg wit="#BL">5. ʔəsčal kʷi ɬadsgʷagʷad dxʷʔal Shesu-Kri, ʔal kʷi ɬ(u)səsbəčəxʷ ʔal dəgʷiʔ</rdg>    
+          <rdg wit="#LG">5. How will you talk to Jesus Christ, ?????</rdg>
+        </app></l>
+        
+                                                                              
+      <l n="19">
+        <app>
+          <rdg wit="#Bo">Tlo gwadgwadched aku gwalh ador siayus, </rdg>
+          <rdg wit="#BL">ɬugʷadgʷadčəd ʔə kʷi gʷəɬ ador siayus, </rdg>    
+          <rdg wit="#LG">I will speak of works of worship,</rdg>
+        </app></l>
+        
+                                                                                  
+      <l n="20">
+        <app>
+          <rdg wit="#Bo">tlhba gwadgwadched aku gwalh masi siayus, </rdg>
+          <rdg wit="#BL">ɬubəgʷadgʷadčəd ʔə kʷi gʷəɬ masi syayus,</rdg>    
+          <rdg wit="#LG">I will be speaking of works of mercy,</rdg>
+        </app></l>
+        
+                                                                                      
+      <l n="21">
+         <app>
+          <rdg wit="#Bo">tlhba gwadgwadched aku gwalh stehech siayus. (See page 13.) </rdg>
+           <rdg wit="#BL">ɬubəgʷadgʷadčəd ʔə kʷi gʷəl stihič siayus. (See page 13.)</rdg>    
+           <rdg wit="#LG">I will be speaking of works of beseeching.</rdg>
+        </app></l>
+        
+                                                                                          
+      <l n="22">
+        <app>
+          <rdg wit="#Bo">6. Stab kwi tla adsiayus tolal ku tla adskudad ku Shesu-Kri ?</rdg>
+          <rdg wit="#BL">6. stab kʷi ɬ(u)adsyayus tulʼʔal kʷi ɬ(u)adskʷədad kʷi Shesu-Kri.</rdg>    
+          <rdg wit="#LWG">6. what the work until the partake the Jesus_Christ</rdg>
+          <rdg wit="#LG">6. What will be your works until you partake of Jesus Christ?</rdg>
+        </app></l>
+        
+                                                                                              
+      <l n="23">
+        <app>          
+          <rdg wit="#Bo">Tolal ku tlo dskudad ku Shesu-Kri tskwakredched tla aslardhu tsid^ilh, </rdg>
+          <rdg wit="#BL"> tulʼʔal kʷi ɬ(u)dskʷədad kʷi Shesu-Kri ckʼʷaqid čəd ɬuʔəslax̌dxʷ cidiɬ, </rdg>  
+          <rdg wit="#LWG">until the partake the Jesus_Christ always I remember that</rdg> 
+          <rdg wit="#LG">Until I partake of Jesus Christ I will always remember Him,</rdg> 
+        </app></l>
+        
+                                                                                                  
+      <l n="24">
+         <app>
+           <rdg wit="#Bo">tskwakredched tla asra'tleldhu tsidîlh, gula halh kwi tsashutsbitsut.</rdg>
+           <rdg wit="#BL">ckʼʷaqid čəd ɬuʔəsx̌aƛ'ildxʷ cidiɬ, gʷəl haʔɬ kʷi dsəshuyucbicut.</rdg>   
+           <rdg wit="#LG">always I love that then good the keep+myself</rdg>
+           <rdg wit="#LG">always will I love Him, and I will keep myself good.</rdg>
+        </app></l>
+        
+    </body>
+  </text>
+</TEI>

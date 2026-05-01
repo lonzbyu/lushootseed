@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader><fileDesc>
+            <titleStmt>
+                <title>Trees, grass,fruits, provisions, and colours</title>
+                <author> Dawn Bates and Deryle Lonsdale </author>
+                <respStmt><resp> Text Encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>Deryle Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without the explicit permission from the copyright holder. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+            <notesStmt>
+                <note anchored="true">This is the Chirouse Romanized version and our updated orthography.</note>
+            </notesStmt>
+            <sourceDesc><p>Source description</p>
+            </sourceDesc>
+        </fileDesc><encodingDesc> 
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc></teiHeader>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="CE">Chirouse</witness>
+                    <witness xml:id="CR">Chirouse -- Romanized</witness>
+                    <witness xml:id="CBL">Chirouse -- Bates and Lonsdale</witness>
+                </listWit>
+            </div>
+            
+        </front>
+        <body>
+            <l n="1">
+                <app>
+                    <rdg wit="#CE">Yew-tree</rdg>
+                    <rdg wit="#CR">Srh-bĕd</rdg>
+                    <rdg wit="#CBL">c̕əx̌bíd (BHH)</rdg>
+                </app></l>
+            
+            <l n="2">
+                <app>
+                    <rdg wit="#CE">Cherry-tree</rdg>
+                    <rdg wit="#CR">Pĕl-lē-lăs </rdg>
+                    <rdg wit="#CBL">plìləʔàc (BHH)</rdg>
+                </app></l>
+            
+            <l n="3">
+                <app>
+                    <rdg wit="#CE">plum-tree</rdg>
+                    <rdg wit="#CR">Srhuā-dăss</rdg>                   
+                    <rdg wit="#CBL">č'əx̌ʷádac (BHH)</rdg>
+                </app></l>
+            
+            <l n="4">
+                <app>
+                    <rdg wit="#CE">Apple tree</rdg>
+                    <rdg wit="#CR">Āpplĕ-săss</rdg> 
+                    <rdg wit="#CBL">ʔàʔpəlsəc (BHH)</rdg>
+                </app></l>
+            
+            <l n="5">
+                <app>
+                    <rdg wit="#CE">Hazel</rdg>
+                    <rdg wit="#CR">Kăpōrhwăs</rdg> 
+                    <rdg wit="#CBL">qʼp̕úx̌ʷəc (BHH)</rdg>
+                </app></l>
+            
+            <l n="6">
+                <app>
+                    <rdg wit="#CE">Pear-tree</rdg>
+                    <rdg wit="#CR">Chǐ-chā-yă</rdg> 
+                    <rdg wit="#CBL"/>
+                </app></l>
+            
+            <l n="7">
+                <app>
+                    <rdg wit="#CE">Willow.</rdg>
+                    <rdg wit="#CR">Tsā-păss</rdg> 
+                    <rdg wit="#CBL">sc̕ápac (BHH)</rdg>
+                </app></l>
+            
+            <l n="8">
+                <app>
+                    <rdg wit="#CE">Dog-wood</rdg>
+                    <rdg wit="#CR">Sel-lā-chiss</rdg> 
+                    <rdg wit="#CBL"/>
+                </app></l>
+            
+            <l n="9">
+                <app>
+                    <rdg wit="#CE">Snow-ball</rdg>
+                    <rdg wit="#CR">Lă-āl-băss</rdg> 
+                    <rdg wit="#CBL"/>
+                </app></l>
+            
+            <l n="10">
+                <app>
+                    <rdg wit="#CE">Currants. plants</rdg>
+                    <rdg wit="#CR">Pēā-kăd</rdg> 
+                    <rdg wit="#CBL">p̕áyəqəd (variant of BHH)</rdg>
+                </app></l>
+            
+            <l n="11">
+                <app>
+                    <rdg wit="#CE">Gooseberry. p.</rdg>
+                    <rdg wit="#CR">Sakhā-bats</rdg> 
+                    <rdg wit="#CBL">c̕áqʼab (variant of BHH)</rdg>
+                </app></l>
+            
+            <l n="12">
+                <app>
+                    <rdg wit="#CE">Myrtle p.</rdg>
+                    <rdg wit="#CR">Kwālh-kwālh</rdg> 
+                    <rdg wit="#CBL"/>
+                </app></l>
+            
+            <l n="13">
+                <app>
+                    <rdg wit="#CE">Brier p.</rdg>
+                    <rdg wit="#CR">Gŏŏd-mērhuās</rdg> 
+                    <rdg wit="#CBL">gʷədbíxʷhəc</rdg>
+                </app></l>
+            
+            <l n="14">
+                <app>
+                    <rdg wit="#CE">Strawberry p.</rdg>
+                    <rdg wit="#CR">Tjă-ǐă-wāss</rdg> 
+                    <rdg wit="#CBL">číʔyuhəc (BHH sčíʔyu)</rdg>
+                </app></l>
+            
+            <l n="15">
+                <app>
+                    <rdg wit="#CE">Raspberry p.</rdg>
+                    <rdg wit="#CR">Chĕl-khō-bāts</rdg> 
+                    <rdg wit="#CBL">čəlqʷúbəʔac (BHH has čəlqʷúbəʔ)</rdg>
+                </app></l>
+            
+            <l n="16">
+                <app>
+                    <rdg wit="#CE">Cranberry p.</rdg>
+                    <rdg wit="#CR">Tlĕl-rhōls</rdg> 
+                    <rdg wit="#CBL">ƛ'əlx̌úlč  (BHH)</rdg>
+                </app></l>
+            
+            <l n="17">
+                <app>
+                    <rdg wit="#CE">Blackberry p.</rdg>
+                    <rdg wit="#CR">Good-mĕr-wās</rdg> 
+                    <rdg wit="#CBL">gʷədbíxʷhəc (variant of BHH)</rdg>
+                </app></l>
+            
+            <l n="18">
+                <app>
+                    <rdg wit="#CE">Salmon-berry p.</rdg>
+                    <rdg wit="#CR">Ste-gwā-da...</rdg> 
+                    <rdg wit="#CBL">s√təgʷádac (variant of BHH)</rdg>
+                </app></l>
+            
+            <l n="19">
+                <app>
+                    <rdg wit="#CE">Berberry p.</rdg>
+                    <rdg wit="#CR">Māch-na</rdg> 
+                    <rdg wit="#CBL">bəc̕da (variant of BHH)</rdg>
+                </app></l>
+            
+            <l n="20">
+                <app>
+                    <rdg wit="#CE">Berries, in general</rdg>
+                    <rdg wit="#CR">Sku-lā-tlh...</rdg> 
+                    <rdg wit="#CBL"> s√qʼʷəláɬəd (BHH)</rdg>
+                </app></l>
+            
+            <l n="21">
+                <app>
+                    <rdg wit="#CE">Shoots</rdg>
+                    <rdg wit="#CR">Shi-gwaz</rdg> 
+                    <rdg wit="#CBL">šəgʷáq (BHH)</rdg>
+                </app></l>
+            
+            <l n="22">
+                <app>
+                    <rdg wit="#CE">Wild onion</rdg>
+                    <rdg wit="#CR">Zābĕd</rdg> 
+                    <rdg wit="#CBL">c̕ábid (BHH)</rdg>
+                </app></l>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>An Evening Prayer in Lushootseed</title>
+          <author> Dawn Bates and Deryle Lonsdale </author>
+          <respStmt><resp> Text Encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+      </titleStmt>
+      <publicationStmt><publisher>Deryle Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without the explicit permission from the copyright holder. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+        <notesStmt>
+            <note anchored="true">This is the Chirouse version of this prayer in Romanized Lushootseed.</note>
+        </notesStmt>
+        <sourceDesc><p>Source description</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+          <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc></teiHeader>
+  <text>
+      <front>
+          <div>
+              <listWit>
+                      <witness xml:id="Ch">Chirouse</witness>
+                      <witness xml:id="CBL">Chirouse -- Bates and Lonsdale</witness>           
+              </listWit>
+          </div>
+          
+      </front>
+      <body>
+          <l n="1">
+              <app>
+                  <rdg wit="#Ch">A general prayer after adoration</rdg>
+                  <rdg wit="#CBL">A general prayer after adoration</rdg>
+              </app></l>
+            
+          <l n="2">
+              <app>
+                  <rdg wit="#Ch"> O Sherkh Siam,</rdg> 
+                  <rdg wit="#CBL">ʔu šəq siʔab, </rdg>
+          </app></l>
+            
+          <l n="3">
+              <app>
+                  <rdg wit="#Ch"> klob chorh okwarhwats ta segwachelh alh banchelh le pāpe</rdg>
+                  <rdg wit="#CBL"> ƛ'ub čəxʷ ʔukʷaxʷac tə sgʷaʔčəɬ haʔɬ badčəɬ lepam,</rdg>
+              </app></l>
+            
+          <l n="4">
+              <app>
+                  <rdg wit="#Ch"> eta sgwachelh serhsiam chelh les évêque! </rdg>
+                  <rdg wit="#CBL"> ʔi tə sgʷaʔčəɬ sixʷsiʔabčəɬ kʷi lesebek,</rdg>
+              </app></l>
+   
+          <l n="5">
+              <app>
+                  <rdg wit="#Ch"> eta serhsiam chelh leplē,  </rdg>
+                  <rdg wit="#CBL"> ʔi tə sixʷsiʔabčəɬ leple, </rdg>
+              </app></l>
+            
+          <l n="6">
+              <app>
+                  <rdg wit="#Ch"> eta mok gwal assākw assilhtamerh serhsīăm, </rdg>
+                  <rdg wit="#CBL"> ʔi tə bəkʼʷ gʷəɬ ʔəcəkʼʷ ʔaciɬtalbixʷ sixʷsiʔab,</rdg>
+              </app></l>
+
+          <l n="7">
+              <app>
+                  <rdg wit="#Ch"> oshabets ta gwalh bok durhstewilh skūkŏ, </rdg>
+                  <rdg wit="#CBL"> ʔušəbyic tə gʷəɬ bəkʼʷ dxʷst'iwiɬ sqʼʷuʔqʼʷuʔ,</rdg>
+              </app></l>
+            
+          <l n="8">
+              <app>
+                  <rdg wit="#Ch"> oshabets ta bok siayachelh,</rdg>
+                  <rdg wit="#CBL"> ʔušəbyic tə bəkʼʷ syayaʔčəɬ </rdg>
+              </app></l>
+            
+          <l n="9">
+              <app>
+                  <rdg wit="#Ch"> etamok ests'hēlh, eta shebānchelh, </rdg>
+                  <rdg wit="#CBL"> ʔi tə bəkʼʷ ʔiišədčəɬ ʔi tə šəbadčəɬ</rdg>
+              </app></l>
+            
+          <l n="10">
+              <app>
+                  <rdg wit="#Ch"> alh kwas asshots kmok alh assilhtamerh!</rdg>
+                  <rdg wit="#CBL"> haʔɬ kʷi  adsəshuyuts kʷi bəkʼʷ haʔɬ ʔaciɬtalbixʷ ;</rdg>
+              </app></l>
+            
+          <l n="11">
+              <app>
+                  <rdg wit="#Ch"> oyod ālh ta sa assilhtamerh! </rdg>
+                  <rdg wit="#CBL"> huyud haʔɬ tə saʔ ʔaciɬtalbixʷ;  </rdg>
+              </app></l>
+            
+          <l n="12">
+              <app>
+                  <rdg wit="#Ch"> oyod alh kwe rhach atasoshababdu-assilhtēmerch! </rdg>
+                  <rdg wit="#CBL"> huyud haʔɬ kʷi x̌əč ʔə tə ʔəsʔušəbabdxʷ ʔaciɬtalbixʷ! </rdg>
+              </app></l>
+          
+          <l n="13">
+              <app>
+                  <rdg wit="#Ch"> oshabed tāsrhelh assilhtămerh!  </rdg>
+                  <rdg wit="#CBL">ʔušəbid tə ʔəsx̌əɬ ʔaciɬtalbixʷ!</rdg>
+              </app></l>
+            
+          <l n="14">
+              <app>
+                  <rdg wit="#Ch"> Klob cha(?) asterhdux ta tsadelh durhsōlŏlh! </rdg>
+                  <rdg wit="#CBL">ƛ'ub čəxʷ ʔəstix̌dxʷ tə cədiɬ dəxʷsʔuluɬ! </rdg>
+              </app></l>
+          
+          <l n="15">
+              <app>
+                  <rdg wit="#Ch"> kwarhwat ta tsādelh asatbedamorh! </rdg>
+                  <rdg wit="#CBL">kʷaxʷat tə cədiɬ ʔəsʔatəbədəxʷ! </rdg>
+              </app></l> 
+          
+          <l n="16">
+              <app>
+                  <rdg wit="#Ch"> oshabetobolh debalh, ŏya kha kwetlo spedalek helh ek swê-wê chelh!</rdg>
+                  <rdg wit="#CBL"> ʔušəbitubuɬ dibəɬ, huya x̌aʔ kʷi ɬuspədalikʷčəɬ ʔi tə sxʷiʔxʷiʔčəɬ ;</rdg>
+              </app></l>
+          
+          <l n="17">
+              <app>
+                  <rdg wit="#Ch"> oshabetchorh ta welsa-saku assilhtamerh oyod ak tledorh oyielh assaku, </rdg>
+                  <rdg wit="#CBL"> ʔušəbid čəxʷ tə xʷəɬ ?? ʔaciɬtalbixʷ, huyud  ʔə kʷi ɬudəxʷ huyils ??? </rdg>
+              </app></l>
+          
+          <l n="18">
+              <app>
+                  <rdg wit="#Ch"> klob chorh abĭētsud ta gwalh kto atbed skwadad, </rdg>
+                  <rdg wit="#CBL">  ƛ'ub čəxʷ ??? gʷəɬ ƛ'uʔatəbəd ʤəkʼʷadad,</rdg>
+              </app></l>
+            
+          <l n="19">
+              <app>
+                  <rdg wit="#Ch"> klob chorh ukudied ta tsādelh etta mok uatebed assilhtamerh ata tsidātem! </rdg>
+                  <rdg wit="#CBL"> ƛ'ub čəxʷ ʔukʷədyid tə cədiɬ ʔə tə bəkʼʷ ʔu ʔatəbəd ʔaciɬtalbixʷ ʔə tə ??? </rdg>
+              </app></l>
+            
+          <l n="20">
+              <app>
+                  <rdg wit="#Ch"> Klob assista!</rdg>
+                  <rdg wit="#CBL">ƛ'ub ʔəsʔistəʔ.</rdg>
+              </app></l>
+
+    </body>
+  </text>
+</TEI>

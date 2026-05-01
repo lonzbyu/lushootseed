@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>The Misereatur in Lushootseed</title>
+          <author> Dawn Bates and Deryle Lonsdale </author>
+          <respStmt><resp> Text Encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+      </titleStmt>
+      <publicationStmt><publisher>Deryle Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without the explicit permission from the copyright holder. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+        <notesStmt>
+            <note anchored="true">This is the Chirouse version of the Misereatur in Romanized Lushootseed.</note>
+        </notesStmt>
+        <sourceDesc><p>Source description</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+          <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc></teiHeader>
+  <text>
+      <front>
+          <div>
+              <listWit>
+                      <witness xml:id="Ch">Chirouse</witness>
+                      <witness xml:id="CBL">Chirouse -- Bates and Lonsdale</witness>
+              </listWit>
+          </div>
+      </front>
+      
+      <!--
+                From: http://www.fordham.edu/halsall/basis/latinmass2.html
+
+                May almighty God have mercy on you, forgive you all your sins, and bring you to everlasting life. 
+      -->
+      
+      <body style="font-family:'arial unicode ms'">
+          <l n="1">
+              <app>
+                  <rdg wit="#Ch">Misereatur</rdg>
+                  <rdg wit="#CBL">Misereatur</rdg>
+             </app></l>
+            
+          <l n="2">
+              <app>
+                  <rdg wit="#Ch"> Debalh kwe tlas oshabētem ato de Sherhk-Siam!  </rdg> 
+                  <rdg wit="#CBL"> dibəɬ kʷi ɬasʔušabitəb ʔə tudiʔ šəq siʔab! </rdg>
+                  <!-- Misereatur tui omnipotens Deus -->
+          </app></l>
+            
+          <l n="3">
+              <app>
+                  <rdg wit="#Ch"> lilzirh kwēhk twal mok stam,  </rdg>
+                  <rdg wit="#CBL"> liɬʤixʷ qʷiqʼʷ dxʷʔal bəkʼʷ stab,  </rdg>
+              </app></l>
+
+          <l n="4">
+              <app>
+                  <rdg wit="#Ch">  klob orhtsedelh ku lētsǐētobolh ateto skwādăchĕlh! </rdg>
+                  <rdg wit="#CBL">ƛ'ubəxʷ cədiɬ kʷi ʔubalicyitubuɬ ʔə tə tudᶻəkʼʷadadčəɬ! </rdg>
+                  <!-- et dimissis peccatis tuis, -->
+              </app></l>
+   
+          <l n="5">
+              <app>
+                  <rdg wit="#Ch"> alh kwe tlas orhtobolh twal kwi tlo Darhulēchelh skwākhēd!</rdg>
+                  <rdg wit="#CBL">haʔɬ kʷi ɬusʔ̌ux̌ʷtubuɬ dxʷʔal kʷi ɬudxʷhəliʔčəɬ ckʼʷaqid! </rdg>
+                  <!-- perducat te ad vitam aeternam.  -->
+              </app></l>
+          
+          <l n="6">
+              <app>
+                  <rdg wit="#Ch">  Klob assista!</rdg>
+                  <rdg wit="#CBL"> ƛ'ub ʔəsʔistəʔ! </rdg>
+              </app></l>
+          
+          <l n="7">
+              <app>
+                  <rdg wit="#Ch"> Klub orh tsedelh kurhubiētōbolh ătētōskwadachelh, </rdg>
+                  <rdg wit="#CBL">ƛ'ubəxʷ cədiɬ kʷi ??? ʔə ti tuʤəkʼʷadadčəɬ </rdg>
+              </app></l>
+          
+          <l n="8">
+              <app>
+                  <rdg wit="#Ch"> ui kloborh tsedelh ki oshabetobolh   </rdg>
+                  <rdg wit="#CBL"> huy ƛ'ubəxʷ cədiɬ kʷi ʔušəbyitubuɬ</rdg>
+              </app></l>
+          
+          <l n="9">
+              <app>
+                  <rdg wit="#Ch"> twal al ki mok stam skwākhed, ai de Sherk Siam Lilzirh kwēhkh  twal mok stam torh ālh.</rdg>
+                  <rdg wit="#CBL">  dxʷʔal kʷi bəkʼʷ stab ckʼʷaqid, hay diʔ šəq siʔab liɬʤixʷ qʷiqʼʷ dxʷʔal bəkʼʷ stab tux̌ʷ haʔɬ.  </rdg>
+              </app></l>
+
+          <l n="10">
+              <app>
+                  <rdg wit="#Ch"> Klob assista! </rdg>
+                  <rdg wit="#CBL"> ƛ'ub ʔəsistəʔ.</rdg>
+              </app></l>
+
+    </body>
+  </text>
+</TEI>

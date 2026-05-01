@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    
+    <!-- http://www.proecclesia.com/penny%20catechism/index.htm has most of this -->
+    
+    <body>
+      <p>LESSON III. </p>
+      
+      <l n="1">
+        <app>
+          <rdg wit="#Bo">1. Kwed gwalh Sherk-Siam schelhrachem?</rdg>
+          <rdg wit="#BL">1. kʼʷid gʷəɬ šəq siʔab sčəɬx̌əčəb?</rdg>    
+          <rdg wit="#LG">1. How many are there of God's commandments?</rdg>    
+        </app></l>
+            
+          
+      <l n="2">
+        <app>
+          <rdg wit="#Bo">Olob gwalh Sherk-Siam schelhrachem.</rdg>
+          <rdg wit="#BL">ʔulub gʷəɬ šəq siʔab sčəɬx̌əčəb.</rdg>    
+          <rdg wit="#LG">1. There are 10 commandments of God.</rdg>    
+        </app></l>
+            
+              
+      <l n="3">
+        <app>
+          <rdg wit="#Bo">2. Elid ku olob gwalh Sherk-Siam schelhrachem.</rdg>
+          <rdg wit="#BL">2. ʔilid kʷi  ʔulub gʷəɬ šəq siʔab sčəɬx̌əčəb.</rdg>  
+          <rdg wit="#LG">2. Recite the 10 commandments of God.</rdg> 
+        </app></l>
+            
+                  
+      <l n="4">
+        <app>
+          <rdg wit="#Bo"> 'Tlob chahu, etc. page 8.</rdg>
+          <rdg wit="#BL">ƛʼub čəxʷ, etc. pagə 8</rdg>   
+          <rdg wit="#LG">Thou shalt, etc. page 8</rdg> 
+        </app></l>
+            
+            
+                      
+      <l n="5">
+        <app>
+          <rdg wit="#Bo">3. Kwed gwalh leglis schelhrachem?</rdg>
+          <rdg wit="#BL">3. kʼʷid gʷəɬ leglis sčəɬx̌əčəb?</rdg>
+          <rdg wit="#LG">3. How many are there of the Church's commandments?</rdg> 
+        </app></l>
+            
+                          
+      <l n="6">
+        <app>
+          <rdg wit="#Bo"> Tsoks gwalh leglis schelhrachem.</rdg>
+          <rdg wit="#BL">cʼuʔkʷs gʷəɬ ləglis sčəɬx̌əčəb.</rdg> 
+          <rdg wit="#LG">There are 7 commandments of the Church.</rdg>
+        </app></l>
+            
+                              
+      <l n="7">
+        <app>
+          <rdg wit="#Bo">4. Elid ku tsoks gwalh leglis schelhrachem.</rdg>
+          <rdg wit="#BL">4. ʔilid kʷi cʼuʔkʷs gʷəɬ leglis sčəɬx̌əčəb.</rdg>
+          <rdg wit="#LG">4. Recite the 7 commandments of the Church.</rdg> 
+        </app></l>
+            
+                                  
+      <l n="8">
+        <app>
+          <rdg wit="#Bo">Halh kwi tla,&amp;c. page 8.</rdg>
+          <rdg wit="#BL">haʔɬ kʷi ɬ(u)a, &amp;c. pagə 8.</rdg>    
+        </app></l>
+            
+    </body>
+  </text>
+</TEI>

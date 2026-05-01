@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader><fileDesc>
+            <titleStmt>
+                <title>The Precepts of the Church in Lushootseed</title>
+                <author> Dawn Bates and Deryle Lonsdale </author>
+                <respStmt><resp> Text Encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>Deryle Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without the explicit permission from the copyright holder. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+            <notesStmt>
+                <note anchored="true">This is the Chirouse version of the Precepts of the Church in Romanized Lushootseed.</note>
+            </notesStmt>
+            <sourceDesc><p>Source description</p>
+            </sourceDesc>
+        </fileDesc><encodingDesc> 
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc></teiHeader>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="Ch">Chirouse</witness>
+                    <witness xml:id="CBL">Chirouse -- Bates and Lonsdale</witness>
+                </listWit>
+            </div>
+            
+        </front>
+        <body>
+
+<!-- 
+    from http://www.newadvent.org/cathen/04154a.htm
+to keep the Sundays and Holy Days of obligation holy, by hearing Mass and resting from servile work; 
+to keep the days of fasting and abstinence appointed by the Church; 
+to go to confession at least once a year; 
+to receive the Blessed Sacrament at least once a year and that at Easter or thereabouts; 
+to contribute to the support of our pastors; 
+not to marry within a certain degree of kindred nor to solemnize marriage at the forbidden times.
+
+http://catholicism.about.com/od/catholicliving/tp/Precepts_Church.htm
+
+http://www.ecatholic2000.com/essentials/precepts.shtml
+The Seven Precepts of the Church
+I. To attend Mass on Sundays and Holy Days of Obligation, and resting from servile works.
+II. To observe the days of abstinence and fasting.
+III. To confess our sins to a priest, at least once a year.
+IV. To receive Our Lord Jesus Christ in the Holy Eucharist at least once a year during Easter Season.
+V. To contribute to the support of the Church.
+VI. To obey the laws of the Church concerning Matrimony.
+VII. To participate in the Church's mission of Evangelization of Souls.(Missionary Spirit of the Church
+
+
+http://www.cin.org/precept2.html
+1) To assist at Mass on all Sundays and Holydays of Obligation; and to avoid those activities that hinder the renewal of soul and body or the growth in union with the Lord. (We used to use the expressions "servile labor" and "frivolous activity.") 
+2) To go to confession at least once a year; and to receive Holy Communion during the Easter Time. (To you old-timers out there, the expression was to "make your Easter Duty.) Actually, the obligation to confess once a year binds only if there is a serious sin present - but human beings being what they are, I find it almost impossible to believe a normal human being can go an entire year without a single mortal sin. You would do well to be as skeptical of yourself as I am of human nature. The 'Easter Time' during which to receive Holy Communion is traditionally between the First Day of Lent and Trinity Sunday (the 1st Sunday after Pentecost...inclusive). 
+3) To study the teachings of the Church in preparation for the Sacrament of Confirmation (we Easterners confirm at Baptism...but that does NOT excuse us from the obligation to learn as much as possible about our faith!), and then to use the knowledge gained in that study to advance the Cause of Christ and the Mission of the Church in evangelizing this world and bringing it to a knowledge of Christ. 
+4) To observe (obey) the laws of the Church concerning marriage (and that includes her teachings on birth control, abortion, and other marital affairs); to provide religious training and an example of sanctity to one's children and grandchildren; and to avail oneself of the facilities provided by the parish to advance their and one's own religious education. 
+5) To contribute to the support of the Church. Oddly, for most people, this has almost always been taken to mean 'financial support.' In reality, it demands support for every area of the Church's mission, the least important of which (in order of importance, if not of time) is how much is dropped into the collection basket. To strengthen and to support the Church, by which one means one's own parish community, one's own pastors, bishops and the Holy Father. 
+6) To fast and abstain on the days appointed; i.e., to do penance, including, but not limited to, fasting from food and abstaining from the use of meat on the days appointed. 
+7) And, in 1973, the American bishops, in recognition of a fast-developing spirit among the laity which threatened almost total disinvolvement with the spiritual life of the parish, added this repetitive but important coda: To join in the missionary spirit and apostolate of the Church. That obligation, of course, is contained implicitly in every one of the prior precepts - but it was given a special prominence in consequence of the threat being posed to it by the swiftly fading zeal of the mass of Catholics for its implementation. It is there as a reminder only - but a vital one. 
+
+
+-->
+
+
+            <l n="1">
+                <app>
+                    <rdg wit="#Ch">Commandments of the Church.</rdg>
+                    <rdg wit="#CBL">Commandments of the Church.</rdg>
+                </app></l>
+            
+            <l n="2">
+                <app>
+                    <rdg wit="#Ch">(N/A)</rdg>
+                    <rdg wit="#CBL">(N/A)</rdg>
+                </app></l>
+            
+            <l n="3">
+                <app>
+                    <rdg wit="#Ch"> 1. Ālh kwe tlas ashosk Rhărhāăldat atassut shelrhachem.</rdg>
+                    <rdg wit="#CBL"> 1. haʔɬ kʷi ƛ'(u)səsšuuc kʷi x̌aʔx̌aʔəɬdat ʔə tə ʔəsšuuc sčəɬx̌əčəb.</rdg>
+                </app></l>
+            
+
+            <l n="4">
+                <app>
+                    <rdg wit="#Ch"> 2. Degwe kwe tlas tsek twalk lamess al Rhărhăālldat. </rdg>
+                    <rdg wit="#CBL"> 2. dəgʷi kʷi ƛ'(u)scəkʷ dxʷʔal kʷi laməs ʔal x̌aʔx̌aʔəɬdat. </rdg>
+                </app></l>
+            
+            <l n="5">
+                <app>
+                    <rdg wit="#Ch">  Kaybbāssīstă twalh rhelhterharhaaldat.</rdg>
+                    <rdg wit="#CBL">  ƛ'alʼbəasʔistəʔ dxʷʔal x̌əɬti x̌aʔx̌aʔəɬdat.</rdg>
+                </app></l>
+                        
+            <l n="6">
+                <app>     
+                    <rdg wit="#Ch">3. Klub chorh tlo yetsem kwās kwadăt twal Rharhasbilālăm skakĕd.</rdg>
+                    <rdg wit="#CBL">3. ƛ'ub čəxʷ ƛ'uyəcəb kʷ(i) ʤəkʼʷadad dxʷʔal x̌ax̌a sbilʔallaʔəb ckʼʷaqid. </rdg>
+                </app></l>
+                                    
+            <l n="7">
+                <app>      
+                    <rdg wit="#Ch"> Klalbassista werh degwe kwe tlasbālēts k rharhasbilalam al pascha.</rdg>     
+                    <rdg wit="#CBL">ƛ'alʼbəasʔistəʔ xʷ(iʔ)əxʷ dəgʷi kʷi ƛ'(ua)sbalyic kʷi x̌ax̌a sbilʼʔallaʔəb ʔal paska .</rdg>
+                </app></l>
+            
+            <l n="8">     
+                <app>             
+                    <rdg wit="#Ch"> 4.Klob chorh tlo kwdad k Jesus Christ, chorh tlha khd twal tsakh kwaadrhach;</rdg>      
+                    <rdg wit="#CBL">4. ƛ'ub čəxʷ ƛ'ukʷədad kʷi Šhəsu_Kri čəxʷ tlʼa_kšoəd_ dxʷʔalʼ kʷi ʔəscəkʼʷ adx̌əč. </rdg>
+                </app></l>
+               
+            <l n="9">
+                <app>         
+                    <rdg wit="#Ch">klal bassista weorh Degwe kwe tlasbalets k kudad k J.C. al pascha.</rdg>
+                    <rdg wit="#CBL">ƛ'alʼbəasʔistəʔ xʷ(iʔ)əxʷ dəgʷi kʷi ƛ'(u)sbalʼyic kʷi kʷədad kʷi Shəsu-Kri ʔal paska.</rdg>
+                </app></l>
+            
+            <l n="10">      
+                <app>                
+                    <rdg wit="#Ch"> 5.Klob chorh tlo tagworh, altēēlh bussalh sorh tagworh altēēlh sŏrh kwĕlētsŭt slărhel, </rdg>              
+                    <rdg wit="#CBL">5. ƛ'ub čəxʷ ƛ'utagʷəxʷ ʔal tiʔiɬ buusaɬ səxʷtagʷəb ʔal tiʔiɬ səxʷx̌p̕alikʷ_(ʔast?) sləx̌il, </rdg>  
+                </app></l>
+                                              
+            <l n="11">      
+                <app>                
+                    <rdg wit="#Ch"> ema twal tēlh sbossachi slărhēl.</rdg>                       
+                    <rdg wit="#CBL"> ʔə tə dxʷʔal tiʔiɬ sbuusačiʔ sləx̌il.</rdg>  
+                </app></l>
+                                              
+            <l n="12">                 
+                <app>                                  
+                    <rdg wit="#Ch">6. Weorh degwe kwe tlas lokhad k ' biats alk tsilatsaldat.</rdg>                                          
+                    <rdg wit="#CBL">6. xʷiʔəxʷ dəgʷi kʷi ƛ'adsləkʼʷəd kʷi miats ʔalʼ kʷi scəlʼacəɬdat. </rdg>   
+                </app></l>
+            
+            <l n="13">                 
+                <app>                                  
+                    <rdg wit="#Ch">(N/A)</rdg>                                   
+                    <rdg wit="#CBL">(N/A)</rdg>        
+                </app></l>
+                   
+            <l n="14">
+                <app>                                
+                    <rdg wit="#Ch"> 7.Klob chorh tlo khŏpōt tadsgwa adsirhsiam leple skwaked twal kwe adok alandurh!</rdg>                                             
+                    <rdg wit="#CBL">7. ƛ'ub čəɬ tlʼo_kšəp̕^ot_ ʔə kʷi cickʼʷ t(i) adsgʷaʔ adsixʷsiʔab ləplə ckʼʷaqid dxʷʔal kʷi dukʷəladxʷ.</rdg>  
+                </app></l>
+        </body>
+    </text>
+</TEI>

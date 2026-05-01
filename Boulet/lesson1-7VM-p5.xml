@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    
+    <!-- similar to Zenk's "Petit catéchisme des indiens", 6e leçon -->
+    
+    <body>
+        <p>LESSON VII. </p>
+            
+      <l n="1">
+        <app>
+          <rdg wit="#Bo">1. Telh o as oshakitob a kwi Sherk-Siam ku atsilhtalbihu dhual ku tskwadads halgwa? </rdg>
+          <rdg wit="#BL">1. təɬ ʔu gʷəʔušəbitəb ʔə kʷi šəq siʔab kʷi ʔaciɬtalbixʷ dxʷʔal kʷi dᶻəkʼʷadads həlgʷəʔ.</rdg>
+          <rdg wit="#LWG">1. true Q mercy of the sky nobleman the people toward the sins their</rdg>
+          <rdg wit="#LG">1. Is it true that God has mercy on the people because of their sins?</rdg>
+        </app></l>
+      
+      <l n="2">
+        <app>
+          <rdg wit="#Bo">E, abil' gwat gwa rahab tolal ku tskwadads, </rdg>
+          <rdg wit="#BL"> ʔi, ʔəbilʼ  gʷat  gʷəx̌ahəb  tulʼal kʷi dᶻəkʼʷadads, </rdg>
+          <rdg wit="#LWG">yes if somebody cries about the sin+his</rdg>
+          <rdg wit="#LG">Yes, if a person repents of their sins,</rdg>
+        </app></l>
+      
+      <l n="3">
+        <app>
+          <rdg wit="#Bo">gwa asra'tledhu kwi gwas hoyils halh; </rdg>
+          <rdg wit="#BL"> gʷəsx̌̌aƛ'ədxʷ kʷi gʷəshuyils haʔɬ; </rdg>
+          <rdg wit="#LWG">want the make good</rdg>
+          <rdg wit="#LG">and make themselves good</rdg>
+        </app></l>
+      
+            
+                        
+      <l n="4">
+        <app>
+          <rdg wit="#Bo">gula telh gwa oshabitob a Sherk-Siam dhual ku tskwadads. </rdg>
+          <rdg wit="#BL">gʷəl təɬ gʷəʔušəbitəb ʔə šəq siʔab dxʷʔal kʷi dᶻəkʼʷadads.</rdg>
+          <rdg wit="#LWG">then truly mercy of the sky nobleman unto the sins+his</rdg>
+          <rdg wit="#LG">then God will indeed have mercy on his sins.</rdg>
+        </app></l>
+      
+            
+                              
+      <l n="5">
+        <app>
+          <rdg wit="#Bo">2. Abil o gwat ahus hoyudab whe ku tskwadads dhual di Sherk-Siam, gula stab kwi gwa siayus?</rdg>
+          <rdg wit="#BL">2. ʔəbilʼ ʔu gʷatəxʷs huyudəb  xʷiʔ kʷi dᶻəkʼʷadads dxʷʔal diʔ šəq siʔab, gʷəl stab kʷi gʷəsyayus.</rdg>
+          <rdg wit="#LWG">2. perhaps Q who done not the sin unto the sky nobleman then what the work</rdg>
+          <rdg wit="#LG">2. Who perhaps has not done any sin unto God then what will he do?</rdg>
+        </app></l>         
+                                          
+      <l n="7">
+        <app>
+          <rdg wit="#Bo">Abil gwat ahus hoyudab whe ku tskwadads dhual di Sherk-Siam, gula kudad ku stsaiku; </rdg>
+          <rdg wit="#BL">ʔəbilʼ gʷatəxʷs huyudəb xʷiʔ kʷi dᶻəkʼʷadads dxʷʔal diʔ šəq siʔab, gʷəl kʷədad  kʷi sc̕aʔkʷ;</rdg>
+          <rdg wit="#LWG">then what done not the sin unto that sky nobleman, then take the baptism</rdg>
+        </app></l>
+      
+            
+                                                
+      <l n="8">
+        <app>
+          <rdg wit="#Bo">abil gwat astsaku gula gwa yayus aku tsaku dhual rarasmilalam.</rdg>
+          <rdg wit="#BL">ʔəbilʼ gʷat ʔəsc̕aʔkʷ  gʷəl gʷəyayus ʔə kʷi sc̕aʔkʷ dxʷʔal x̌̌aʔx̌̌̌aʔsbillalaʔəb.</rdg>
+          <rdg wit="#LWG">if someone baptized then works of the baptism??? to confession</rdg>
+        </app></l>
+      
+            
+                                                      
+      <l n="9">
+        <app>
+          <rdg wit="#Bo">3. Abil o Sherk-Siam gwa oshabid ku atsilhtalbihu dhual ku tskwadads halgwa, gula gwa hoyil o halh ku seles halgwa?</rdg>
+          <rdg wit="#BL">3. ʔəbilʼ ʔu  šəq siʔab  gʷəʔušəbid kʷi ʔaciɬtalbixʷ dxʷʔal kʷi dᶻəkʼʷadads həlgʷəʔ, gʷəl  gʷəhuyil ʔu haʔɬ kʷi shəliʔs həlgʷəʔ.</rdg>
+          <rdg wit="#LWG">3. perhaps Q sky nobleman save the people from the sins their then make Q good the souls their</rdg>
+          <rdg wit="#LG">3. Will God perhaps save the people from their sins and make their soul good?</rdg>
+        </app></l>       
+                                                                  
+      <l n="11">                                                                    
+        <app>
+          <rdg wit="#Bo">E, abil Sherk-Siam gwa oshabid ku atsilhtalbihu dhual ku tskwadads halgwa, </rdg>
+          <rdg wit="#BL">ʔi, ʔəbilʼ šəq siʔab gʷəʔušəbid kʷi ʔaciltalbixʷ dxʷʔal kʷi dᶻəkʼʷadads həlgʷəʔ, </rdg>
+          <rdg wit="#LWG">yes, perhaps sky nobleman save the people from the sins their</rdg>
+          <rdg wit="#LG">Yes, perhaps God will save the people from their sins</rdg>
+        </app></l>
+      
+            
+                                                                        
+      <l n="12">
+        <app>
+          <rdg wit="#Bo">gula gwa bechad ku sgwas sabalekus dhual ku sales halgwa,</rdg>
+          <rdg wit="#BL">gʷəl gʷəbəčad kʷi sgʷaʔs sʔabalikʷs dxʷʔal kʷi shəliʔs həlgʷəʔ,</rdg>
+          <rdg wit="#LWG">then ??? ??? ??? unto the life their</rdg>
+        </app></l>
+      
+            
+                                                                              
+      <l n="13">
+        <app>
+          <rdg wit="#Bo">gwla asista gwa dahu hois halh ku seles halgwa.</rdg>
+          <rdg wit="#BL">gʷəl ʔəsʔistəʔ gʷədxʷhuys haʔɬ kʷi shəliʔs həlgʷəʔ.</rdg>
+          <rdg wit="#LWG">then this way+make good the souls their</rdg>
+          <rdg wit="#LG">and this is how he will make their souls good.</rdg>
+        </app></l>
+      
+
+    </body>
+  </text>
+</TEI>

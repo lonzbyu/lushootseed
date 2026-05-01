@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    
+    <!-- similar to Zenk's "Petit catéchisme des indiens", 5e leçon -->
+    
+    <body>
+        <p>LESSON VI.</p>
+            
+      <l n="1">
+        <app>
+          <rdg wit="#Bo">1. Stab tihîlh leglis?</rdg>
+          <rdg wit="#BL">1. stab tiʔiɬ ləglis ?</rdg>
+          <rdg wit="#LWG">1. what the church</rdg>
+          <rdg wit="#LG">1. What is the church?</rdg>
+        </app></l>
+      
+            
+      <l n="2">
+        <app>
+          <rdg wit="#Bo">Tihîlh leglis skrokro gwalh boku tsoku kretia tolal boku lilhched;</rdg>
+          <rdg wit="#BL">tiʔiɬ ləglis sqʼʷuʔqʼʷuʔ gʷəɬ bəkʷ cəkʷ kretia tulʼʔal bəkʼʷ liɬčəd;</rdg>
+          <rdg wit="#LWG">the church gathering belonging-to all straight christians from all which-way</rdg>
+          <rdg wit="#LG">The church is a gathering of all true Christians from everywhere</rdg>
+        </app></l>
+      
+                  
+      <l n="3">
+        <app>
+          <rdg wit="#Bo">sgwas halgwa lilhzihu sihusiams halgwa Shesu-Kri al di sherk; </rdg>
+          <rdg wit="#BL">sgʷaʔs həlgʷə liɬʤixʷ sixʷsiʔabs həlgʷə Shesu-Kri ʔal diʔ šəq;</rdg>
+          <rdg wit="#LWG">their-own they first high+nobleman Jesus Christ in the sky</rdg>
+          <rdg wit="#LG">their own first leader is Jesus Christ in heaven</rdg>
+        </app></l>
+      
+                        
+      <l n="4">
+        <app>
+          <rdg wit="#Bo">gula lepam lilhzihu sihusiams halgwa al ku swatihuhted. </rdg>
+          <rdg wit="#BL">gʷəl lepam liɬʤixʷ sixʷsiʔabs həlgʷə ʔal kʷi swatixʷtəd.</rdg>
+          <rdg wit="#LWG">then the-pope first high+nobleman their on the earth</rdg>
+          <rdg wit="#LG">then the pope is their first leader on the earth</rdg>
+        </app></l>
+      
+                              
+      <l n="5">
+        <app>
+          <rdg wit="#Bo">2. Shesu-Kri o ku tu hoyud lepam lilhzihu Siam? </rdg>
+          <rdg wit="#BL">2. Shesu-Kri ʔu kʷi tuhuyud lepam liɬʤixʷ siʔab.</rdg>
+          <rdg wit="#LWG">2. Jesus Christ Q the past made pope first nobleman</rdg>
+          <rdg wit="#LG">2. Was it Jesus Christ who made the pope the first leader?</rdg>
+        </app></l>
+      
+                                    
+      <l n="6">
+        <app>
+          <rdg wit="#Bo">E, Shesu-Kri ku tu hoyud ku lepam lilhzibu Siam, </rdg>
+          <rdg wit="#BL">ʔi, Shesu-Kri  kʷi tuhuyud kʷi lepam  liɬʤixʷ siʔab, </rdg>
+          <rdg wit="#LWG">yes Jesus Christ the past made pope first nobleman</rdg>
+          <rdg wit="#LG">Yes, it was Jesus Christ who made the pope the first leader,</rdg>
+        </app></l>
+      
+                                          
+      <l n="7">
+        <app>
+          <rdg wit="#Bo">gula tsidîlh Sen-Piel tu hoyil lilhizihu lepam.</rdg>
+          <rdg wit="#BL">gʷəl cədiɬ Sen-Piel tuhuyil liɬʤixʷ ləpam .</rdg>
+          <rdg wit="#LWG">then it-was Saint-Peter made first pope</rdg>
+          <rdg wit="#LG">and it was Saint Peter who was made the first pope.</rdg>
+        </app></l>
+      
+                                                
+      <l n="8">
+        <app>
+          <rdg wit="#Bo">3. Tsidîlh o Shesu-Kri ku tu hoyud siam ku lesebek?</rdg>
+          <rdg wit="#BL">3.  cədiɬ ʔu Shesu-Kri kʷi tuhuyud siʔab kʷi lesebek.</rdg>
+          <rdg wit="#LWG">3. them Q Jesus Christ the past made nobleman the bishops</rdg>
+          <rdg wit="#LG">3. Was it Jesus Christ who made the bishops leaders?</rdg>
+        </app></l>
+      
+                                                      
+      <l n="9">
+        <app>
+          <rdg wit="#Bo">E, tsidîlh Shesu-Kri tu hoyud siam ku lesebek, </rdg>
+          <rdg wit="#BL">ʔi, cədiɬ Shesu-Kri tuhuyud siʔab kʷi lesebek ,  </rdg>
+          <rdg wit="#LWG">yes. them Jesus Christ the past made nobleman the bishops</rdg>
+          <rdg wit="#LG">Yes, it was Jesus Christ who made the bishops leaders?</rdg>
+        </app></l>
+      
+                                                            
+      <l n="10">
+        <app>
+          <rdg wit="#Bo">gwla lepam sihusiam aku lesebek; </rdg>
+          <rdg wit="#BL">gʷəl lepam sixʷsiʔab ʔə kʷi lesebek;</rdg>
+          <rdg wit="#LWG">and pope highest+nobleman of the bishops</rdg>
+          <rdg wit="#LG">and the pope the leader of the bishops.</rdg>
+        </app></l>
+      
+      <l n="11">                                                              
+        <app>
+          <rdg wit="#Bo">gula tsahadilh lesapot ku tu hoyil lilhzihu lesebek.</rdg>
+          <rdg wit="#BL">gʷəl caadiɬ lesapot kʷi tuhuyil liɬʤixʷ lesebek .</rdg>
+          <rdg wit="#LWG">then those apostles the made first bishops</rdg>
+          <rdg wit="#LG">and the apostles made the first bishops.</rdg>
+        </app></l>
+      
+                                                                        
+      <l n="12">
+        <app>
+          <rdg wit="#Bo">4. Tsidîlh o Shesu-Kri ku tu hoyud ku leple,</rdg>
+          <rdg wit="#BL">4.  cədiɬ ʔu Shesu-Kri kʷi tuhuyud kʷi leple, </rdg>
+          <rdg wit="#LWG">4. Q Jesus-Christ the made the priests</rdg>
+          <rdg wit="#LG">Was it Jesus Christ who made the priests</rdg>
+        </app></l>
+      
+                                                                              
+      <l n="13">
+        <app>
+          <rdg wit="#Bo">dhual kwi gwa dahu haidubtobus ku atsilhtalbihu, </rdg>
+          <rdg wit="#BL">dxʷʔal kʷi gʷədəxʷ haydubtubus kʷi ʔaciltalbixʷ, </rdg>
+          <rdg wit="#LWG">for the way-to know?? the people</rdg>
+          <rdg wit="#LG">as a way to get to know the people</rdg>
+        </app></l>
+      
+            
+                                                                                    
+      <l n="14">      
+        <app>                                   
+          <rdg wit="#Bo">eba dhual kwi gwas hoyuds halh?</rdg>                                    
+          <rdg wit="#BL">ʔibə dxʷʔal kʷi gʷəshuyuds haʔɬ.</rdg>         
+          <rdg wit="#LWG">and for the do good</rdg>
+          <rdg wit="#LG">and to do good?</rdg>
+        </app></l>
+      
+            
+                                                                                          
+      <l n="15">
+        <app>
+          <rdg wit="#Bo">E, tsidîlh Shesu-Kri ku tu hoyud ku leple, </rdg>
+          <rdg wit="#BL">ʔi, cədiɬ Shesu-Kri kʷi tuhʷyud kʷi  leple , </rdg>
+          <rdg wit="#LWG">yes Jesus-Christ the made the priests</rdg>
+          <rdg wit="#LG">Yes, it was Jesus Christ who made the priests</rdg>
+        </app></l>
+      
+            
+                                                                                                
+      <l n="16">
+        <app>
+          <rdg wit="#Bo">dhual kwi gwa dahu haidubtobus ku atsilhtalbihu, eba dhual kwi gwas hoyuds halh; </rdg>
+          <rdg wit="#BL">dxʷʔal kʷi gʷədəxʷhaydubtubus kʷi ʔaciɬtalbixʷ, ʔibə dxʷʔal kʷi gʷəshuyuds haʔɬ;  </rdg>
+          <rdg wit="#LWG">for the way-to know?? the people and for the do good</rdg>
+          <rdg wit="#LG">as a way to get to know the people and to do good.</rdg>
+        </app></l>
+    
+            
+                                                                                                            
+      <l n="18">
+        <app>
+          <rdg wit="#Bo">gula tihîlh lepam eku lesebek sihusiams halgwa.</rdg>       
+          <rdg wit="#BL">gʷəl tiʔiɬ lepam  ʔi kʷi  lesebek sixʷsiʔabs həlgʷə.</rdg>
+          <rdg wit="#LWG">then the pope and the bishops leaders their</rdg>
+          <rdg wit="#LG">and the pope and the bishops are their leaders.</rdg>
+        </app></l>
+      
+            
+                                                                                                                  
+      <l n="19">     
+        <app>                     
+          <rdg wit="#Bo">5. Whe o la asared gwas za'tlab aku leglis al tihîlh sogutsiebalhs?</rdg>                 
+          <rdg wit="#BL">5. xʷiʔ ʔu ləʔəsʔəx̌id gʷəsʤaƛʼab ʔə kʷi ləglis ʔal ti?iɬ sʔugʷəcyəbaɬs?</rdg>
+          <rdg wit="#LWG">5. not Q why mistaken the church in the teachings</rdg>
+          <rdg wit="#LG">5. Can't it happen that the church could err in its teachings?</rdg>
+        </app></l>
+      
+            
+                                                                                                                        
+      <l n="20">       
+        <app>         
+          <rdg wit="#Bo">Whe la asared gwas za'tlab aku leglis al tihîlh sogutsiebalhs, yare tskwakred a al tsidîlh ku Sent-Ospli.</rdg>                                                
+          <rdg wit="#BL">xʷiʔ ləʔəsʔəx̌id gʷəsʤaƛʼab ʔə kʷi ləglis ʔal ti?iɬ sʔugʷucəbaɬs, yəx̌i ckʼʷaqid ʔaʔ ʔal cədiɬ kʷi Sent-Ospli.</rdg>
+          <rdg wit="#LWG">not why mistaken of the church in the teachings because always there of that the holy spirit</rdg>
+          <rdg wit="#LG">It can't happen that the church could err in its teachings because the Holy Spirit is always there.</rdg>
+        </app></l>
+                                                                                                                                    
+      <l n="22">
+        <app>                                          
+          <rdg wit="#Bo"> 6. Stab tihîlh lakomion desa?</rdg>                                                
+          <rdg wit="#BL">6. stab tiʔiɬ lakomion desa. </rdg>      
+          <rdg wit="#LWG">6. what the communion of-the-saints</rdg>
+          <rdg wit="#LG">6. What is the communion of the saints?</rdg>
+        </app></l>
+      
+            
+                                                                                                                                          
+      <l n="23">
+        <app>
+          <rdg wit="#Bo">Tihîlh lakomion desa sahu abietagwalh aku gwalh sele stabegus </rdg>    
+          <rdg wit="#BL">tiʔiɬ  lakomion dəsa səxʷʔabyitagʷəɬ ʔə kʷi gʷəl shəliʔ stabigʷs </rdg>
+          <rdg wit="#LWG">the communion of-the-saints giving-each-other of the of life possession</rdg>
+          <rdg wit="#LG">The communion of the saints is giving each other of those possessing life</rdg>
+        </app></l>
+      
+            
+                                                                                                                                                
+      <l n="24">
+        <app>
+          <rdg wit="#Bo">al ku tsoku kretia al ku swatihuhted </rdg>
+          <rdg wit="#BL">ʔal kʷi cəkʷ kretia ʔal kʷi swatixʷtəd </rdg>
+          <rdg wit="#LWG">of the true christians in the world</rdg>
+          <rdg wit="#LG">of the true christians in the world</rdg>
+        </app></l>
+      
+            
+                                                                                                                                                      
+      <l n="25">
+        <app>  
+          <rdg wit="#Bo"> eta ba dhual ku halh skayu al di sherk, </rdg>         
+          <rdg wit="#BL">ʔi tə bədəxʷ ʔal kʷi haʔɬ skayuʔ ʔal diʔ šəq, </rdg>     
+          <rdg wit="#LWG">and the ??? of the good dead in the heaven</rdg>
+        </app></l>
+      
+            
+                                                                                                                                                            
+      <l n="26">
+        <app>
+          <rdg wit="#Bo">eta ba dhual ta tsahadîlh askrpaleku halgwa al pikatwar.</rdg>
+          <rdg wit="#BL">ʔi bədəxʷ ʔal tə  cəədiɬ ʔəsqəpalikʷ həlgʷəʔ ʔal pikatwar.</rdg>
+          <rdg wit="#LWG">and the ??? their in purgatory</rdg>
+        </app></l>
+      
+
+    </body>
+  </text>
+</TEI>

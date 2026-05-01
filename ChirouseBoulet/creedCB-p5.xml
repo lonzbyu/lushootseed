@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>The Creed in Lushootseed</title>
+          <author> Dawn Bates and Deryle Lonsdale </author>
+          <respStmt><resp> Text Encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+      </titleStmt>
+      <publicationStmt><publisher>Deryle Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without the explicit permission from the copyright holder. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+        <notesStmt>
+            <note anchored="true">This the Chirouse version of the Apostles' Creed in Romanized Lushootseed.</note>
+        </notesStmt>
+        <sourceDesc><p>Source description</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+          <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc></teiHeader>
+  <text>
+      <front>
+          <div>
+              <listWit>
+                      <witness xml:id="Ch">Chirouse</witness>
+                  <witness xml:id="CBL">Chirouse -- Bates and Lonsdale</witness>
+              </listWit>
+          </div>
+      </front>
+      
+      <body>
+          <l n="1">
+              <app>
+                  <rdg wit="#Ch">The Creed:</rdg>
+                  <rdg wit="#CBL">The Apostles' Creed</rdg>
+             </app></l>
+            
+          <l n="2">
+              <app>
+                  <rdg wit="#Ch"> Astlēldu-ched Shak Siam Ban, lilzirh kwēkh twalh mok stam ,  </rdg> 
+                  <rdg wit="#CBL"> ʔəstɬildxʷ čəd šəq siʔab bad, liɬʤixʷ qʷiqʼʷ dxʷʔal bəkʼʷ stab, </rdg>
+          </app></l>
+            
+          <l n="3">
+              <app>
+                  <rdg wit="#Ch"> durhsǐayus  ak gwal sherk swaterhten e tis swāterten. </rdg>
+                  <rdg wit="#CBL"> dxʷsyayus ʔə kʷi gʷəɬ šəq swatixʷtəd ʔi ti swatixʷtəd.  </rdg>
+              </app></l>
+
+          <l n="4">
+              <app>
+                  <rdg wit="#Ch"> Astlel-du-ched ksugwas bedas Dāyāi Jesu-Kli. </rdg>
+                  <rdg wit="#CBL"> ʔəstɬildxʷ čəd kʷi sgʷaʔs bədaʔs dayʼayʼ šhesu-kri, </rdg>
+              </app></l>
+   
+          <l n="5">
+              <app>
+                  <rdg wit="#Ch">  Sgwachelh-Sirsiamchelh, to dog tō kŭdād k sōkwăm al tlāch aksi Maly,</rdg>
+                  <rdg wit="#CBL"> sgʷaʔčəɬ sixʷsiʔabčəɬ tudəgʷi (or tudukʷ?) tukʷədad kʷi c̕ukʼʷəb ʔal ƛ'ač ʔə kʷsi mari, </rdg>
+              </app></l>
+          
+          <l n="6">
+              <app>
+                  <rdg wit="#Ch"> gwalh St. Espli tosiā-yŭs.</rdg>
+                  <rdg wit="#CBL"> gʷəɬ sənt-əspli tusyayus  </rdg>
+              </app></l>
+          
+          <l n="7">
+              <app>
+                  <rdg wit="#Ch"> Tō ŭlēs tolal ksi dukhalap  Maly (to bedam aksi dukhalap  Maly),</rdg>
+                  <rdg wit="#CBL"> tuhəliʔs tulʼʔal kʷsi dxʷqaləp mari (tubədaʔəb ʔə kʷsi dxʷqaləp mari), </rdg>
+              </app></l>
+          
+          <l n="8">
+              <app>
+                  <rdg wit="#Ch"> to relh ak to siam poncepǐlate, to atbed al ku alstalhgwas, </rdg>
+                  <rdg wit="#CBL">tux̌əɬ ʔ̌ə kʷi tusiʔab pons pilat, tuʔatəbəd ʔal kʷi ʔabstaɬgʷas, </rdg>
+              </app></l>
+          
+          <l n="9">
+              <app>
+                  <rdg wit="#Ch"> tu wĕlkŭtem Durh gwad kwe tos orhs,   </rdg>
+                  <rdg wit="#CBL"> tuxʷəlkʼʷutəb dəxʷgʷəd kʷi tusʔux̌ʷs,</rdg>
+              </app></l>
+          
+          <l n="10">
+              <app>
+                  <rdg wit="#Ch"> al tlheuāldātēs gwătăpālēs tulal skayu</rdg>
+                  <rdg wit="#CBL">  ʔal ɬixʷaɬdatils, gʷətupalil tulʼʔal skayuʔ,</rdg>
+              </app></l>
+          
+          <l n="11">
+              <app>
+                  <rdg wit="#Ch"> gwa to urhs dŭrh shikk āŭwas </rdg>
+                  <rdg wit="#CBL"> gʷətuʔx̌ʷs dxʷšəq ʔayʼwaʔs  </rdg>
+              </app></l>
+
+          <l n="12">
+              <app>
+                  <rdg wit="#Ch"> gwēgwadel alk sgwas Bans lilzirh kwēkh twal mok stam zăālēgwad, </rdg>
+                  <rdg wit="#CBL"> gʷəgʷədil ʔal kʷi sgʷaʔs bads liɬʤixʷ qʷiqʼʷ dxʷʔal bəkʼʷ stab dᶻəhaligʷəd, </rdg>
+              </app></l>
+
+          <l n="13">
+              <app>
+                  <rdg wit="#Ch"> tulal aa kwe tlēs ătls, tleshelrhachem twal kw' ēllĕ assilh-tāmĕrh ek to ātbĕd.</rdg>
+                  <rdg wit="#CBL"> tulʼal ʔaʔ kʷi ɬusʔəƛ's, ɬusčəɬx̌əčəb dxʷʔal kʷi həliʔ ʔaciɬtalbixʷ ʔi kʷi tuʔatəbəd.  </rdg>
+              </app></l>
+          
+          <l n="14">
+              <app>
+                  <rdg wit="#Ch">Āstlēldŭched k St. Esprit,</rdg>
+                  <rdg wit="#CBL">ʔəstɬildxʷčəd kʷi Sənt-Ospli  </rdg>
+              </app></l>
+
+          <l n="15">
+              <app>
+                  <rdg wit="#Ch"> ek gwalh tsĕku durhstēwilh sko-ko, mok durh chad ek gwalh alh assaku assilhtamerh sabaleku,</rdg>
+                  <rdg wit="#CBL"> ʔi kʷi gʷəɬ cəkʼʷ dəxʷst'iwiɬ sqʼʷuʔqʼʷuʔ, bəkʼʷ dxʷčad ʔi kʷi gʷəɬ haʔɬ ʔəscəkʼʷ ʔaciɬtalbixʷ sʔabalikʷ  </rdg>
+              </app></l>
+          
+          <l n="16">
+              <app>
+                  <rdg wit="#Ch"> telh whēēlh ki skwadad al Rhārhă sbilālăm. </rdg>
+                  <rdg wit="#CBL">təɬ xʷiʔil kʷi dᶻəkʼʷadad ʔal x̌ax̌a sbilʼʔallaʔəb. </rdg>
+              </app></l>
+          
+          <l n="17">
+              <app>
+                  <rdg wit="#Ch"> telh tllo pālēl gwal skayu tsokwam skwākhēd tlho ēllĕ. </rdg>
+                  <rdg wit="#CBL"> təɬ tə ɬupalil gʷəɬ skayuʔ c̕ukʼʷəb ckʼʷaqid ɬuhəliʔ.  </rdg>
+              </app></l>
+
+          <l n="18">
+              <app>
+                  <rdg wit="#Ch"> Klob ăssīstă </rdg>
+                  <rdg wit="#CBL"> ƛ'ub ʔəsistəʔ.</rdg>
+              </app></l>
+
+    </body>
+  </text>
+</TEI>

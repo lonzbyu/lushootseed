@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>The Angelus in Lushootseed</title>
+          <author> Dawn Bates and Deryle Lonsdale </author>
+          <respStmt><resp> Text Encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+      </titleStmt>
+      <publicationStmt><publisher>Deryle Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without the explicit permission from the copyright holder. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+        <notesStmt>
+            <note anchored="true">This is the Chirouse version of the Angelus in Romanized Lushootseed.</note>
+        </notesStmt>
+        <sourceDesc><p>Source description</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+          <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc></teiHeader>
+  <text>
+      <front>
+          <div>
+              <listWit>
+                      <witness xml:id="Ch">Chirouse</witness>
+                      <witness xml:id="CBL">Chirouse -- Bates and Lonsdale</witness>
+              </listWit>
+          </div>
+      </front>
+      
+      
+      <!--  from http://www.fisheaters.com/prayers.html#10
+          V           The Angel of the Lord declared unto Mary.  
+          R           And she conceived of the Holy Ghost.  
+          All         Hail Mary, full of Grace, the Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, mother of God, pray for us sinners now and in the hour of our death. 
+          V           Behold the handmaid of the Lord.  
+          R          Be it done unto me according to thy word. 
+          All        Hail Mary, full of Grace, the Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, mother of God, pray for us sinners now and in the hour of our death. 
+          V           And the Word was made Flesh.  
+          R           And dwelt among us.  
+          All         Hail Mary, full of Grace, the Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, mother of God, pray for us sinners now and in the hour of our death. 
+          V           Pray for us, O Holy Mother of God.  
+          R           That we may be made worthy of the promises of Christ.  
+          V           Let us pray. Pour forth, we beseech Thee, O Lord, Thy grace into our hearts; that, we to whom the Incarnation of Christ, Thy Son, was made known by the message of an Angel, may by His Passion and Cross, be brought to the glory of His Resurrection. Through the same Christ our Lord.  
+          All         Amen.  
+          -->
+      
+      <body>
+          <l n="1">
+              <app>
+                  <rdg wit="#Ch">The Angelus:</rdg>
+                  <rdg wit="#CBL">The Angelus</rdg>
+             </app></l>
+            
+          <l n="2">
+              <app>
+                  <rdg wit="#Ch"> Gwalh Sherhk Siam To chussand, twal Maly to essemtomsh.</rdg> 
+                  <rdg wit="#CBL"> gʷəɬ kʷi šəq siʔab tusčəsad dxʷʔal Mari tuyəcəbtubš. </rdg>
+          </app></l>
+            
+          <l n="3">
+              <app>
+                  <rdg wit="#Ch"> Oi gulo to shōbĕls k si Maly gwal St. Esprit tussiāyŭs.</rdg>
+                  <rdg wit="#CBL"> huy gʷəl  tušubəls kʷsi Mari gʷəɬ Sent-Ospli tusyayus. </rdg>
+              </app></l>
+          
+          <l n="4">
+              <app>
+                  <rdg wit="#Ch"> O tsi siam etc. </rdg>
+                  <rdg wit="#CBL"> O tsi siʔab Mari etc. </rdg>
+              </app></l>
+
+            
+          <l n="5">
+              <app>
+                  <rdg wit="#Ch"> Dea ched tsa, gwalh Sherk Siam stōdek. </rdg>
+                  <rdg wit="#CBL"> diʔaʔ čəd ʔəca gʷəɬ šəq siʔab studəq. </rdg>
+              </app></l>
+   
+          <l n="6">
+              <app>
+                  <rdg wit="#Ch"> Klob ched ŏōyiē atadsgwa adsōgwadgwad! O Tsisiam Mari, etc.</rdg>
+                  <rdg wit="#CBL"> ƛ'ub čəxʷ ƛ'uhuyil ʔəsʔistəʔ ʔə t(i) adsgʷaʔ adsugʷadgʷad. O tsi siʔab Mari etc.</rdg>
+              </app></l>
+          
+          <l n="7">
+              <app>
+                  <rdg wit="#Ch"> Tu ōǐ Asbiatz kwi gwalh sherkh-siam Beda. </rdg>
+                  <rdg wit="#CBL"> tuhuy ʔəsbiats kʷi gʷəɬ šəq siʔab bədaʔ </rdg>
+              </app></l>
+          
+          <l n="8">
+              <app>
+                  <rdg wit="#Ch"> Gulo ulohr Dēbalh kwe tosāăs. </rdg>
+                  <rdg wit="#CBL"> gʷəl ʔaləxʷ dibəɬ kʷi tusʔaʔs.  </rdg>
+              </app></l>
+          
+          <l n="9">
+              <app>
+                  <rdg wit="#Ch"> O Tsi siam, etc.</rdg>
+                  <rdg wit="#CBL"> O tsi siʔab Mari etc. </rdg>
+              </app></l>
+          
+          <l n="10">
+              <app>
+                  <rdg wit="#Ch"> St. Mali skoy ak Sherk-Siam ōtĕēchorh twal Sherk Siam twal Debalh! </rdg>
+                  <rdg wit="#CBL"> Sent-Mari skʼʷuy ʔə kʷi šəq siʔab ʔut'iwiɬ čəxʷ dxʷʔal di šəq siʔab dxʷʔal dibəɬ.</rdg>
+              </app></l>
+          
+          <l n="11">
+              <app>
+                  <rdg wit="#Ch"> Dilh tldahu hoyils tsoku kwi tlus kŭdāchelh gwal J.C. aldākham.</rdg>
+                  <rdg wit="#CBL"> diɬ ɬudxʷhuyils cukʷ kʷi ɬuskʷədadčəɬ gʷəɬ Shesu-Kri ʔaldaqəb. </rdg>
+              </app></l>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    
+    <!-- similar to Zenk's "Petit catéchisme des indiens", p. 416+ -->
+    
+    <body>
+      <p>LESSON I.</p>
+            
+      <l n="1">
+        <app>
+          <rdg wit="#Bo">Stab tihîlh Lebatem?</rdg>
+          <rdg wit="#BL">stab tiʔiɬ Lebatem.</rdg>   
+          <rdg wit="#LG">What is baptism?</rdg> 
+        </app></l>
+            
+          
+      <l n="2">
+          <app>
+            <rdg wit="#Bo">Tihîlh Lebatem dcho Sakrema o hoyud whe al debalh ku tskwadad tolal Adam eku boku tskwadad; </rdg>
+            <rdg wit="#BL">tiʔiɬ Lebatem dəč'uʔ Sakrema ʔuhuyud xʷiʔ ʔal dibəɬ kʷi ʤəkʼʷadad tulʼʔal Adam ʔi kʷi bəkʷ dᶻəkʼʷadad;</rdg>   
+            <rdg wit="#LG">Baptism is a sacrament that makes null for you the sin from Adam and all sin.</rdg> 
+        </app></l>
+            
+              
+      <l n="3">
+        <app>
+          <rdg wit="#Bo">al tihîlh Lebatem ku sasralchelh a ta gwalh Sherk-Siam eta gwalh leglis bedebeda sral; </rdg>
+          <rdg wit="#BL">ʔal tiʔiɬ Lebatem kʷi səsx̌alčəɬ ʔə tə gʷəl šəq siʔab ʔi tə gʷəɬ ləglis bədbədaʔ sx̌al; </rdg> 
+          <rdg wit="#LG">With baptism we mark ourselves as being of God and children of the Church.</rdg> 
+        </app></l>
+            
+                  
+      <l n="4">
+        <app>
+          <rdg wit="#Bo"> tsidîlh Lebatem o hoyutobolh kretia.</rdg>
+          <rdg wit="#BL">cədiɬ ləbatəm ʔuhuyutubuɬ kretia.</rdg>   
+          <rdg wit="#LG">Baptism makes us Christians.</rdg> 
+        </app></l>
+            
+                      
+      <l n="5">
+        <app>
+          <rdg wit="#Bo">2. Asared kwi stsagwaleku?</rdg>
+          <rdg wit="#BL">2. ʔəsʔəx̌id kʷi scʼagʷalikʷ?</rdg>   
+          <rdg wit="#LG">2. How is the washing?</rdg> 
+        </app></l>
+            
+                          
+      <l n="6">
+        <app>
+          <rdg wit="#Bo"> Abil leple otsagwaleku gula kwelhed ku kro aku tlewalh dhual ku sreyus, </rdg>
+          <rdg wit="#BL">ʔabilʼ leple ʔucʼagʷalikʷ gʷəl kʼʷəɬəd kʷi qʷuʔ ʔə kʷi tləwaɬ dxʷʔal kʷi sx̌əyʼus, </rdg>   
+          <rdg wit="#LG">When the priest baptizes he pours the water from the ?? onto the head</rdg>
+        </app></l>
+            
+                              
+      <l n="7">
+        <app>
+          <rdg wit="#Bo">gwagwadad askro aku astsut; </rdg>
+          <rdg wit="#BL">gʷəgʷadad ʔəsqʼʷuʔ ʔə kʷi ʔəscut;</rdg>   
+          <rdg wit="#LG">talking along with the saying;</rdg>
+        </app></l>
+            
+                                  
+      <l n="8">
+        <app>
+          <rdg wit="#Bo"> tsa otsagwatsid dgwe, dhual ksda aku Bad, eta Bedas, eta Sent-Ospli.</rdg>
+          <rdg wit="#BL">ʔəca ʔucʼagʷacid dəgʷi, dxʷʔal kʷi sdaʔ ʔə kʷi bad, ʔi tə bədaʔs, i tə Sent-Ospli.</rdg>
+          <rdg wit="#LG">I baptize you in the name of the Father, and the Son, and the Holy Spirit.</rdg>
+        </app></l>
+            
+                                      
+      <l n="9">
+        <app>
+          <rdg wit="#Bo">3. Abil gwat asra'tleldhu kwi gwas stsakus, gula asared kwi gwas krwebitsuts dhual stsaku? </rdg>
+          <rdg wit="#BL">3. ʔəbilʼ gʷat ʔəsx̌aƛ'ildxʷ kʷi gʷəscʼaʔkʷs, gʷəl ʔəsʔəx̌id kʷi gwəsqʷibicuc dxʷʔal cʼaʔkʷ.</rdg>   
+          <rdg wit="#LG">3. If someone wants baptism, then how do they prepare for baptism?</rdg>
+        </app></l>
+           
+                                         
+      <l n="10">
+        <app>
+          <rdg wit="#Bo">Abil gwat asra'tleldhu kwi gwas stsakus, gula tlo haidhu, </rdg>
+          <rdg wit="#BL"> ʔəbilʼ gʷat ʔəsx̌aƛ'ildxʷ kʷi gʷəscʼaʔkʷs, gʷəl ɬuhaydxʷ,</rdg>   
+          <rdg wit="#LG">If someone wants baptism, then they will find out,</rdg>
+        </app></l>
+            
+                                              
+      <l n="11">
+        <app>
+          <rdg wit="#Bo">gula tlo tleldhu gwalh Sherk-Siam sgwadgwad, </rdg>
+          <rdg wit="#BL">gʷəl ɬutɬildxʷ gʷəɬ šəq siʔab sgʷadgʷad,</rdg>   
+          <rdg wit="#LG">they will believe in God's sayings,</rdg>
+        </app></l>
+            
+                                                  
+      <l n="12">
+        <app>
+          <rdg wit="#Bo">gula tlo rahab dhual ku sgwas tskwadads, </rdg>
+          <rdg wit="#BL">gʷəl ɬǔx̌ahəb dxʷʔal kʷi sgʷaʔs dᶻəkʼʷadads,</rdg>   
+          <rdg wit="#LG">they will mourn for their own sins,</rdg>
+        </app></l>
+            
+                                                      
+      <l n="13">
+         <app>
+          <rdg wit="#Bo">gula tlo whobed aku tsoku ku boku sa; </rdg>
+           <rdg wit="#BL">gʷəl ɬuxʷəbəd ʔə kʷi cukʷ kʷi bəkʷ saʔ; </rdg>  
+           <rdg wit="#LG">they will discard all evil for ever;</rdg>
+        </app></l>
+            
+                                                          
+      <l n="14">
+        <app>
+          <rdg wit="#Bo">gula tlo tibitsut dhual kwi tlo tskwakred tlhdahu halhs.</rdg>
+          <rdg wit="#BL">gʷəl ɬutibicut  dxʷʔal kʷi ɬuckʼʷaqid tɬdəxʷ haʔɬs.</rdg>   
+          <rdg wit="#LG">then they will try hard to always believe in good.</rdg>
+        </app></l>
+            
+                                                              
+      <l n="15">
+        <app>
+          <rdg wit="#Bo">4. Abil o gwat otsaku, gula tlo whobed o ku lejob, eku gwalh lejob alalus?</rdg>
+          <rdg wit="#BL">4.  ʔəbilʼ ʔu  gʷat ʔucʼakʷ, gʷəl ɬuxʷəbəd ʔu kʷi lejob, ʔi kʷi gʷəɬ lejob ʔalalus?</rdg>   
+          <rdg wit="#LG">4. If someone is baptized, will the devil discard them, and the happenings (?) of the devil?</rdg>
+        </app></l>
+            
+                                                                  
+      <l n="16">
+        <app>
+          <rdg wit="#Bo">E, abil gwat otsaku, gula tlo whobed ku lejob, eku gwalh lejob alalus.</rdg>
+          <rdg wit="#BL">ʔə, ʔəbilʼ gʷat ʔucʼakʷ, gʷəl ɬuxʷəbəd kʷi lejob, ʔi kʷi gʷəɬ lejob ʔalalus.</rdg>   
+          <rdg wit="#LG">Yes, if someone is baptized, the devil will discard them, and the happenings (?) of the devil.</rdg>
+        </app></l>
+            
+                                                                      
+      <l n="17">
+        <app>
+          <rdg wit="#Bo">5. Astsut o kwi rech a kwi Sherk-Siam, dhual ku astsaku atsilhtalbihu</rdg>
+          <rdg wit="#BL">5. ʔ̌əscut ʔu kʷi x̌əč ʔə kʷi šəq siʔab, dxʷʔal kʷi ʔəscʼaʔkʷ ʔaciɬtalbixʷ</rdg>   
+        </app></l>
+     
+                                                                          
+      <l n="18">  
+        <app>         
+          <rdg wit="#Bo">gwas chalads halgwa gwalh Shesu-Kri rech eku gwalh Shesu-Kri alalus?</rdg>         
+          <rdg wit="#BL">gʷəsčalads həlgʷəʔ gʷəɬ Shesu-Kri  x̌əč ʔi kʷi gʷəɬ Shesu-Kri ʔalalus.</rdg>   
+        </app></l>
+            
+                                                                              
+      <l n="19">
+        <app>
+          <rdg wit="#Bo">E, astsut kwi rech a kwi Sherk-Siam, dhual ku astsaku atsilhtalbihu</rdg>
+          <rdg wit="#BL">  ʔi, ʔəscut kʷi x̌əč ʔə kʷi šəq siʔab, dxʷʔal kʷi ʔəscʼaʔkʷ ʔaciɬtalbixʷ </rdg>   
+        </app></l>
+            
+                                                                                  
+      <l n="20">
+        <app>
+          <rdg wit="#Bo">gwas chalads halgwa gwalh Shesu-Kri rech, eku gwalh Shesu-Kri alalus,</rdg>
+          <rdg wit="#BL">gʷəsčalads halgwa gʷəɬ Shesu-Kri x̌əč, ʔi kʷi gʷəɬ Shesu-Kri ʔalalus,</rdg>   
+        </app></l>
+            
+                                                                                      
+      <l n="21">
+        <app>
+          <rdg wit="#Bo">yare tu hoi kretia. </rdg>
+          <rdg wit="#BL">yəx̌i tuhuy kretia. </rdg>
+          <rdg wit="#LG">but made a Christian.</rdg>   
+        </app></l>
+            
+                                                                                          
+      <l n="22">
+        <app>
+          <rdg wit="#Bo">6. Kraalh o ku sp'tleltsob aku kretia? </rdg>
+          <rdg wit="#BL">6. croixaɬ ʔu kʷi sp̕əƛ'ilcəb ʔə kʷi kretia.</rdg>
+          <rdg wit="#LG">6. Does a Christian cross his torso?</rdg> 
+        </app></l>
+            
+                                                                                              
+      <l n="23">
+        <app>
+          <rdg wit="#Bo">E, kraal ku sp'tleltsob aku kretia, </rdg>
+          <rdg wit="#BL">ʔi, ?aal kʷi sp̕əƛ'ilcəb ʔə kʷi kretia , </rdg>  
+          <rdg wit="#LG">Yes, a Christian does cross his torso</rdg> 
+        </app></l>
+            
+                                                                                                  
+      <l n="24">
+        <app>
+          <rdg wit="#Bo">yare tihîlh sp'tleltsob aku kretia dahu aslardubs ku Sen-Trinite, </rdg>
+          <rdg wit="#BL">yəx̌i tiʔiɬ sp̕əƛ'ilcəb ʔə kʷi kretia dəxʷəslax̌dubs kʷi Sen-Trinite, </rdg>   
+          <rdg wit="#LG">but the feeling of the Christian is the way they remember the Holy Trinity,</rdg>
+        </app></l>
+            
+                                                                                                      
+      <l n="25">
+        <app>
+          <rdg wit="#Bo">eku gwalh Shesu-Kri tus skrpotobolhs al lekwe. </rdg>
+          <rdg wit="#BL">ʔi kʷi  gʷəɬ Shesu-Kri tusqəputubuɬs ʔal lekwe. </rdg>   
+          <rdg wit="#LG">and Jesus Christ's atonement for us on the cross,</rdg>
+        </app></l>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader><fileDesc>
+            <titleStmt>
+                <title>Versions of Act of Hope in Lushootseed</title>
+                <author> Dawn Bates and Deryle Lonsdale </author>
+                <respStmt><resp> Text Encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>Deryle Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without the explicit permission from the copyright holder. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+            <notesStmt>
+                <note anchored="true">This has two Romanized versions and our updated orthography.</note>
+                <!--             <note type="image">
+                    <witDetail wit="Ch" target="val">
+                    <figure entity="chirouse1"></figure>
+                    </witDetail>
+                    </note> -->
+            </notesStmt>
+            <sourceDesc><p>Source description</p>
+            </sourceDesc>
+        </fileDesc><encodingDesc> 
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc></teiHeader>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="Ch">Chirouse</witness>
+                    <witness xml:id="Bo">Boulet</witness>
+                    <witness xml:id="LB">Bates and Lonsdale</witness>
+                    <witness xml:id="CBL">Chirouse -- Bates and Lonsdale</witness>
+                </listWit>
+            </div>
+            
+            <!-- From: http://www.fisheaters.com/prayers.html#faith
+                O my God! relying on Thy infinite goodness and promises, 
+                I hope to obtain pardon of my sins, 
+                the help of Thy grace, and life everlasting, 
+                through the merits of Jesus Christ, my Lord and Redeemer. 
+            -->
+            
+        </front>
+        <body>
+            <l n="1">
+                <app>
+                    <rdg wit="#Ch">An act of hope </rdg>
+                    <rdg wit="#Bo">ACT OF HOPE</rdg>                  
+                    <rdg wit="#LB">ACT OF HOPE</rdg>
+                    <rdg wit="#CBL">An act of hope </rdg>
+                </app></l>
+            
+            <l n="2">
+                <app>
+                    <rdg wit="#Ch"> gwal lespelance siyayus: </rdg>
+                    <rdg wit="#Bo">Gwalh lespelans siayus.</rdg>
+                    <rdg wit="#LB">gʷəɬ lespelans syayus.</rdg>
+                    <rdg wit="#CBL"> gʷəɬ lespelans syayus</rdg>
+                </app></l>
+            
+            <l n="3">
+                <app>
+                    <rdg wit="#Ch">O Sherk Siam.</rdg>
+                    <rdg wit="#Bo">O Sherk-Siam</rdg>
+                    <rdg wit="#LB">ʔu šəq siʔab</rdg>
+                    <rdg wit="#CBL"> ʔu šəq siʔab </rdg>
+                </app></l>
+            
+            <l n="4">
+                <app>
+                    <rdg wit="#Ch">gwa alhdached altiswātērhtěn, </rdg>
+                    <rdg wit="#Bo">halh zelhched alti swatihuhted</rdg>
+                    <rdg wit="#LB">haʔɬ ʤəɬ čəd ʔal ti swatixʷtəd</rdg>
+                    <rdg wit="#CBL"> gʷəhaʔɬ ʤəɬ čəd ʔal ti swatixʷtəd </rdg>
+                </app></l>
+            
+            <l n="5">
+                <app>
+                    <rdg wit="#Ch"> atadsgwa alh tlas kwārhuăts, </rdg>
+                    <rdg wit="#Bo"> ata adsgwa halh adsokwawhats </rdg>
+                    <rdg wit="#LB"> ʔə tə adsgʷaʔ haʔɬ adsukʷaxʷats,</rdg>
+                    <rdg wit="#CBL"> ʔə ti adsgʷaʔ haʔɬ ɬadsukʷaxʷats,</rdg>
+                </app></l>
+            
+            <l n="6">
+                <app>
+                    <rdg wit="#Ch"> ii ched tlha orh durhsherkh, </rdg>
+                    <rdg wit="#Bo">hoi chida gwa orhahu duhsherk</rdg>
+                    <rdg wit="#LB">huy čəda gʷəʔux̌ʷəxʷ dxʷsšəq</rdg>
+                    <rdg wit="#CBL"> ʔi čəd ɬuʔuxʷ dxʷsšəq </rdg>
+                </app></l>
+            
+            <l n="7">
+                <app>
+                    <rdg wit="#Ch"> Rholum chorh (?)kto ogōssěm tă tsādělh tu chulad tadsgwa a shelrhachem,</rdg>
+                    <rdg wit="#Bo">rolab chahu aku tu ogussed ta tsahadilh tu  chalad ta adsgwa adsoogustobolh</rdg>
+                    <rdg wit="#LB">x̌ʷulʼab  čəxʷ ʔə kʷi ?? tə cəədiɬ tučalad t(i) adsgʷaʔ adsʔugʷustubuɬ</rdg>
+                    <rdg wit="#CBL"> x̌ʷulʼəb čəxʷ ʔə kʷi ʔugʷusəb tə cəədiɬ tučalad t(i) adsgʷaʔ adsčəɬ</rdg>
+                </app></l>
+            
+            <l n="8">
+                <app>
+                    <rdg wit="#Ch"> assut tedsgwa děrhăch twal ta atsgwa āssŏŏgŏstōbŏlh,</rdg>
+                    <rdg wit="#Bo"/>
+                    <rdg wit="#LB"/>
+                    <rdg wit="#CBL"> ʔəscut t(ə) adsgʷaʔ dx̌əč dxʷʔal t(ə) adsgʷaʔ ʔəsʔugʷustubuɬ,</rdg>
+                </app></l>
+            
+            <l n="9">
+                <app>
+                    <rdg wit="#Ch"> ema twalh J.C. toskhepōtōbŏlh. </rdg>
+                    <rdg wit="#Bo">eba dhual Shesu-Kri tu skropotobolhs.</rdg>
+                    <rdg wit="#LB">ʔibə dxʷʔal Shesu-Kri tusqəputubuɬs.</rdg>
+                    <rdg wit="#CBL"> ?i ??? dxʷʔal Shesu-Kri tusqəputubuɬ.</rdg>
+                </app></l>
+            
+            <l n="10">
+                <app>
+                    <rdg wit="#Ch"> Klob assista! </rdg>
+                    <rdg wit="#Bo">'Tlob asista.</rdg>
+                    <rdg wit="#LB">ƛ'ub ʔəsʔistəʔ.</rdg>
+                    <rdg wit="#CBL"> ƛ'ub ʔəsʔistəʔ.</rdg>
+                </app></l>
+  
+        </body>
+    </text>
+</TEI>

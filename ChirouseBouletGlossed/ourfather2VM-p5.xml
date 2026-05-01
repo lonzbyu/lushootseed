@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>The Lord's Prayer in Lushootseed</title>
+          <author> Dawn Bates and Deryle Lonsdale </author>
+          <respStmt><resp> Text Encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+      </titleStmt>
+      <publicationStmt><publisher>Deryle Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without the explicit permission from the copyright holder. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+        <notesStmt>
+            <note anchored="true">There are two versions of the Lord's Prayer in Romanized Lushootseed.</note>
+            <!--             <note type="image">
+                 <witDetail wit="Ch" target="val">
+                     <figure entity="chirouse1"></figure>
+                 </witDetail>
+                 </note> -->
+            <note type="image" anchored="true">
+                 <witDetail wit="#Ch" target="#2val" place="apparatus">
+                     <figure><graphic url="file:/C:/lonz/projects/lut-vmachine/v5.0/v-machine/Lushootseed/ChirouseBouletGlossed/chirouse1.jpg"/></figure>
+                <figure><graphic url="file:/C:/lonz/projects/lut-vmachine/v5.0/v-machine/Lushootseed/ChirouseBouletGlossed/chirouse2.jpg"/></figure>
+                 </witDetail>
+             </note> 
+        </notesStmt>
+        <sourceDesc><p>Source description</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+          <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc></teiHeader>
+  <text>
+      <front>
+          <div>
+              <listWit>
+                      <witness xml:id="Ch">Chirouse</witness>
+                      <witness xml:id="Bo">Boulet</witness>
+                      <witness xml:id="LB">Bates and Lonsdale</witness>
+               <witness xml:id="BHH">Lushootseed Dictionary, Bates, Hess and Hilbert (1994)</witness>
+                  <witness xml:id="TNP">Tridentine Notre Père</witness>
+                  <witness xml:id="CBL">Chirouse-Bates/Lonsdale</witness>
+                  <!--                    <witness sigil="BLtr">Rough gisted back-translation for Bates and Lonsdale</witness>
+                  -->             
+              </listWit>
+          </div>
+          
+      </front>
+      <body>
+          <l n="1">
+              <app>
+                  <rdg wit="#Ch">The Lord prayer.</rdg>
+                  <rdg wit="#Bo">OUR FATHER.</rdg>                  
+                  <rdg wit="#LB">gʷəɬ dibəɬ bad</rdg>
+                  <rdg wit="#BHH">gʷəɬ dibəɬ bad </rdg>
+                  <rdg wit="#TNP">Notre Père</rdg>
+                  <rdg wit="#CBL">The Lord's Prayer</rdg>
+              </app></l>
+            
+          <l n="2">
+              <app>
+                  <rdg wit="#Ch"> Gwalh<note type="gloss" anchored="true">of, belonging.to</note>" Debălh<note type="gloss" anchored="true">1p.pl.emphatic.pronoun</note> Ban<note type="gloss" anchored="true">father</note>, degwe<note type="gloss" anchored="true">2p.sg.emphatic.pronoun</note> ŭā<note type="gloss" anchored="true">be.there, be.in.existence</note><note type="critical" anchored="true">What's the ŭ here? Perhaps for the glottal onset (uncharacteristically). Wouldn't be the second ʔu entry in BHH, would it? (exclamatory interjection of pleasure or hesitation)??? </note>
+                      ăl<note type="gloss" anchored="true">on.along.in.through.at.when </note> kwē<note type="gloss" anchored="true">a.any(hypothetical,doubtful) </note> Shăkh<note type="gloss" anchored="true">high,up.in.the.air </note><note type="critical" anchored="true">Chirouse does not include the 'r' he almost always puts in this word.</note>! <note anchored="true">Note capitalization: probably influenced from the prayer's title "Pater Noster" or "Notre Père" or "Our Father".</note></rdg> 
+                  <rdg wit="#Bo">  Gwalh debalh Ban dgwe a al kwi sherk, <note anchored="true">Note capitalization: used in this ms. for sentence-initial words and names of diety.</note></rdg>
+                  <rdg wit="#LB">gʷəɬ dibəɬ bad dəgʷi ʔaʔ ʔal kʷi šəq, </rdg>
+                  <rdg wit="#BHH">(not in BHH)</rdg>
+                  <rdg wit="#TNP">Notre Père qui êtes aux cieux ;</rdg>
+                  <rdg wit="#CBL">gʷəɬ dibəɬ bad dəgʷi ʔa ʔal kʷi šəq, </rdg>
+                  </app></l>
+          
+          
+            
+          <l n="3">
+              <app>
+                  <rdg wit="#Ch"> Ălh<note type="gloss" anchored="true">good.nice.pretty.beautiful </note> kwe<note type="gloss" anchored="true">  a.any(hypothetical,doubtful)</note> gwas<note type="gloss" anchored="true">subjunctive-stative</note> oyotomsh<note type="gloss" anchored="true">-make-tr-pass-3S</note> lilzirhwalh<note type="gloss" anchored="true">by.what.route,located.where,by.what.means + first,before_(in.time/space)+good.nice.pretty.beautiful</note> tadsgwa<note type="gloss" anchored="true">non-contrastive.demonstrative+2p.sg.possessive+nominalizer+one's.own</note> atsda!</rdg>
+                  <rdg wit="#Bo"> halh kwi gwas hoyotobs lilhzihu alh ta adsgwa atsda. </rdg>
+                  <rdg wit="#LB">haʔɬ kʷi gʷəshuyutəbs liɬʤixʷ haʔɬ t(i) adsgʷaʔ ʔə tə sdaʔ. </rdg>
+                  <rdg wit="#BHH">haʔɬ kʷi gʷəshuyutəbs liɬʤixʷ haʔɬ ti adsgʷa ʔə tə sdaʔ. </rdg>
+                  <rdg wit="#TNP">Que votre nom soit sanctifié ;</rdg>
+                  <rdg wit="#CBL">haʔɬ kʷi gʷəshuyutəbs liɬʤixʷ haʔɬ t(i) adsgʷaʔ ʔə tə sdaʔ!</rdg>
+              </app></l>
+            
+          <l n="4">
+              <app>
+                  <rdg wit="#Ch"> Degwe gwa Serh-Siamchelh;</rdg>
+                  <rdg wit="#Bo"> dgwe gwa sihusiamchelh, </rdg>
+                  <rdg wit="#LB">dəgʷi gʷəsixʷsiʔab čəɬ, </rdg>
+                  <rdg wit="#BHH">(not in BHH)</rdg>
+                  <rdg wit="#TNP">Que votre règne arrive ;</rdg>
+                  <rdg wit="#CBL">dəgʷi gʷəsixʷsiʔab čəɬ, </rdg>
+              </app></l>
+            
+          <l n="5">
+              <app>
+                  <rdg wit="#Ch"> Ălh kwe gwa chālă tadsgwă adshelrachem, alte swatirten </rdg>
+                  <rdg wit="#Bo"> halh kwi gwas chalatobs ta adsgwa adschelhrachem alti swatihuhted, </rdg>
+                  <rdg wit="#LB">haʔɬ kʷi gʷəsčalatəbs t(i) adsgʷaʔ adsčəɬx̌əčəb ʔal ti swatixʷtəd, </rdg>
+                  <rdg wit="#BHH">haʔɬ kʷi gʷəsčalatəbs t(i) adsgʷaʔ ad(s)šəɬx̌əčəb ʔal ti swatixʷtəd </rdg>
+                  <rdg wit="#TNP">Que votre volonté soit faite sur la terre</rdg>
+                  <rdg wit="#CBL">haʔɬ kʷi gʷəčala t(i) adsgʷaʔ adsčəɬx̌əčəb ʔal tə swatixʷtəd, </rdg>
+              </app></l>
+            
+          <l n="6">
+              <app>
+                  <rdg wit="#Ch"> Rhōlăbă kw' ō-cha-lă tadsgwa adchel-rha-chem al de Sherk. </rdg>
+                  <rdg wit="#Bo">  rolab a tu chalad ta adsgwa adschelhrachem aldi sherk.</rdg>
+                  <rdg wit="#LB">x̌ʷulʼab ʔə tə čalad t(i) adsgʷaʔ adsčəɬx̌əčəb ʔal diʔ šəq.</rdg>
+                  <rdg wit="#BHH">x̌ʷulʼab ʔə təs(u)čalad t(i) adsgʷaʔ ad(s)šəɬx̌əčəb ʔal diʔ šəq.</rdg>
+                  <rdg wit="#TNP">comme au ciel.</rdg>
+                  <rdg wit="#CBL">x̌ʷulʼəb ʔə kʷ(iʔ)učala t(i) adsgʷaʔ ad(s)šəɬx̌əčəb ʔal diʔ šəq.</rdg>
+              </app></l>
+            
+          <l n="7">
+              <app>
+                  <rdg wit="#Ch"> Tēēlh sallhen chelh al mek slarhělh, ĭāmliētōbŏlh āltī slar(?). </rdg>
+                  <rdg wit="#Bo">  Tihilh sattledcbelh al ku boku slarêl adsabietobolh alti slarêl </rdg>
+                  <rdg wit="#LB">tiʔiɬ sʔəɬədčəɬ ʔal kʷi bəkʼʷ sləx̌il adsʔabyitubuɬ ʔal ti sləx̌il.</rdg>
+                  <rdg wit="#BHH">(not in BHH)</rdg>
+                  <rdg wit="#TNP">Donnez-nous aujourd'hui notre pain quotidien (or : de chaque jour).</rdg>
+                  <rdg wit="#CBL">tiʔiɬ sʔəɬədčəɬ ʔal bəkʼʷ sləx̌il ʔabyitubuɬ ʔal ti sləx̌il.</rdg>
+              </app></l>
+            
+          <l n="8">
+              <app>
+                  <rdg wit="#Ch"> Klob-chorh ǒrhŭbĭetobolh, uk-to skwadadchelh, </rdg>
+                  <rdg wit="#Bo">  'tlob chahu obalitsietobolh a tu tskwadadchelh, </rdg>
+                  <rdg wit="#LB">ƛ'ub čəxʷ ʔubalicyitubuɬ ʔə tə ʤəkʼʷadadcəɬ, </rdg>
+                  <rdg wit="#BHH">ƛ'ub čəxʷ ʔubaliicyitubuɬ ʔə tə ʤəkʼʷadadcəɬ </rdg>
+                  <rdg wit="#TNP">(Et) pardonnez-nous nos offenses,</rdg>
+                  <rdg wit="#CBL">ƛ'ub čəxʷ ʔuxʷəbyitubuɬ ʔə  kʷi ʤəkʼʷadadcəɬ, </rdg>
+              </app></l>
+            
+          <l n="9">
+              <app>
+                  <rdg wit="#Ch"> rhōlăbă kw' orhŭbĭechělh ă tă lălě assilhtamerh atodskwadad twal debalh. </rdg>
+                  <rdg wit="#Bo">  rolab a tas balitsiedchelh ta lale atsilhtalbihu a tu tskwadads dhual debalh, </rdg>
+                  <rdg wit="#LB">x̌ʷulʼab ʔə tə baliicyidčəɬ tə ləliʔ ʔaciɬtalbixʷ ʔə ti ʤəkʼʷadads dxʷʔal dibəɬ, </rdg>
+                  <rdg wit="#BHH">x̌ʷulʼab ʔə tə sbaliicyid čəɬ tə ləliʔ ʔaciɬtalbixʷ ʔə tə ʤə kʼʷadads dxʷʔal dibəɬ</rdg>
+                  <rdg wit="#TNP">comme nous pardonnons à ceux qui nous ont offensés.</rdg>
+                  <rdg wit="#CBL">x̌ʷulʼəb ʔə kʷi  ʔuxʷəbyitubuɬ ʔə tə ləliʔ ʔaciɬtalbixʷ ʔə tə ʤəkʼʷadad dxʷʔal dibəɬ. </rdg>
+              </app></l>
+            
+          <l n="10">
+              <app>
+                  <rdg wit="#Ch"> Klob chor otsellalektoboh twalh gwalh mok skwadad schassand, </rdg>
+                  <rdg wit="#Bo">  'tlob chahu otslalikutobolh dhual gwalh boku tskwadad schissâd,  </rdg>
+                  <rdg wit="#LB">ƛ'ub čəxʷ ʔuc̕əlalikʷtubuɬ dxʷʔal gʷəɬ bəkʼʷ ʤəkʼʷadad sčəsad,  </rdg>
+                  <rdg wit="#BHH">ƛ'ub čəxʷ ʔuc̕əlalikʷtubuɬ dxʷʔal gʷəɬ bəkʼʷ ʤəkʼʷadəd čəɬ </rdg>
+                  <rdg wit="#TNP">(Et) ne nous laissez pas succomber à la tentation. </rdg>
+                  <rdg wit="#CBL">ƛ'ub čəxʷ ʔuc̕əlalikʷtubuɬ dxʷʔal gʷəɬ bəkʼʷ ʤəkʼʷadad sčəsad,  </rdg>
+              </app></l>
+            
+          <l n="11">
+              <app>
+                  <rdg wit="#Ch"> gulo klob chorh ŏlēlto-bolh tolak mok sa! </rdg>
+                  <rdg wit="#Bo"> hoi chahu a tleltobolh tolal ku boku sa. </rdg>
+                  <rdg wit="#LB">huy čəxʷa ɬiltubuɬ tulʼʔal kʷi bəkʼʷ saʔ. </rdg>
+                  <rdg wit="#BHH">(not in BHH)</rdg>
+                  <rdg wit="#TNP">Mais délivrez-nous du mal.</rdg>
+                  <rdg wit="#CBL"> gʷəl ƛ'ub čəxʷ ʔuliltubuɬ tulʼʔal kʷi bəkʼʷ saʔ! </rdg>
+              </app></l>
+            
+          <l n="12">
+              <app>
+                  <rdg wit="#Ch"> Klob āssīstă!</rdg>
+                  <rdg wit="#Bo">  'Tlob asista. </rdg>
+                  <rdg wit="#LB">ƛ'ub ʔəsʔistəʔ.</rdg>
+                  <rdg wit="#BHH">ƛ'ub ʔəsʔistəʔ.</rdg>
+                  <rdg wit="#TNP">Ainsi soit-il.</rdg>
+                  <rdg wit="#CBL">ƛ'ub ʔəsʔistəʔ.</rdg>
+              </app></l>
+
+    </body>
+  </text>
+</TEI>

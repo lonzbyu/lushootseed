@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    
+    <!-- similar to Zenk's "Petit catéchisme des indiens", p. 420+ -->
+    
+    <body>
+      <p>LESSON IV.</p>
+        
+      <l n="1">
+        <app>
+          <rdg wit="#Bo">1.Stab tihîlh Lapelitas?  </rdg> 
+          <rdg wit="#BL">1. stab tiʔiɬ Lapelitas.</rdg>     
+          <rdg wit="#LG">1. What is penitenceʔ</rdg> 
+        </app></l>
+        
+          
+      <l n="2">
+        <app>
+          <rdg wit="#Bo">Tihîlh Lapelitas dcho Sakrema ohoyud whe gwalh kretia tskwadad.</rdg> 
+          <rdg wit="#BL">tiʔiɬ Lapelitas  dəč'uʔ Sakrema ʔuhuyud xʷiʔ gʷəɬ kretia dᶻəkʼʷadad.</rdg>   
+          <rdg wit="#LG">1. Penitence is a sacrament that makes null the sin of a Christian.</rdg> 
+        </app></l>
+        
+              
+      <l n="3">
+        <app>
+          <rdg wit="#Bo">2. Stab tihilh rarasmilalam?</rdg> 
+          <rdg wit="#BL">2. stab tiʔiɬ x̌ax̌a sbilʼʔallaʔəb.</rdg>  
+          <rdg wit="#LG">2. What is confessionʔ</rdg> 
+        </app></l>
+        
+                  
+      <l n="4">
+        <app>
+          <rdg wit="#Bo">Abil gwat kretia ohaidhuthu  ku leple aku boku tskwadads dahu hoyils whe ku tskwadads, gula dilh rarasmilalam.  </rdg> 
+          <rdg wit="#BL">ʔəbilʼ gʷat kretia ʔuhaydxʷtxʷ kʷi leple ʔə kʷi bəkʼʷ dᶻəkʼʷadads dəxʷhuyils xʷiʔ kʷi dᶻəkʼʷadads, gʷəl diɬ x̌ax̌a sbilʼʔallaʔəb.</rdg>    
+          <rdg wit="#LG">When a Christian makes known to the priest all of his sins in order to make null his sin, that is holy confession.</rdg>
+        </app></l> 
+        
+                      
+      <l n="5">
+        <app>
+          <rdg wit="#Bo">3. Asared kwi tla ad'skwebitsut dhual ku rarasmilalam?</rdg> 
+          <rdg wit="#BL">3. ʔəsʔəx̌id kʷi ɬadsqʷibcut dxʷʔal kʷi x̌ax̌a sbilʼʔallaʔəb.</rdg> 
+          <rdg wit="#LG">3. How do you prepare yourself for the holy confession?</rdg>
+        </app></l>
+        
+                          
+      <l n="6">
+        <app>
+          <rdg wit="#Bo">Zihu kwi tla dstehech dhual di Sherk-Siam, tlhdahu kwawhats, lakrahu ched tla eidhu, ched tla reched ku dtskwadad; </rdg> 
+          <rdg wit="#BL">dᶻixʷ kʷi ɬudstihič dxʷʔal diʔ šəq siʔab, tɬdxʷ kʷaxʷac, ???  čəd ɬuʔəydxʷ, čəd ɬux̌əčəd kʷi ddᶻəkʼʷadad;</rdg>   
+          <rdg wit="#LG">First you pray unto God, truly to take ??? I will make known, I will think about my sin;</rdg>
+        </app></l> 
+        
+                              
+      <l n="7">
+        <app>
+          <rdg wit="#Bo">al slewhatlels ched tla dhu stsotab al ku drech:</rdg> 
+          <rdg wit="#BL">ʔal sɬixʷaɬils čəd ɬudxʷscutəb ʔal kʷi dx̌əč:</rdg>     
+        </app></l>
+        
+                                  
+      <l n="8">
+        <app>
+          <rdg wit="#Bo">telh halh kwi Sherk-Siam ra'tltobsh ti tsa, </rdg> 
+          <rdg wit="#BL">təɬ haʔɬ kʷi šəq siʔab x̌̌aƛ'tubš ti ʔəca,</rdg>     
+          <rdg wit="#LG">truly good is my desire toward God </rdg> 
+        </app></l>
+        
+                                      
+      <l n="9">
+        <app>
+           <rdg wit="#Bo">whe la ra'tlthu kwi gwa desor dohugwad; </rdg> 
+          <rdg wit="#BL">xʷiʔ ləx̌̌aƛ'txʷ kʷi _gwadəsor_??? dəxʷʔugʷad; </rdg>     
+        </app></l>
+        
+                                          
+      <l n="10">
+        <app>
+          <rdg wit="#Bo">tor ched tu whobed ku sgwas schelhrechems, tu hoyilched sa, asaredched awa. </rdg> 
+          <rdg wit="#BL">tux̌ʷ čəd  tux̌ʷubəd kʷi sgʷaʔs sčəɬx̌əčəbs, tuhuyilčəd saʔ, ʔəsʔəx̌idčəd ʔəwʼə.</rdg>     
+        </app></l>
+        
+                                              
+      <l n="11">
+        <app>
+          <rdg wit="#Bo">Al sbosatlils ched tla rab dhual ku dsgwa dtskwadad, </rdg> 
+          <rdg wit="#BL">ʔal sbuusaɬils čəd ɬux̌aab dxʷʔal kʷi dsgʷaʔ dʤəkʼʷadad, </rdg>    
+          <rdg wit="#LG">On the fourth time I will cry because of my own sin. </rdg>    
+        </app></l> 
+        
+                                                  
+      
+      <l n="12">
+        <app>
+          <rdg wit="#Bo">ched tla s'tewielh aku gwalh soshababdhu siayus s'tewielh. </rdg> 
+          <rdg wit="#BL"> čəd ɬustʼiwiɬ ʔə kʷi gʷəɬ sʔušəbabdəxʷ syayus s'təwiəɬ. </rdg> 
+          <rdg wit="#LG">I will pray with a prayer for the workings of pity.</rdg>   
+        </app></l> 
+        
+                                                      
+      <l n="13">
+        <app>
+          <rdg wit="#Bo">Al stselatsatlils ched tla tehech dhual di Sherk-Siam tsahu milalam aku tsoku. </rdg> 
+          <rdg wit="#BL">ʔal scəlacaɬils čəd ɬutihič dxʷʔal diʔ šəq siʔab ʔəcaəxʷ bilʼʔallaʔəb ʔə kʷi cəkʷ.</rdg>   
+          <rdg wit="#LG">On the fifth time I will pray unto God for confession to be straight.</rdg> 
+        </app></l> 
+        
+                                                          
+      <l n="14">
+        <app>
+          <rdg wit="#Bo">4. Aschal kwi tla adsiayus aku tsoku dhual ku rarasmilalam?  </rdg> 
+          <rdg wit="#BL">4. ʔəsčal kʷi ɬuadsyayus ʔə kʷi cəkʷ dxʷʔal kʷi x̌ax̌a sbilʼʔallaʔəb.</rdg>
+          <rdg wit="#LG">4. How will you work correctly for your holy confession?</rdg>
+        </app></l>
+        
+                                                              
+      <l n="15">
+        <app>
+          <rdg wit="#Bo">Zihi kwi tlo dsrwelch chitebed aku leple; lakrahu ched tla p'tleltsob; </rdg> 
+          <rdg wit="#BL">dᶻixʷ kʷi ɬudsx̌əlč č'ítbid ʔə kʷi  leple;  lakrahu_??? čəd ɬup̕əƛ'ilcəb;</rdg>
+          <rdg wit="#LG">First I go aside and approach the priest; ??? I feel it </rdg>
+        </app></l> 
+        
+                                                                  
+      <l n="16">
+        <app>
+           <rdg wit="#Bo">al slewhatlels ched tla gwagwadad aku astsut: o dgwe debad leple,</rdg> 
+          <rdg wit="#BL">ʔal sɬixʷaɬils čəd ɬugʷagʷadad ʔə kʷi ʔəscut:  ʔu dəgʷi dəbad leple,</rdg>
+          <rdg wit="#LG">on the third time I will speak by saying: o father priest,</rdg>
+        </app></l>
+        
+                                                                      
+      <l n="17">
+        <app>
+          <rdg wit="#Bo">oshabits tsa, yare kra ta dtskwadad. </rdg> 
+          <rdg wit="#BL">ʔušəbic ʔəca, yəx̌i x̌aʔ tə ddᶻəkʼʷadad. </rdg> 
+          <rdg wit="#LG">Have pity on me, for great is my sin.</rdg>
+          </app></l>
+        
+                                                                          
+      <l n="18">
+        <app>
+          <rdg wit="#Bo">Al sbosatlels ched tla 'tewielh aku gwalh rarasmilalam s'tewielh, dhual tihîlh : </rdg> 
+          <rdg wit="#BL">ʔal sbuusaɬils čəd ɬut'iwiɬ ʔə kʷi gʷəɬ x̌ax̌a sbilʼʔallaʔəb st'iwiɬ, dxʷʔal tiʔiɬ :</rdg>
+          <rdg wit="#LG">On the fourth time I will pray the prayer of confession, i.e.,</rdg>
+        </app></l> 
+        
+                                                                              
+      <l n="19">
+        <app>
+          <rdg wit="#Bo">"Kra tu dtskwadad ate disduhspetêdegwasseb, ate disduhsgwadgwad ate disduhsiayus eba te wheladisduhsiayus." </rdg> 
+          <rdg wit="#BL"> "x̌aʔ tə ddᶻəkʼʷadad ʔə tə dsdəxʷspətidgʷasəb, ʔə tə dsdəxʷsgʷadgʷad ʔə tə dsdəxʷsyayus ʔibə tə xʷiʔlədsyayus."</rdg>     
+        </app></l>
+        
+                                                                                  
+      <l n="20">
+        <app>
+          <rdg wit="#Bo">Al stselatsatlels ched tla haidhuthu ku leple aku des hagwahu whe tla milalam. </rdg> 
+          <rdg wit="#BL">ʔal cəlacaɬils čəd ɬuhaydxʷtxʷ kʷi leple ʔə kʷi dshagʷəxʷ xʷiʔ ɬubilʼʔallaʔəb. </rdg>   
+          <rdg wit="#LG">On the fifth time I will make known to the priest how long I have not confessed (???).</rdg>
+        </app></l>
+        
+                                                                                      
+      <l n="21">
+        <app>
+          <rdg wit="#Bo">Al sielatsatlels ched tla haidhuthu ku leple aku tus hoyuds whe ku dtskwadad. </rdg> 
+          <rdg wit="#BL">ʔal syəlaʔcaɬils čəd ɬuhaydxʷtxʷ kʷi ləplə ʔə kʷi tushuyuds xʷiʔ kʷi ddᶻəkʼʷadad. </rdg>  
+          <rdg wit="#LG">On the sixth time I will make known to the priest how I will eliminate my sin.</rdg>
+        </app></l>
+        
+                                                                                          
+      <l n="22">
+        <app>
+          <rdg wit="#Bo">Al stsoksatlels ched tla haidhuthu ku leple aku tu dskrpaleku. </rdg> 
+          <rdg wit="#BL">ʔal c̕uʔkʷsaɬils čəd ɬuhaydxʷtxʷ kʷi ləplə ʔə kʷi tudsqəpalikʷ.</rdg>  
+          <rdg wit="#LG">On the seventh time I will make known to the priest my folly.</rdg>
+        </app></l>
+        
+                                                                                              
+      <l n="23">
+        <app>
+          <rdg wit="#Bo"> Al stkracheatlels ched tla haidhuthu leple aku tus balets ku dtskwadad, </rdg> 
+          <rdg wit="#BL"> ʔal stqačiʔaɬils čəd ɬuhaydxʷtxʷ ləplə ʔə kʷi tubalyic kʷi ddᶻəkʼʷadad, </rdg>
+          <rdg wit="#LG">On the eighth time I will make known to the priest the forgetting of my sin (??).</rdg>
+        </app></l> 
+        
+                                                                                                  
+      <l n="24">
+        <app>
+          <rdg wit="#Bo">hoi ched tla reched ku tlewo't dtskwadad.</rdg> 
+          <rdg wit="#BL">huy čəd ɬux̌əčəd kʷi  ɬu????? ddᶻəkʼʷadad.</rdg>     
+        </app></l>
+        
+                                                                                                      
+      <l n="25">
+        <app>
+          <rdg wit="#Bo">5. Tla asared kwi tla adsrached ku adtskwadad dhual leple?</rdg> 
+          <rdg wit="#BL">5. ɬuʔəsʔəx̌id kʷi ɬ(u)adsšačəd kʷi addᶻəkʼʷadad dxʷʔal leple.</rdg>     
+        </app></l>
+        
+                                                                                                          
+      <l n="26">
+         <app>
+           <rdg wit="#Bo">Zihu kwi tlo dselid ku dtskwadad, ched tla reched, lakrahu ched tla haidhuthu ku leple dhual tihîlh segwils ku dtskwadad, </rdg> 
+           <rdg wit="#BL">dᶻixʷ kʷi ɬudsʔilid kʷi ddᶻəkʼʷadad, čəd ɬux̌əčəd, lakrahu_??? čəd ɬuhaydxʷtxʷ kʷi leple dxʷʔal tih^iɬ_ səgwils_ kʷi ddᶻəkʼʷadad, </rdg>     
+        </app></l>     
+                                                                                                                  
+      <l n="28">
+        <app>
+          <rdg wit="#Bo">'tlalba asista dhual tihîlh sbibadels ku dtskwadad. </rdg>   
+          <rdg wit="#BL"> 'tlalba_ asista_ dxʷʔal tiʔiɬ sbibadəls_ kʷi ddᶻəkʼʷadad. </rdg>     
+        </app></l>
+        
+                                                                                                                      
+      <l n="29">
+         <app>
+           <rdg wit="#Bo"> Whe kwi tlo desyetseb aku pa'tla'tl aku boku stab kra; </rdg> 
+           <rdg wit="#BL">xʷiʔ kʷi ɬudsyəcəb ʔə kʷi pʼaƛʼaƛʼ ʔə kʷi bəkʼʷ stab x̌aʔ; </rdg> 
+           <rdg wit="#LG">I will not speak in vain of any thing ???</rdg>
+        </app></l>
+        
+                                                                                                                          
+      <l n="30">
+        <app>
+          <rdg wit="#Bo">gula whe kwi tlo desyetseb gwalh lale tskwadad.</rdg> 
+          <rdg wit="#BL">gʷəl xʷiʔ kʷi ɬudsyəcəb gʷəɬ ləliʔ dᶻəkʼʷadad.</rdg>     
+          <rdg wit="#LG">and I will not talk about others' sins.</rdg>
+        </app></l>
+        
+                                                                                                                              
+      <l n="31">
+        <app>
+          <rdg wit="#Bo">6. Abil tlo hoyahu kwi tla adsrached ku adstskwadad, </rdg> 
+          <rdg wit="#BL">6. ʔəbilʼ ɬuhuyəxʷ kʷi ɬ(u)adsx̌əčəd kʷi adsdᶻəkʼʷadad, </rdg>    
+        </app></l> 
+        
+                                                                                                                                  
+      <l n="32">
+        <app>
+          <rdg wit="#Bo">gula aschal kwi tlo adsgwagwadad ? </rdg> 
+          <rdg wit="#BL">gʷəl ʔəsčal kʷi ɬ(u)adsgʷagʷadad?</rdg>     
+        </app></l>
+        
+                                                                                                                                      
+      <l n="33">
+        <app>
+          <rdg wit="#Bo">Abil tlo hoyahu ku tlo desrached ku dtskwadad, </rdg> 
+          <rdg wit="#BL">abilʼ ɬuhuyəxʷ kʷi ɬ(u)dsx̌əčəd kʷi ddᶻəkʼʷadad, </rdg>    
+        </app></l> 
+        
+                                                                                                                                          
+      <l n="34">
+        <app>
+          <rdg wit="#Bo">ched tla gwagwadad aku astsut: </rdg> 
+          <rdg wit="#BL">čəd ɬ(u)gʷagʷadad ʔə kʷi ʔəscut :</rdg>    
+          <rdg wit="#LG">I will speak by saying this:</rdg>
+        </app></l> 
+        
+                                                                                                                                              
+      <l n="35">
+        <app>
+          <rdg wit="#Bo">dilh sbokrwels hahu ta aslarduhched dtskwadad, </rdg> 
+          <rdg wit="#BL">diɬ sbʷkšwəls_ hahu_ ta_ aslašduhčəd dsdᶻəkʼʷʷadad, </rdg>    
+        </app></l> 
+        
+                                                                                                                                                  
+      <l n="36">
+                                                                                                                                                    
+        <app>
+          <rdg wit="#Bo">ched atleba whobed kwa aswhalhched saidhu dtskwadad ; </rdg> 
+          <rdg wit="#BL">čəd atləba_ whʷbəd_ kwa_ aswhaɬčəd saidhu_ dsdᶻəkʼʷadad ; </rdg>    
+        </app></l> 
+        
+                                                                                                                                                      
+      <l n="37">
+        <app>
+          <rdg wit="#Bo">halh kwi gwa adsoshabits dgwe Sherk-Siam, </rdg> 
+          <rdg wit="#BL">haʔɬ kʷi gʷadsʔušabic dəgʷi šəq siʔab, </rdg>     
+          <rdg wit="#LG">it would be good if you, God, were to pity me, </rdg>     
+        </app></l>
+        
+                                                                                                                                                          
+      <l n="38">
+           <app>
+          <rdg wit="#Bo">eba dgwe debad leple halh kwi gwa adsoshabits, </rdg> 
+             <rdg wit="#BL">ʔibə dəgʷiʔ dbad leple haʔɬ kʷi gʷadsʔušabic,</rdg> 
+             <rdg wit="#LG">or if you, father priest, were to pity me, </rdg>  
+        </app></l> 
+        
+                                                                                                                                                              
+      <l n="39">
+         <app>
+            <rdg wit="#Bo">chahu tla haidhutobsh, asared kwi tlo dskrpaleku; </rdg> 
+           <rdg wit="#BL">čəxʷ ɬuhaydxʷtubš,  ʔəsʔəx̌id kʷi ɬudsqəpalikʷ;</rdg>     
+         </app></l>
+        
+                                                                                                                                                                  
+      <l n="40">
+        <app>
+          <rdg wit="#Bo">'tlob chahu ohoyud  whe ku dtskawdad, abil as astsut ku adrechbits. </rdg> 
+          <rdg wit="#BL">ƛʼub čəxʷ ʔuhuyud xʷiʔ kʷi ddᶻkawdad, abilʼ as_ astsut_ kʷi adx̌əčbic.</rdg>
+          <rdg wit="#LG">it would be good if you were to make null my sin, ??????? </rdg> 
+        </app></l> 
+        
+                                                                                                                                                                      
+      <l n="41">
+        <app>
+          <rdg wit="#Bo">Lakrahu ched tla orthu tihîlh : "ate dsgwa askrop drech."  </rdg> 
+            <rdg wit="#BL">lakra hu_ čəd tla_ ʷšthu_ tiʔiɬ ƛʼ_ "atə_ dsgʷaʔ askšʷp_ dx̌əč." </rdg>    
+           </app></l> 
+        
+                                                                                                                                                                          
+      <l n="42">
+        <app>
+          <rdg wit="#Bo">Hoi chida tla astlabot aku tsoku, </rdg> 
+          <rdg wit="#BL">huy čəda tla_ astlabʷt_ ʔə kʷi cukʷ,</rdg>     
+        </app></l>
+        
+                                                                                                                                                                              
+      <l n="43">
+          <app>
+            <rdg wit="#Bo">tlo abietebad aku leple aku dsahukrpaleku, </rdg> 
+            <rdg wit="#BL"> ɬuʔabyitəbad ʔə kʷi leple ʔə kʷi dsəxʷqəpalikʷ, </rdg>     
+        </app></l>
+        
+                                                                                                                                                                                  
+      <l n="44">
+         <app>
+             <rdg wit="#Bo">ched tla dgwad al ta drech ku gwalh leple tlus dhudgwets, </rdg> 
+           <rdg wit="#BL">čəd ɬudgʷad ʔal tə dx̌əč kʷi gʷəɬ leple ɬusdxʷhudəgʷic, </rdg>     
+        </app></l>
+        
+                                                                                                                                                                                      
+      <l n="45">
+        <app>
+          <rdg wit="#Bo">abie tlo hoyahu ku tlo dsdhudgwetob aku leple, </rdg> 
+          <rdg wit="#BL">abiə_ ɬuhuyahəxʷ kʷi ɬudsdhudəgʷitəb ʔə kʷi  ləplə ,</rdg>     
+        </app></l>
+        
+                                                                                                                                                                                          
+      <l n="46">
+        <app>
+          <rdg wit="#Bo">ched tla rabthu ti drech, ched tla elid ku gwalh soshababdhu siayus s'tewielh.  </rdg> 
+          <rdg wit="#BL"> čəd ɬux̌aabtxʷ ti dx̌əč, čəd ɬuʔilid kʷi gʷəɬ sʔušəbabdxʷ syayus stʼiwiɬ.</rdg>     
+        </app></l>
+        
+                                                                                                                                                                                              
+      <l n="47">
+        <app>
+          <rdg wit="#Bo">Lakrahu ched tla welekr dhual leple, gwa ohoyud as whe ku dtskwadad.</rdg> 
+          <rdg wit="#BL"> _ lakšahu_ čəd ɬuwiliqʼʷ dxʷʔal leple, gʷəʔuhuyudəs xʷiʔ kʷi ddᶻəkʼʷadad.</rdg>    
+        </app></l> 
+        
+                                                                                                                                                                                                  
+      <l n="48">
+        <app>
+          <rdg wit="#Bo">7.  Abil leple tlo tsotbitsid ohoyahu chahu, chahu tlo aredahu?</rdg> 
+          <rdg wit="#BL">7. ʔəbilʼ leple ɬucutəbicid ʔuhuyəxʷ čəxʷ, čəxʷ ɬuʔəx̌idəxʷʔ</rdg>    
+        </app></l> 
+        
+                                                                                                                                                                                                      
+      <l n="49">
+        <app>
+          <rdg wit="#Bo">Abil leple tlo tsotbsh ohoyahu chahu, ched tla or,</rdg> 
+          <rdg wit="#BL">ʔəbilʼ ləplə ɬucutəbš ʔuhuyəxʷ čəxʷ, čəd ɬuʔux̌ʷ,</rdg>     
+        </app></l>
+        
+                                                                                                                                                                                                          
+      <l n="50">
+        <app>
+          <rdg wit="#Bo">ched tla gwagwadad aku masi dhual ku Sherk-Siam, </rdg> 
+          <rdg wit="#BL">čəd ɬugʷagʷadad ʔə kʷi masi dxʷʔal kʷi šəq siʔab,</rdg>    
+          <rdg wit="#BL">I will speak of mercy to God</rdg>  
+        </app></l>
+        
+                                                                                                                                                                                                              
+      <l n="51">
+        <app>
+          <rdg wit="#Bo">ched tla 'tehech dhual di Sherk-Siam, </rdg> 
+          <rdg wit="#BL">čəd ɬutihič dxʷʔal diʔ šəq siʔab, </rdg>     
+        </app></l>
+        
+                                                                                                                                                                                                                  
+      <l n="52">
+        <app>
+          <rdg wit="#Bo">tlhtsahu kwerkrwel, hoi ched tla hoyud tsoku ku tu dskrpalekutob aku leple. </rdg> 
+          <rdg wit="#BL">tɬ ʔəcaəxʷ qʷiqʼʷil, huy čəd ɬuhuyud cəkʷ kʷi tudsqəpalikʷtub ʔə kʷi leple.</rdg>     
+        </app></l>
+        
+                                                                                                                                                                                                                      
+      <l n="53">
+         <app>
+           <rdg wit="#Bo"> Aku tlo dspetêdegwasseb dhual di Sherk-Siam, </rdg> 
+           <rdg wit="#BL">ʔə kʷi ɬudspətidgʷasəb dxʷʔal diʔ šəq siʔab,</rdg>     
+        </app></l>
+        
+                                                                                                                                                                                                                          
+      <l n="54">
+         <app>
+          <rdg wit="#Bo">gula whe la halh kwi gwa dsbahatsut. </rdg> 
+          <rdg wit="#BL">gʷəl xʷiʔ ləhaʔɬ kʷi gʷə dsbahatcut.</rdg>    
+        </app></l> 
+
+    </body>
+  </text>
+</TEI>

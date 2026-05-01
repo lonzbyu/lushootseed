@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader><fileDesc>
+      <titleStmt>
+        <title>Act of Contrition in Lushootseed</title>
+          <author> Dawn Batəs and Deryle Lonsdale </author>
+          <respStmt><resp> Text encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+      </titleStmt>
+      <publicationStmt><publisher>Derylə Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without explicit permission from the copyrght holders. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+        <notesStmt>
+            <note anchored="true">These are two versions of thə Lord's Prayer in  Romanized Lushootseed.</note>
+        </notesStmt>
+        <sourceDesc><p>Source description</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+          <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc></teiHeader>
+  <text>
+      <front>
+          <div>
+              <listWit>
+                      <witness xml:id="Ch">Chirouse</witness>
+                      <witness xml:id="Bo">Boulet</witness>
+                      <witness xml:id="LB">Bates and Lonsdale</witness>
+                      <witness xml:id="CBL">Chirouse -- Bates and Lonsdale</witness>
+              </listWit>
+          </div>
+      </front>
+      
+      <body style="font-family:'arial unicode ms'">
+          <l n="1">
+              <app>
+                  <rdg wit="#Ch">An act of contrition:</rdg>
+                  <rdg wit="#Bo">ACT OF CONTRITION.</rdg>                  
+                  <rdg wit="#LB">ACT OF CONTRITION.</rdg>
+                  <rdg wit="#CBL">An act of contrition:</rdg>
+              </app></l>
+            
+          <l n="2">
+              <app>
+                  <rdg wit="#Ch"> Gwalh cont. siayus</rdg> 
+                  <rdg wit="#Bo">Gwalh soshababdhu siayus.</rdg>
+                  <rdg wit="#LB">gʷəɬ ʔušəbabdxʷ syayus.</rdg>
+                  <rdg wit="#CBL">  gʷəɬ ʔušəbabdxʷ syayus </rdg>
+          </app></l>
+            
+          <l n="3">
+              <app>
+                  <rdg wit="#Ch"> O Sherkh Siam, ik tēso rhāām A təs ūŏyūtsǐd sa te degwe, </rdg>
+                  <rdg wit="#Bo">O Sherk-Siam heku ti dsorab ati dsohoyutsid sa te dgwe</rdg>
+                  <rdg wit="#LB">ʔu šəq siʔab hikʷ ti dsʔux̌ʷəb ʔə ti dshuyucid saʔ tə dəgʷi</rdg>
+                  <rdg wit="#CBL"> O šəq siʔab hikʷ ti dsx̌ʷahəb ʔə ti ʔuhuyutcid saʔ tə dəgʷi</rdg>
+              </app></l>
+            
+          <l n="4">
+              <app>
+                  <rdg wit="#Ch"> yerhé dāyāǐ dəgwə kwə lilxʷ̌i šh alh twalh mok slamskwākhĕd,</rdg>
+                  <rdg wit="#Bo">yarə dayai dgwe kwi lilhzihu halh dhual boku stab tskwakrəd,</rdg>
+                  <rdg wit="#LB">yəx̌̌i dayʼayʼdəgʷi kʷi liɬʤixʷ haʔɬ dxʷʔal bəkʼʷ stab ckʼʷaqid,</rdg>
+                  <rdg wit="#CBL"> yəx̌̌i dayʼayʼdəgʷi kʷi liɬʤixʷ haʔɬ dxʷʔal bəkʼʷ stab ckʼʷaqid, </rdg>
+              </app></l>
+   
+          <l n="5">
+              <app>
+                  <rdg wit="#Ch"> Dayāǐ degwe w šh šhātlēldu, Dəgwə kw äxʷ̌ēlĕd kw āsdŏk.</rdg>
+                  <rdg wit="#Bo">dayai dgwe ku asratlelduched, dgwe kwaaszilid kwaasdoku.</rdg>
+                  <rdg wit="#LB">dayʼayʼ dəgʷi kʷi  ʔəsx̌aƛ'ildxʷ čəd, dəgʷi kʷi ʔəsʤilid kʷi ʔəsdukʷ.</rdg>
+                  <rdg wit="#CBL"> dayʼayʼ dəgʷi ???,   dəgʷi kʷi ??? kʷi ʔəsdukʷ.</rdg>
+              </app></l>
+            
+          <l n="6">
+              <app>
+                  <rdg wit="#Ch"> O Sherkh Siam abel chorh tlo kwarwatsem, </rdg>
+                  <rdg wit="#Bo">O Sherk-Siam abil chahu tlo kwawhats</rdg>
+                  <rdg wit="#LB">ʔu šəq siʔab ʔəbilʼ čəxʷ ɬukʷaxʷacəb</rdg>
+                  <rdg wit="#CBL"> O šəq siʔab ʔəbilʼ čəxʷ ƛ'u kʷaxʷacəb</rdg>
+              </app></l>
+
+          <l n="7">
+              <app>
+                  <rdg wit="#Ch">tlha wēlakudad k tods kwadad,  </rdg>
+                  <rdg wit="#Bo">chida whe ahu tla kudad ku tu dtskwadad</rdg>
+                  <rdg wit="#LB">čəda xʷiʔəxʷ ɬukʷədad kʷi tuʤəkʼʷadad </rdg>
+                  <rdg wit="#CBL"> čəda xʷiʔəxʷ ɬukʷədad kʷi tudskʷədad </rdg>
+              </app></l>
+ 
+          <l n="8">
+              <app>
+                  <rdg wit="#Ch">chəd tla khĕpālĕk k todskwadad.</rdg>
+                  <rdg wit="#Bo">chida tlo krpalekw atu tskwadad.</rdg>
+                  <rdg wit="#LB">čəda ɬuqəpalikʷ ʔə tuʤəkʼʷadad.</rdg>
+                  <rdg wit="#CBL">čəda xʷiʔəxʷ ɬukʷədad kʷi tudskʷədad </rdg>
+              </app></l>
+ 
+          <l n="9">
+              <app>
+                  <rdg wit="#Ch"> Klob assista!</rdg>
+                  <rdg wit="#Bo"> 'Tlob asista. </rdg>
+                  <rdg wit="#LB"> ƛ'ub ʔəsʔistəʔ.</rdg>
+                  <rdg wit="#CBL"> ƛ'ub ʔəsʔistəʔ.</rdg>
+              </app></l>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    
+    <!-- similar to Zenk's "Petit catéchisme des indiens", 7e leçon -->
+    
+    <body>
+        <p>LESSON VIII. </p>
+            
+      <l n="1">
+        <app>
+          <rdg wit="#Bo">1. Tlo asared gwalh atsilhtalbihu tsokwab al ku tlus atebeds?</rdg>
+          <rdg wit="#BL">1. ɬuʔəsʔəx̌̌id gʷəɬ ʔaciɬtalbixʷ cʼukʼʷəb ʔal kʷi ɬusʔatəbəds. </rdg>
+          <rdg wit="#LG">1. What happens to a person's body when they die?</rdg>
+        </app></l>
+            
+          
+      <l n="2">
+        <app>
+          <rdg wit="#Bo"> Abil tlo atebed ku atsilhtalbihu gula tlo hoyil swatihuhted ku tsokwab halgwa.</rdg>
+          <rdg wit="#BL">ʔəbilʼ ɬuʔatəbəd kʷi ʔaciɬtalbixʷ gʷəl ɬuhuyil swatixʷtəd kʷi cʼukʼʷəb həlgʷəʔ.</rdg>
+          <rdg wit="#LG">When a person dies their body becomes earth.</rdg>
+        </app></l>
+      
+              
+      <l n="3">
+        <app>
+          <rdg wit="#Bo">2. Duhchad kwi tlus ors gwelh atsilhtalbihu sele al ku tlus atebeds ?</rdg>
+          <rdg wit="#BL">2. dxʷčad kʷi ɬusʔux̌ʷs gʷəɬ ʔaciɬtalbixʷ shəliʔ ʔal kʷi ɬusʔatəbəds.</rdg>
+          <rdg wit="#LG">2. Where does a person's soul go when they die?</rdg>
+        </app></l>
+            
+                  
+      <l n="4">
+        <app>
+          <rdg wit="#Bo">Gwalh atsilhtalbihu sele, al ku tlus atebeds, tlo orduhsherk dididiecho, tlo or dhual pikatwar dididiecho, tlo orduhgwed dididiecho.</rdg>
+          <rdg wit="#BL">gʷəɬ ʔaciɬtalbixʷ shəliʔ, ʔal kʷi ɬusʔatəbəds?, ɬuʔux̌ʷdxʷšəq  dididč'uʔ, ɬuux̌ʷ dxʷʔal pikatwar dididč'uʔ, ɬuʔux̌ʷdxʷgʷəd  dididč'uʔ.</rdg>
+          <rdg wit="#LG">A person's soul, when they die, ascends (to heaven), or goes to purgatory, or goes down (to hell)</rdg>
+        </app></l>         
+                                  
+      <l n="8">
+        <app>
+          <rdg wit="#Bo">3. Gwalh gwat sele tlo orduhsherk?</rdg>
+          <rdg wit="#BL">3. gʷəɬ gʷat shəliʔ ɬuʔux̌ʷdxʷšəq.</rdg>
+          <rdg wit="#LG">3. Whose soul goes ascends (to heaven)?</rdg>
+        </app></l>
+            
+                                      
+      <l n="9">
+        <app>
+          <rdg wit="#Bo">Gwalh telh halh atsilhtalbihu sele, tlo orduhsherk.</rdg>
+          <rdg wit="#BL">gʷəɬ təɬ haʔɬ ʔaciɬtalbixʷ shəliʔ, ɬuʔux̌ʷdxʷšəq.</rdg>
+          <rdg wit="#LG">The souls of truly good people ascend (to heaven)</rdg>
+         </app></l>
+            
+                                          
+      <l n="10">
+         <app>
+          <rdg wit="#Bo">4. Gwalh gwat sele tlo or dhual pikatwar?</rdg>
+           <rdg wit="#BL">4. gʷəɬ gʷat shəliʔ ɬuʔux̌ʷ dxʷʔal pikatwar.</rdg>
+           <rdg wit="#LG">4. Whose soul goes to purgatory?</rdg>
+        </app></l>
+            
+                                              
+      <l n="11">
+         <app>
+           <rdg wit="#Bo">Gwalh boku sele, abil whe tla as hoyalh skrpaleku gula dilh tlo or dhual pikatwar; </rdg>
+           <rdg wit="#BL">gʷəɬ bəkʼʷ shəliʔ, ʔəbilʼ xʷiʔ ɬəshuyaɬ sqəpalikʷ gʷəl diɬ ɬuʔux̌ʷ dxʷʔal pikatwar;</rdg>
+           <rdg wit="#LG">The souls of all those who have not been redeemed are they who go to purgatory;</rdg>
+         </app></l>                                       
+      
+      <l n="13">
+         <app>
+           <rdg wit="#Bo">abil tla as hoyalh skrpaleku gula dilh tlo orduhsherk.</rdg>
+           <rdg wit="#BL">ʔəbilʼ ɬ(u)əshuyaɬ sqəpalikʷ gʷəl diɬ ɬuʔux̌ʷdxʷšəq.</rdg>
+           <rdg wit="#LG">If they ????? they ascend (to heaven).</rdg>
+        </app></l>
+                                                                        
+      <l n="15">
+        <app>
+          <rdg wit="#Bo">5. Gwalh gwat sele ku tlo orduhgwed? </rdg>
+          <rdg wit="#BL">5. gʷəɬ gʷat shəliʔ kʷi ɬuʔux̌ʷdxʷgʷəd.</rdg>
+          <rdg wit="#LG">5. Whose soul descends (to hell)?</rdg>
+        </app></l>
+            
+                                                                  
+      <l n="16">
+        <app>
+          <rdg wit="#Bo">Abil gwat a ku duhsatebedid ku sele tskwadads gula dilh tlo orduhgwed, dhual ku rarahud.</rdg>
+          <rdg wit="#BL">ʔəbilʼ gʷat ʔaʔ kʷi dxʷsatəbədid kʷi shəliʔ dᶻəkʼʷadads gʷəl diɬ ɬuʔux̌ʷdxʷgʷəd, dxʷʔal kʷi x̌aʔx̌aʔhud.</rdg>
+          <rdg wit="#LG">It someone has at death a sinful soul they are who descend to mighty fire.</rdg>
+        </app></l>      
+                                                                              
+      <l n="19">
+        <app>
+          <rdg wit="#Bo">6. Tlo tlhchil o ku Shesu-Kri tla chelhrachem dhual ku hellele atsilhtalbihu eku tu atebed?</rdg>
+          <rdg wit="#BL">6. ɬuɬčil ʔu kʷi Shesu-Kri ɬučəɬx̌əčəb dxʷʔal kʷi həlhəliʔ ʔaciɬtalbixʷ ʔə kʷi tuʔatəbəd.</rdg>
+          <rdg wit="#LG">6. Will Jesus Christ come ??? ? to the living people and those who have died?</rdg>
+        </app></l>
+                                                                                      
+      <l n="21">
+        <app>
+          <rdg wit="#Bo">E, tlo tlhchil ku Shesu-Kri tla chelhrachem dhual ku hellele atsilhtalbihu eku tu atebed.</rdg>
+          <rdg wit="#BL">ʔi, ɬuɬčil  kʷi Shesu-Kri ɬučəɬx̌əčəb dxʷʔal kʷi həlhəliʔ ʔaciɬtalbixʷ ʔi kʷi tuʔatəbəd.</rdg>
+          <rdg wit="#LG">Yes, Jesus Christ will come ??? to the living people and those who have died?</rdg>
+        </app></l>
+                                                                                              
+      <l n="23">
+        <app>
+          <rdg wit="#Bo">7. Tlo aretob aku Shesu-Kri ku halh atsilhtalbihu al ku tlo tlhchils?</rdg>
+          <rdg wit="#BL">7. ɬuʔəx̌itəb ʔə kʷi Shesu-Kri kʷi haʔɬ ʔaciɬtalbixʷ ʔal kʷi ɬuɬčils?</rdg>
+          <rdg wit="#LG">What will Jesus Christ do with the good people when he comes?</rdg>
+        </app></l>
+                                                                                       
+      <l n="24">
+        <app>
+          <rdg wit="#Bo">Tlo tlhchil ku Shesu-Kri tlo palild ku halh atsilhtalbihu lilhzihu tlo halh halgwa </rdg>
+          <rdg wit="#BL">ɬuɬčil kʷi Shesu-Kri ɬup̕alild kʷi haʔɬ ʔaciɬtalbixʷ liɬdᶻixʷ ɬuhaʔɬ həlgʷəʔ </rdg>
+          <rdg wit="#LG">When Jesus Christ comes he will resurrect the good people because of their goodness</rdg>
+        </app></l>
+            
+                                                                                                      
+      <l n="25">
+        <app>
+          <rdg wit="#Bo">gula tsid^ilh Shesu-Kri tlo orthu ta tsahadilh duhsherk. </rdg>
+          <rdg wit="#BL">gʷəl cədiɬ  Shesu-Kri  ɬuʔux̌ʷtxʷ tə cəədiɬ dəxʷšəq. </rdg>
+          <rdg wit="#LG">then that Jesus Christ will make them ascend to heaven.</rdg>
+        </app></l>
+            
+                                                                                                          
+      <l n="26">
+        <app>
+          <rdg wit="#Bo">8. Tlo aretob a Shesu-Kri ku sa atsilhtalbihu al ku tlus tlhchils?</rdg>
+          <rdg wit="#BL">8. ɬuʔəx̌itub ʔə  Shesu-Kri kʷi saʔ ʔaciɬtalbixʷ ʔal kʷi ɬusɬčils</rdg>
+          <rdg wit="#LG">What will Jesus Christ do with the bad people when he comes?</rdg>
+         </app></l>
+            
+                                                                                                              
+      <l n="27">
+        <app>
+          <rdg wit="#Bo">Al ku tlus tlhchils ku Shesu-Kri gula tlo krotsut gwalh sa atsilhtalbihu sele dhual ku tsokwabs halgwa, lilhzihu tlo sa halgwa, </rdg>
+          <rdg wit="#BL">ʔal kʷi ɬusɬčils kʷi  Shesu-Kri gʷəl ɬuqʼʷuʔtcut gʷəɬ saʔ ʔaciɬtalbixʷ shəliʔ dxʷʔal kʷi cʼukʼʷəbs həlgʷə, liɬdᶻixʷ ɬusaʔ həlgʷəʔ, </rdg>
+          <rdg wit="#LG">When Jesus Christ comes he will resurrect the good people because of their goodness</rdg>
+        </app></l>
+
+                                                                              
+      <l n="29">
+        <app>
+          <rdg wit="#Bo">gula tsid^ilh Shesu-Kri tlo orwid ta tsahadilh dhual hud, dhual kwi tlo tskwakred.</rdg>
+          <rdg wit="#BL">gʷəl cədiɬ Shesu-Kri ɬuʔux̌ʷid tə cəədiɬ dxʷʔal hud, dxʷʔal kʷi ɬuckʼʷaqid.</rdg>
+        </app></l>
+
+
+    </body>
+  </text>
+</TEI>

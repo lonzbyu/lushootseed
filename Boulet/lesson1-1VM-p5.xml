@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+        <respStmt>
+          <resp></resp>
+          <persName></persName>
+        </respStmt>
+        <sponsor>
+          <orgName></orgName>
+        </sponsor>
+        <funder>
+          <orgName></orgName>
+        </funder>
+        <principal>
+          <persName></persName>
+        </principal>
+      </titleStmt>
+      
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp></resp>
+          <persName></persName>
+          <orgName></orgName>
+        </respStmt>
+      </editionStmt>
+      
+      <extent/>
+      
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      
+      <notesStmt>
+        <note/>
+      </notesStmt>
+      
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+      
+    </fileDesc>
+    
+    <encodingDesc> 
+      <projectDesc><p/></projectDesc>
+      <samplingDecl><p/></samplingDecl>
+      <editorialDecl><p/>
+        <correction><p/></correction>
+        <normalization><p/></normalization>
+        <quotation><p/></quotation>
+        <hyphenation><p/></hyphenation>
+      </editorialDecl>
+      
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="dz">
+          <glyphName>LUSHOOTSEED LIGATURE SMALL D AND SUPERSCRIPT Z</glyphName>
+        </glyph>
+      </charDecl>
+      
+      <classDecl>
+        <taxonomy></taxonomy>
+      </classDecl>
+      
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+      
+    </encodingDesc>
+  </teiHeader>
+  
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    <body>
+        <p>LESSON 1. </p>
+          
+          <l n="1">
+            <app>
+              <rdg wit="#Bo">1. A, o, askro kwi boku gwalh Sherk-Siam sgwadgwad al ku astlelduhched s'tewielh? </rdg>                  
+              <rdg wit="#BL">1. ʔa ʔu ʔəsqʼʷuʔ kʷi bəkʼʷ gʷəɬ šəq siʔab sgʷadgʷad ʔal kʷi ʔəstɬildxʷčəd stʼiwiɬ.</rdg>
+              <rdg wit="#LWG">1. is Q gather the all from sky nobleman talk+talk in the believing+I religion</rdg>
+              <rdg wit="#LG">1. Is there a collection of all the sayings from God in the religion that I believe in?</rdg>
+            </app></l>
+            
+      <l n="2">
+        <app>
+          <rdg wit="#Bo">E, a, askro kwi boku gwalh Sherk-Siam sgwadgwad al ku astelduhched s'tewielh.</rdg>
+          <rdg wit="#BL">ʔi,  ʔa ʔəsqʼʷuʔ kʷi bəkʼʷ gʷəɬ šəq siʔab sgʷadgʷad ʔal kʷi  ʔəstɬildxʷčəd stʼiwiɬ.</rdg>
+         <rdg wit="#LWG">yes, is gather the all from sky nobleman talk+talk in the believing+I religion</rdg>
+          <rdg wit="#LG">Yes, there is a collection of all the sayings from God in the religion that I believe in.</rdg>
+        </app></l>        
+      
+      <l n="3">
+            <app>
+              <rdg wit="#Bo">2. Tsahadilh o elesapot ololob eku sesale ku tu hoyud kwa astlelduhched s'tewielh?</rdg>
+              <rdg wit="#BL">2. cədiɬ ʔu  ʔə lesapot ʔulub ʔi kʷi səsaʔliʔ kʷi tuhuyud kʷ(i) ʔəstɬildxʷčəd stʼiwiɬ.</rdg>
+              <rdg wit="#LWG">2. them Q by the+apostles 10 and the 2 the made the believing+I religion</rdg>
+              <rdg wit="#LG">2. Is it the twelve apostles that made the religion that I believe in?</rdg>
+            </app></l>
+      
+      <l n="4">
+                <app>
+                  <rdg wit="#Bo">E, tsahadilh lesapot ololob eku sesale ku tu hoyud kwa astlelduhched s'tewielh.</rdg>
+                  <rdg wit="#BL">ʔi, cədiɬ lesapot ʔulub ʔi kʷi səsaʔliʔ kʷi tuhuyud kʷ(i) ʔəstɬildxʷčəd stʼiwiɬ.</rdg>
+                  <rdg wit="#LWG">yes them the+apostles 10 and the 2 the made the believing+I religion</rdg>
+                  <rdg wit="#LG">Yes, it is the twelve apostles that made the religion that I believe in.</rdg>
+                </app></l>
+      
+      <l n="5">
+      <app>
+        <rdg wit="#Bo">3. Elid kwa astlelduhched s'tewielh? </rdg>
+        <rdg wit="#BL">3. ʔilid kʷ(i)  ʔəstɬildxʷčəd stʼiwiɬ.</rdg>
+        <rdg wit="#LWG">3. repeat the believing+I religion.</rdg>
+        <rdg wit="#LG">3 Repeat the religion that I believe in.</rdg>
+      </app></l>
+      
+      <l n="6">                  
+      <app>
+        <rdg wit="#Bo"> Astlelduhched ku Sherk-Siam Ban, &amp;c. page 6.</rdg>
+        <rdg wit="#BL"> ʔəstɬildxʷ čəd kʷi šəq siʔab bad, &amp;c. page 6.</rdg>
+        <rdg wit="#LWG">believe+i the sky nobleman father, &amp;c. page 6.</rdg>
+         <rdg wit="#LG">I believe in God the Father, &amp;c. page 6.</rdg>
+      </app></l>
+    </body>
+  </text>
+</TEI>

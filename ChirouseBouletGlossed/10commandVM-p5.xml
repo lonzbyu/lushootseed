@@ -1,0 +1,197 @@
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>The Ten Commandments in Lushootseed</title>
+          <author> Dawn Bates and Deryle Lonsdale </author>
+          <respStmt><resp> Text Encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+      </titleStmt>
+      <publicationStmt><publisher>Deryle Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without the explicit permission from the copyright holder. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+        <notesStmt>
+            <note anchored="true">There are two versions of the Ten Commandments in Romanized Lushootseed.</note>
+        </notesStmt>
+        <sourceDesc><p>Source description</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+          <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc></teiHeader>
+  <text>
+      <front>
+          <div>
+              <listWit>
+                      <witness xml:id="Ch">Chirouse</witness>
+                      <witness xml:id="Bo">Boulet</witness>
+                      <witness xml:id="LB">Bates and Lonsdale</witness>
+                      <witness xml:id="CBL">Chirouse -- Bates and Lonsdale</witness>
+              </listWit>
+          </div>
+          
+      </front>
+      <body style="font-family:'arial unicode ms'">
+          <l n="1">
+              <app>
+                  <rdg wit="#Ch">Decem Dei Mandata:</rdg>
+                  <rdg wit="#Bo">THE COMMANDMENTS OF GOD:</rdg>                  
+                  <rdg wit="#LB">The Ten Commandments:</rdg>
+                  <rdg wit="#CBL">Decem Dei Mandata:</rdg>
+              </app></l>
+          
+          <l n="2">
+              <app>
+                  <rdg wit="#Ch">The ten commandments of God </rdg>
+                  <rdg wit="#Bo">Tih^ilh olob gwalh Sherk-Siam schelhrachem.</rdg>                  
+                  <rdg wit="#LB"> tiʔiɬ ʔulub gʷəɬ šəq siʔab sčəɬx̌əčəb.</rdg>
+                  <rdg wit="#CBL">The Ten Commandments of God</rdg>
+              </app></l>
+            
+          <l n="3">
+              <app>
+                  <rdg wit="#Ch"> 1. Klob chor tlo ador rhol decho Sherhk Siam.  </rdg>
+                  <rdg wit="#Bo">1. 'Tlob chahu tlo ador rol dcho Sherk-Siam.</rdg>
+                  <rdg wit="#LB">1. ƛ'ub čəxʷ ɬuador x̌ʷulʼ dəčʔu šəq siʔab.</rdg>
+                  <rdg wit="#CBL"> 1. ƛ'ub čəxʷ ɬuador x̌ʷulʼ dəčʔu šəq siʔab.  </rdg>
+              </app></l>
+            
+          <l n="4">
+              <app>
+                  <rdg wit="#Ch"> Ōi chorh tlemarhatleldu tsisk tsedelh.</rdg>
+                  <rdg wit="#Bo">Hoi chahu tlhba ratlelduh tsits ku tsid^ilh.</rdg>
+                  <rdg wit="#LB">huy čəxʷ ɬubəx̌aƛ'ilʼdxʷ cickʼʷ cədiɬ.</rdg>
+                  <rdg wit="#CBL">huy čəxʷ ɬəbəx̌aƛ'ilʼdxʷ cickʼʷ cədiɬ.</rdg>
+              </app></l>
+          
+          <l n="5">
+              <app>
+                  <rdg wit="#Ch"> 2. Weorh degwe kwe tlas adsda adok pātlătlh k Sherk Siam. </rdg>
+                  <rdg wit="#Bo">2. Whe ahu dgwe kwi tla adsdaad aku pa'tla'tl ku Sherk-Siam.</rdg>
+                  <rdg wit="#LB">2. xʷiʔəxʷ dəgʷi kʷi ɬ(u)adsdaʔad ʔə kʷi p̕aƛ'aƛ' kʷi šəq siʔab.</rdg>
+                  <rdg wit="#CBL"> 2. xʷiʔəxʷ dəgʷi kʷi ɬ(u)adsdaʔad ʔə kʷi p̕aƛ'aƛ' kʷi šəq siʔab.</rdg>
+              </app></l>
+          
+          <l n="6">
+              <app>
+                  <rdg wit="#Ch"> Klal bassista wē orh degwe tlas atsda ak patlatlh kwe lālē stam! </rdg>
+                  <rdg wit="#Bo">'Tlalba asista, whe ahu dgwe kwi tla adsdaad aku pa'tla'tl ku lale stab.</rdg>
+                  <rdg wit="#LB">ƛ'aɬ'bəʔəsʔistəʔ, xʷi ʔahəxʷ dəgʷi kʷi ɬadsdaʔad ʔə kʷi p̕aƛ'aƛ' kʷi ləliʔ stab.</rdg>
+                  <rdg wit="#CBL"> ƛ'aɬ'bəʔəsʔistəʔ, xʷiʔəxʷ dəgʷi kʷi ƛ'adsdaʔ ʔə kʷi p̕aƛ'aƛ' kʷi ləliʔ stab! </rdg>
+              </app></l>
+            
+          <l n="7">
+              <app>
+                  <rdg wit="#Ch"> 3. Alh kwāssasshoskrharha āldăt atas ooyud tsēk twal di Sherk Siam!</rdg>
+                  <rdg wit="#Bo">3. Halh kwi tla adsashuts ku raraalhdat, ata adsohoyutsut tsoku dhual di Sherk-Siam.</rdg>
+                  <rdg wit="#LB">3. haʔɬ kʷi ɬ(u)adsəshuyuts kʷi x̌aʔx̌aʔəɬdat, ʔə tə adshuyutcut cəkʼʷ dxʷʔal di šəq siʔab.</rdg>
+                  <rdg wit="#CBL"> 3. haʔɬ kʷi səshuys kʷi x̌aʔx̌aʔəɬdat, ʔə ti ʔəshuyud cukʷ dxʷʔal di šəq siʔab!</rdg>
+              </app></l>
+            
+          <l n="8">
+              <app>
+                  <rdg wit="#Ch"> 4. Degwe kwe tlas asshoss ta āts gwa adban etā skōǐ, </rdg>
+                  <rdg wit="#Bo">4. Halh dgwe kwi tla adsashuts, ta adsgwa adban etsa adskoi,</rdg>
+                  <rdg wit="#LB">4. haʔɬ dəgʷi kʷi ɬ(u)adsəšuuc ti adsgʷaʔ adbad ʔi tsi adskʼʷuy,</rdg>
+                  <rdg wit="#CBL"> 4. haʔɬ dəgʷi kʷi ɬasšuuc ti adsgʷaʔ adbad ʔi ti skʼʷuy, </rdg>
+              </app></l>
+            
+          <l n="9">
+              <app>
+                  <rdg wit="#Ch"> Delh dogwe tlo darhulē ak ago. </rdg>
+                  <rdg wit="#Bo">dilh dgwe tla adahu helle aku haku. </rdg>
+                  <rdg wit="#LB">diɬ dəgʷi ɬ(u)a(d)dəxʷhəliʔ ʔə kʷi haʔkʷ.</rdg>
+                  <rdg wit="#CBL"> diɬ dəgʷi ɬudəxʷhəliʔ ʔə kʷi haʔkʷ.</rdg>
+              </app></l>
+            
+          <l n="10">
+              <app>
+                  <rdg wit="#Ch"> 5. Wē orh degwe tlo gualalchorh. </rdg>
+                  <rdg wit="#Bo">5. Whe ahu dgwe kwi gwat tlo gulald chahu.</rdg>
+                  <rdg wit="#LB">5. xʷiʔəxʷ dəgʷi kʷi gʷat ɬugʷəlald čəxʷ.</rdg>
+                  <rdg wit="#CBL"> 5. xʷiʔəxʷ dəgʷi ɬugʷəlald čəxʷ.  </rdg>
+              </app></l>
+            
+          <l n="11">
+              <app>
+                  <rdg wit="#Ch"> Klal bassista weorh degwe kwe tlas rhoyalk</rdg>
+                  <rdg wit="#Bo">'Tlalba asista whe ahu dgwe kwi tla adsdohusroayalkreb.</rdg>
+                  <rdg wit="#LB">ƛ'al'bəʔəsistəʔ xʷiʔəxʷ dəgʷi kʷi ɬ(u)adsdəxʷsxʷəyalqəb.</rdg>
+                  <rdg wit="#CBL"> ƛ'aɬ'bəʔəsistəʔ xʷiʔəxʷ dəgʷi kʷi ɬasx̌ʷəyalq.</rdg>
+              </app></l>
+            
+          <l n="12">
+              <app>
+                  <rdg wit="#Ch"> 6. Wē orh dogwe kwi tlass siayus ak sēǐlh. </rdg>
+                  <rdg wit="#Bo">6. Whe ahu dgwe kwi tla adsiayus aku seyeyilh.</rdg>
+                  <rdg wit="#LB">6. xʷiʔəxʷ dəgʷi kʷiɬ(u)adsyayus ʔə kʷi səyəyiɬ.</rdg>
+                  <rdg wit="#CBL"> 6. xʷiʔəxʷ dəgʷi kʷi ɬassyayus ʔə kʷi səyiʔɬ  </rdg>  
+              </app></l>
+            
+          <!-- seyeyilh: adultery; 
+              not attested in LD or elsewhere; 
+              Kuipers (p. 102) lists root *səy with related forms, including Th səsiym (commit adultery)
+              LD has LS =iʔɬ baby, child
+          --> 
+            
+          <l n="13">
+              <app>
+                  <rdg wit="#Ch"> Klal ba assista weorh degwe kwe tla's petedgwassem twal sēǐlh. </rdg>
+                  <rdg wit="#Bo">'Tlalba asista whe ahu dgwe kwi tla adspet^edegwasseb dhual ku seyeyilh.</rdg>
+                  <rdg wit="#LB">ƛ'alʼbəʔəsistəʔ xʷiʔəxʷ dəgʷi kʷi ɬ(u)adspətidgʷasəb dxʷʔal kʷi səyəyiɬ.</rdg>
+                  <rdg wit="#CBL"> ƛ'alʼbəʔəsistəʔ xʷiʔəxʷ dəgʷi kʷi ƛ'adspətidgʷasəb dxʷʔal səyiʔɬ. </rdg>
+              </app></l>
+          
+          <l n="14">
+              <app>
+                  <rdg wit="#Ch"> 7. We orh dogwe kwe tlas kada,</rdg>
+                  <rdg wit="#Bo">7. Whe ahu dgwe kwi tla adskrada aku stab tolal gwat.</rdg>
+                  <rdg wit="#LB">7. xʷiʔəxʷ dəgʷi kʷi ɬ(u)dsqada ʔə kʷi stab tulʼal gʷat.</rdg>
+              </app></l>
+          
+          <l n="15">
+              <app>
+                  <rdg wit="#Ch"> Klal baassista we orh dogwe kwe tlasrhuēlăl.  </rdg>
+                  <rdg wit="#Bo"> 'Tlalba asista whe ahu dgwe kwi tla adsrwelaleku.</rdg>
+                  <rdg wit="#LB"> ƛ'al'bəʔəsistəʔ xʷiʔəxʷ dəgʷi kʷi ɬ(u)adsx̌əlaləkʷ.</rdg>
+              </app></l>
+          
+          <l n="16">
+              <app>
+                  <rdg wit="#Ch"> 8. Weorh dogwe kw tlas ūōyēmalh </rdg>
+                  <rdg wit="#Bo">8. Whe ahu dgwe kwi tla adshohoyebalh.</rdg>
+                  <rdg wit="#LB">8. xʷiʔəxʷ dəgʷi kʷiɬ(u)adsuhuyəbaɬ.</rdg>
+                  <rdg wit="#CBL"> 8. xʷiʔəxʷ dəgʷi kʷi ɬadsuhuyubaɬ.</rdg>
+              </app></l>
+          
+          <l n="17">
+              <app>
+                  <rdg wit="#Ch"> Klal bussista weorh degwe kwi tlasbedchem. </rdg>
+                  <rdg wit="#Bo">'Tlalba asista whe ahu dgwe kwi tla adsbedchib dhual ku stab.</rdg>
+                  <rdg wit="#LB">ƛ'alʼbəʔəsistəʔ xʷiʔəxʷ dəgʷi kʷi ɬ(u)adsbədčəb dxʷʔal kʷi stab.</rdg>
+                  <rdg wit="#CBL"> ƛ'alʼbəʔəsistəʔ xʷiʔəxʷ dəgʷi kʷi ɬadsbədčəb.</rdg>
+              </app></l>
+            
+          <l n="18">
+              <app>
+                  <rdg wit="#Ch"> 9. Weor degwe kwe tlas petēdgwassem twalh soōigwas ak patlhatlh</rdg>
+                  <rdg wit="#Bo">9. Whe hahu dgwe kwi tla adspet^edegwasseb dhual soigwas aku pa'tla'tl,</rdg>
+                  <rdg wit="#LB">9. xʷiʔəxʷ dəgʷi kʷi ɬ(u)adspətidgʷasəb dxʷʔal shuygʷas ʔə kʷi p̕aƛ'aƛ',</rdg>
+                  <rdg wit="#CBL"> 9. xʷiʔəxʷ dəgʷi kʷi ɬadspətidgʷasəb dxʷʔal shuygʷas ʔə kʷi p̕aƛ'aƛ',  </rdg>
+              </app></l>
+          
+          <l n="19">
+              <app>
+                  <rdg wit="#Ch"> Dayāǐ twal ksmaliē kew tladrhach assut. </rdg>
+                  <rdg wit="#Bo">dayai dhual smalie tla adrach astsut.</rdg>
+                  <rdg wit="#LB">dayʼay dxʷʔal smaliə ɬ(u)adx̌əč'̌ascut.</rdg>
+                  <rdg wit="#CBL"> dayʼay dxʷʔal smaliə ƛ'(u)adx̌əč'̌ascut. </rdg>
+              </app></l>
+          
+          <l n="20">
+              <app>
+                  <rdg wit="#Ch">10. Weorh degwe kwe tlasēkwamed gwal lālĕ stam Rhelhte skada.</rdg>
+                  <rdg wit="#Bo">10. Whe ahu dgwe kwi tla adsekwabid gwalh lale stab relhte tla adskada.</rdg>
+                  <rdg wit="#LB">10. xʷiʔəxʷ dəgʷi kʷi ɬ(u)adshikʷbid gʷəɬ ləli? stab x̌əlti ƛ'(u)adsqada. </rdg>
+                  <rdg wit="#CBL">10. xʷiʔəxʷ dəgʷi kʷi ɬashikʷbid gʷəɬ ləliʔ stab x̌əlti sqada. </rdg>
+              </app></l>
+
+    </body>
+  </text>
+</TEI>

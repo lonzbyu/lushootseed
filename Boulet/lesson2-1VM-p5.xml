@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    
+    <!-- similar to Zenk's "Petit catéchisme des indiens", 8e leçon -->
+    
+    <body>
+        <p>LESSON I. </p>
+          
+      <l n="1">
+        <app>
+          <rdg wit="#Bo">1. Stab tihîlh tskwadad?</rdg>
+          <rdg wit="#BL">1. stab tiʔiɬ dᶻəkʼʷadad?</rdg>
+          <rdg wit="#LG">1. What is sin?</rdg>
+        </app></l>
+            
+                
+      <l n="2">
+        <app>
+          <rdg wit="#Bo">Tihîlh spetîdegwasseb, tihîlh sgwadgwad, tihîlh siayus, tihîlh whe la duhsiayus, </rdg>
+          <rdg wit="#BL">tiʔiɬ spətidgʷasəb, tiʔiɬ sgʷadgʷad, tiʔiɬ syayus, tiʔiɬ xʷiʔ lədəxʷsyayus,</rdg> 
+          <rdg wit="#LG">A thought, a saying, a deed, something not done,</rdg>
+        </app></l>
+            
+                      
+      <l n="3">
+        <app>
+          <rdg wit="#Bo">abil whe la tsoku dhual di Sherk-Siam, gula dilh tskwadad.</rdg>
+          <rdg wit="#BL">ʔabil xʷiʔ ləcəkʼʷ dxʷʔal diʔ šəq siʔab, gʷəl diʔɬ dᶻəkʼʷadad.</rdg> 
+          <rdg wit="#LG">if it is not right unto the sky nobleman, then it is sin.</rdg>
+        </app></l>
+            
+                            
+      <l n="4">
+        <app>
+          <rdg wit="#Bo">2. Whe o ku dcho tskwadad al debalh aku tus wollechelh?</rdg>
+          <rdg wit="#BL">2. xʷiʔ ʔu kʷi dəč'uʔ dᶻəkʼʷadad ʔal dibəɬ ʔə kʷi tuswəliʔčəɬ.</rdg> 
+          <rdg wit="#LG">2. Is there not one sin of ours when we appeared?</rdg>
+        </app></l>
+            
+                                  
+      <l n="5">
+        <app>
+          <rdg wit="#Bo">E, al ku tus wollechelh, aku dcho tskwadad al debalh tolal Adam.</rdg>
+          <rdg wit="#BL">ʔi, ʔal kʷi tuswəliʔčəɬ, ʔaʔ kʷi dəč'uʔ dᶻəkʼʷadad ʔal dibəɬ tulʼʔal Adam.</rdg> 
+          <rdg wit="#LG">Yes, at our appearance there was one sin with us from Adam.</rdg>
+        </app></l>
+            
+                                        
+      <l n="6">
+         <app>
+           <rdg wit="#Bo">3. Whe o ku sales ku siayus aku atsilhtalbihu lalegwas tskwadad;</rdg>
+           <rdg wit="#BL">3. xʷiʔ ʔu kʷi saliʔs kʷi syayus ʔə kʷi ʔaciɬtalbixʷ ləliʔgʷas dᶻəkʼʷadad;</rdg> 
+           <rdg wit="#LG">3. Are  there two ways of making the people different sins?</rdg>
+        </app></l>
+            
+                                              
+      <l n="7">
+        <app>
+          <rdg wit="#Bo">dcho ku duhsatebedid ku sele, gula dcho ku hoyud asralh ku sele?</rdg>
+          <rdg wit="#BL">dəč'uʔ kʷi dəxʷsʔatəbədid kʷi sələ, gʷəl dəč'uʔ kʷi huyud ʔəsx̌əɬ kʷi shəliʔ.</rdg> 
+          <rdg wit="#LG">one that makes the soul mortal, then one that make the soul sick</rdg>
+        </app></l>
+            
+                                                    
+      <l n="8">
+        <app>
+          <rdg wit="#Bo">E, sale ku soyayus aku atsilhtalbihu lalegwas tskwadad, </rdg>
+          <rdg wit="#BL">ʔi, saliʔ kʷi suyayus ʔə kʷi ʔaciɬtalbixʷ ləliʔgʷas dᶻəkʼʷadad, </rdg> 
+          <rdg wit="#LG">Yes,  there are two ways of making the people different sins</rdg>
+        </app></l>
+            
+                                                          
+      <l n="9">
+        <app>
+          <rdg wit="#Bo">dcho ku o atebedid ku sele, gula dcho ku o hoyud asralh ku sele.</rdg>
+          <rdg wit="#BL">dəč'uʔ kʷi ʔuʔatəbədid kʷi shəliʔ, gʷəl dəč'uʔ kʷi ʔuhuyud ʔəsx̌əɬ kʷi shəliʔ.</rdg> 
+          <rdg wit="#LG">one that makes the soul mortal, then one that make the soul sick</rdg>
+        </app></l>
+
+            
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt><p>Publication Information</p></publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc></teiHeader>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="Bo">Boulet</witness>
+          <witness xml:id="BL">Bates and Lonsdale</witness>
+          <witness xml:id="LWG">Lonsdale word gloss</witness>
+          <witness xml:id="LG">Lonsdale gloss</witness>
+        </listWit>
+      </div>
+    </front>
+    <!-- similar to Zenk's "Petit catéchisme des indiens", 2e leçon -->
+    
+    <body>
+        <p>LESSON III. </p>
+          
+      <l n="1">
+        <app>
+          <rdg wit="#Bo">1. Tu hoyutob o a kwi Sherk-Siam kwi boku stab?</rdg>  
+          <rdg wit="#BL">1. tuhuyutəb ʔu ʔə kʷi šəq siʔab kʷi bəkʼʷ stab?</rdg>  
+          <rdg wit="#LWG">1. was+made Q by the sky nobleman the all thing</rdg>
+          <rdg wit="#LG">1. Was everything made by God?</rdg>
+        </app></l>
+            
+            
+      <l n="2">
+        <app>
+          <rdg wit="#Bo">E, tu hoyutob a kwi Sherk-Siam kwi boku stab.</rdg>  
+          <rdg wit="#BL">ʔi, tuhuyutəb ʔə kʷi šəq siʔab kʷi bəkʼʷ stab.</rdg>  
+          <rdg wit="#LWG">yes was+made by the sky nobleman the all thing</rdg>
+          <rdg wit="#LG">Yes, everything was made by God.</rdg>
+        </app></l>
+      
+                  
+      <l n="3">
+        <app>
+          <rdg wit="#Bo">2. Tsidîlh o Sherk-Siam ku tu hoyud ku lilhzihu stobsh Adam ekus lilhzihu sladai Eb?</rdg>  
+          <rdg wit="#BL">2. cədiɬ ʔu šəq siʔab kʷi tuhuyud kʷi liɬdᶻixʷ stubš Adam ʔi kʷsi liɬdᶻixʷ sɬaday Eb.</rdg>  
+          <rdg wit="#LWG">2. that Q sky nobleman the made the first man Adam and the first woman Eve</rdg>
+          <rdg wit="#LG">2. Was it God that made the first man, Adam and the first woman, Eve?</rdg>
+        </app></l>
+      
+                        
+      <l n="4">
+        <app>
+          <rdg wit="#Bo">E, tsidîlh Sherk-Siam ku tu hoyud ku lilhzihu stobsh Adam ekus lilhzihu sladai Eb.</rdg>  
+          <rdg wit="#BL">ʔi, cədiɬ šəq siʔab kʷi tuhuyud kʷi liɬdᶻixʷ stubš Adam ʔi kʷsi liɬdᶻixʷ sɬaday Eb .</rdg>
+          <rdg wit="#LWG">yes. that sky nobleman the made the first man Adam and the first woman Eve</rdg>
+          <rdg wit="#LG">Yes, it was God that made the first man, Adam and the first woman, Eve.</rdg>
+        </app></l>
+      
+                              
+      <l n="5">
+        <app>
+          <rdg wit="#Bo"> 3. Kraa o lesash ku tu hoyutob a kwi Sherk-Siam tlhdahu as halgwa al tsidîlh al tu di sherk?</rdg>
+          <rdg wit="#BL">3. x̌aʔ ʔu lesash kʷi tuhuyutəb ʔə kʷi šəq siʔab ɬudəxʷʔaʔs həlgʷə ʔal cədiɬ ʔal tudiʔ šəq?</rdg>
+          <rdg wit="#LWG"> 3. many Q angels the made by the sky nobleman to+be them with him in the sky</rdg>
+          <rdg wit="#LG">3. Did God create many angels so that they could be with Him in heaven?</rdg>
+        </app></l>
+      
+                                    
+      <l n="6">
+        <app>
+          <rdg wit="#Bo">E, kraa lesash ku tu hoyutob a kwi Sherk-Siam tlhdahu as halgwa al tsidîlh al tu di sherk.</rdg>
+          <rdg wit="#BL">ʔi, x̌aʔ lesash kʷi tuhuyutəb ʔə kʷi šəq siʔab ɬudəxʷʔaʔs həlgʷə ʔal cədiɬ ʔal tudiʔ šəq.</rdg>
+          <rdg wit="#LWG"> yes many angels the made by the sky nobleman to+be them with him in the sky</rdg>
+          <rdg wit="#LG"> Yes, God created many angels so that they could be with Him in heaven.</rdg>
+        </app></l>
+      
+                                          
+      <l n="7">
+        <app>
+          <rdg wit="#Bo">4. Kraa o lesash kwi tu hoyil sa?</rdg>
+          <rdg wit="#BL">4. x̌aʔ ʔu lesash kʷi tuhuyil saʔ.</rdg>
+          <rdg wit="#LWG">4. many Q angels the did evil</rdg>
+          <rdg wit="#LG">Did many of the angels do evil?</rdg>
+        </app></l>
+      
+                                                
+      <l n="8">
+        <app>
+          <rdg wit="#Bo">E, kraa lesash ku tu hoyil sa, lejob ta sdas halgwa ;</rdg>
+          <rdg wit="#BL">ʔi, x̌aʔ lesash kʷi tuhuyil saʔ, lejob ti sdaʔs həlgʷə ;</rdg>
+          <rdg wit="#LWG">yes many angels the did evil, the+devil the name them</rdg>
+          <rdg wit="#LG">Yes, many of the angels did evil. They are called devils.</rdg>
+        </app></l>
+      
+      <l n="9">
+      <app>
+      <rdg wit="#Bo">gula Sherk-Siam tu erwed ta tsahadilh dohu gwed dhual kwi heku hud. </rdg>
+        <rdg wit="#BL">gʷəl šəq siʔab tuʔuxʷəd tə cədiɬ dəxʷgʷəd dxʷʔal kʷi hikʷ hud.</rdg>
+       <rdg wit="#LWG">so sky nobleman past+send the them down to the big fire</rdg>
+        <rdg wit="#LG">so God therefore cast them down to the big fire.</rdg>
+     </app></l>
+      
+                                                            
+      <l n="10">                                                 
+        <app>                                                  
+          <rdg wit="#Bo">5. Telh o aschissatob a kwi Sherk-Siam ku dididiecho lesash sihuashulh dhual adaku a kretia?</rdg>                                                  
+          <rdg wit="#BL">5. təɬ ʔu ʔəsčəsatəb ʔə kʷi šəq siʔab kʷi didiʔdəč'uʔ ləsash sixʷshaʔɬ dxʷʔal ʔadəkʷ ʔə kretiaʔ</rdg>
+          <rdg wit="#LWG">5. true Q sent by the sky nobleman the one-by-one angels serve+good unto each-and-every of christian</rdg>
+          <rdg wit="#LG">5. Is it true that God sends angels one by one to protect every Christian?</rdg>
+        </app></l>
+      
+                                                                        
+      <l n="11">                                           
+        <app>                                             
+          <rdg wit="#Bo">E, telh aschissatob a kwi Sherk-Siam ku dididiiecho lesash sihuashulh dhuall adaku a kretia. </rdg>                                           
+          <rdg wit="#BL">ʔi, təɬ ʔəsčəssatəb ʔə kʷi šəq siʔab kʷi didiʔdəč'uʔ ləsash sixʷshaʔɬ dxʷʔal ʔadəkʷ ʔə krətia.</rdg>     
+          <rdg wit="#LWG">yes, true sends by the sky nobleman the one-by-one angels serve+good unto each-and-every of Christian</rdg>
+          <rdg wit="#LG">Yes, it is true that God sends angels one by one to protect every Christian. </rdg>
+        </app></l>
+      
+                                                                              
+      <l n="12">                               
+        <app>               
+          <rdg wit="#Bo">6. Sherk-Siam o ku tu hoyutsid dgwe, 'tlalba stidîlh o kwi ashutsbitsid dgwe?</rdg>        
+          <rdg wit="#BL">6. šəq siʔab ʔu kʷi tuhuyucid dəgʷi, ƛ'alʼ bəstidiɬ ʔu kʷi ʔəshuyucbicid dəgʷi.</rdg>
+          <rdg wit="#LWG">6. sky nobleman Q the made+you you, also </rdg>
+          <rdg wit="#LG">6. Did God make you, and what were you made for????????</rdg>
+        </app></l>
+      
+                                                                                    
+      <l n="13">
+        <app>
+          <rdg wit="#Bo">E, Sherk-Siam ku tu hoyuts tsa, 'tlalba tsidîlh kwi ashutsbsh tsa.</rdg>
+          <rdg wit="#BL">ʔi, šəq siʔab kʷi tuhuyut ʔəca, ƛ'alʼ bəstidiɬ kʷi ʔəshuyucəbš ʔəca.</rdg>
+          <rdg wit="#LWG">yes sky nobleman the past+make me, </rdg>
+          <rdg wit="#LG">Yes, God made me...</rdg>
+        </app></l>
+      
+            
+                                                                                          
+      <l n="14">
+        <app>
+          <rdg wit="#Bo">7. Dhual stab kwi ta adshoyutob a kwi Sherk Siam, 'tlalba asista dhual stab kwi atsashutsob? </rdg>
+          <rdg wit="#BL">7. dxʷʔal stab kʷi tuadshuyutəb ʔə kʷi šəq siʔab, ƛ'alʼ b(ə)asʔistəʔ dxʷʔal stab kʷi adsəshuyucəb.</rdg>
+          <rdg wit="#LWG">7. for what the made by the sky nobleman, also same for what the created+you</rdg>
+          <rdg wit="#LG">7. Why did God create you, and to what end were you created?</rdg>
+        </app></l>
+            
+                                                                                             
+      <l n="15">
+        <app>                                                                                     
+          <rdg wit="#Bo">Sherk-Siam ku tu hoyuts tsa 'tlalba tsidîlh kwa ashutsbsh tsa,</rdg>                                                                     
+          <rdg wit="#BL">šəq siʔab kʷi tuhuyuc ʔəca ƛ'alʼ b(ə)cədiɬ kʷi adsəshuyucəbš ʔəca,</rdg>                   
+          <rdg wit="#LWG">sky nobleman the past made me ... </rdg>
+          <rdg wit="#LG">God made me ...</rdg>
+        </app></l>
+
+ 
+                                                                                                     
+      <l n="16">                                                                          
+        <app>                                                                           
+          <rdg wit="#Bo">redîlh tsidîlh tsahu haidhu, redîlh tsidîlh tsahu ra'tleldhu,</rdg>                                                         
+          <rdg wit="#BL">x̌ədiɬ cədiɬ ʔəcaəxʷ haydxʷ, x̌əidiɬ cədiɬ ʔəcaəxʷ x̌aƛ'ildxʷ,</rdg>           
+          <rdg wit="#LWG">so that_one I know, so that_one I desire</rdg>
+          <rdg wit="#LG">so that I can know him, so that I love him,</rdg>
+        </app></l>
+            
+                                                                                                            
+      <l n="17">
+        <app>
+          <rdg wit="#Bo">redîlh tsahu chalad ta sgwas sehelhrachems gula dilh tsahu orduhsherk. </rdg>                                     
+          <rdg wit="#BL">x̌ədiɬ ʔəcaəxʷ čalad ta sgʷaʔs sčəɬx̌əčəbs gʷəl diɬ ʔəcaəxʷ ʔux̌ʷdxʷšəq</rdg>
+          <rdg wit="#LWG">?? I follow the his+own will, then it I go+up+sky</rdg>
+            <rdg wit="#LG"> so that I will follow his will, then I will go to heaven.</rdg>
+        </app></l>
+      
+
+    </body>
+  </text>
+</TEI>

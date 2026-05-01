@@ -1,0 +1,114 @@
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader><fileDesc>
+            <titleStmt>
+                <title>Versions of Act of Charity in Lushootseed</title>
+                <author> Dawn Bates and Deryle Lonsdale </author>
+                <respStmt><resp> Text Encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>Deryle Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without the explicit permission from the copyright holder. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+            <notesStmt>
+                <note anchored="true">This has two Romanized versions and our updated orthography.</note>
+                <!--             <note type="image">
+                    <witDetail wit="Ch" target="val">
+                    <figure entity="chirouse1"></figure>
+                    </witDetail>
+                    </note> -->
+            </notesStmt>
+            <sourceDesc><p>Source description</p>
+            </sourceDesc>
+        </fileDesc><encodingDesc> 
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc></teiHeader>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="Ch">Chirouse</witness>
+                    <witness xml:id="Bo">Boulet</witness>
+                    <witness xml:id="LB">Bates and Lonsdale</witness>
+                    <witness xml:id="CBL">Chirouse -- Bates and Lonsdale</witness>
+                </listWit>
+            </div>
+            
+            <!-- 
+                From http://www.fisheaters.com/prayers.html#faith:
+                O my God! 
+                I love Thee above all things, with my whole heart and soul, 
+                because Thou art all-good and worthy of all love. 
+                I love my neighbor as myself for the love of Thee. 
+                I forgive all who have injured me, 
+                and ask pardon of all whom I have injured.
+                -->
+            
+        </front>
+        <body>
+            <l n="1">
+                <app>
+                    <rdg wit="#Ch">An act of Charity.</rdg>
+                    <rdg wit="#Bo">ACT OF CHARITY</rdg>                  
+                    <rdg wit="#LB">ACT OF CHARITY</rdg>
+                    <rdg wit="#CBL">An act of Charity.</rdg>
+                </app></l>
+            
+            <l n="2">
+                <app>
+                    <rdg wit="#Ch"> Gwalh Charite siayus: </rdg>
+                    <rdg wit="#Bo">Gwalh lasharite siyaus.</rdg>
+                    <rdg wit="#LB">gʷəɬ lasharite syayus.</rdg>
+                    <rdg wit="#CBL">gʷəɬ charite syayus: </rdg>
+                </app></l>
+            
+            <l n="3">
+                <app>
+                    <rdg wit="#Ch">O Sherk Siam dayāĭ chorh degwe skwakhed alh!</rdg>
+                    <rdg wit="#Bo">O Sherk-Siam dayai chahu dgwe takwakred halh,</rdg>
+                    <rdg wit="#LB">ʔu šəq siʔab dayʼayʼ čəxʷ dəgʷi ckʼʷaqid haʔɬ,</rdg>
+                    <rdg wit="#CBL"> ʔu šəq siʔab dayʼayʼ čəxʷ dəgʷi ckʼʷaqid haʔɬ! </rdg>
+                </app></l>
+            
+            <l n="4">
+                <app>
+                    <rdg wit="#Ch"> Dayāĭ chorh degwe skwākhed āssěkwăbābduh </rdg>
+                    <rdg wit="#Bo">dayai chahu dgwe tskwakred sekwababdhu,</rdg>
+                    <rdg wit="#LB">dayʼayʼ čəxʷ dəgʷi ckʼʷaqid ʔəshikʷəbabdxʷ</rdg>
+                    <rdg wit="#CBL"> dayʼayʼ čəxʷ dəgʷi ckʼʷaqid ʔəshikʷəbabdxʷ</rdg>
+                </app></l>
+            
+            <l n="5">
+                <app>
+                    <rdg wit="#Ch"> Delh sorhrhatleldobetsid te degwe tolalde mok derach, </rdg>
+                    <rdg wit="#Bo">dilh tsa tsahu asratleldubitsid dgwe tolal boku drech. </rdg>
+                    <rdg wit="#LB"> diɬ ʔəcaəxʷ ʔəsx̌aƛ'ildubicid dəgʷi tulʼʔal bəkʼʷ dx̌əč.</rdg>
+                    <rdg wit="#CBL">diɬ cəxʷx̌aƛ'ildubicid tə dəgʷi tulʼʔal diʔ bəkʼʷ dx̌əč.</rdg>
+                </app></l>
+            
+            <l n="6">
+                <app>
+                    <rdg wit="#Ch"> klalbassista twal tas'srhatledobetsid te degwe </rdg>
+                    <rdg wit="#Bo"> 'Tlalba asista dhual ta tsasratleldubitsid dgwe </rdg>
+                    <rdg wit="#LB"> ƛ'əlbəʔəsʔistəʔ dxʷʔal ta dsəsx̌aƛ'ildubicid dəgʷi</rdg>
+                    <rdg wit="#CBL"> ƛ'əlbəʔəsʔistəʔ dxʷʔal ta sʔəsx̌aƛ'ildubicid ta dəgʷi</rdg>
+                </app></l>
+            
+            <l n="7">
+                <app>
+                    <rdg wit="#Ch"> tsarhatledobetsid kmok assilhtamur (?)ulum tes srhatlebut te tsa. </rdg>
+                    <rdg wit="#Bo"> ku tsasratleldhu ku boku atsilhtalbihu, rolab ati desratltsebut. </rdg>
+                    <rdg wit="#LB"> kʷi səsx̌aƛ'ildxʷ kʷi bəkʼʷ ʔaciɬtalbixʷ, x̌ʷulʼab ʔə ti dsx̌aƛ'cəbut.</rdg>
+                    <rdg wit="#CBL"> dsx̌aƛ'ildubicid kʷi bəkʼʷ ʔaciɬtalbixʷ, x̌ʷulʼab dsx̌aƛ'əbut tə ʔəca.</rdg>
+                </app></l>
+            
+            <l n="8">
+                <app>
+                    <rdg wit="#Ch"> Klob assista! </rdg>
+                    <rdg wit="#Bo"> 'Tlob asista. </rdg>
+                    <rdg wit="#LB"> ƛ'ub ʔəsʔistəʔ.</rdg>
+                    <rdg wit="#CBL"> ƛ'ub ʔəsʔistəʔ.</rdg>
+                </app></l>
+  
+        </body>
+    </text>
+</TEI>

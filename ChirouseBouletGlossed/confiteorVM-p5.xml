@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+      <titleStmt>
+        <title>Act of Contrition in Lushootseed</title>
+          <author> Dawn Bates and Deryle Lonsdale </author>
+          <respStmt><resp> Text Encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+      </titleStmt>
+      <publicationStmt><publisher>Deryle Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without the explicit permission from the copyright holder. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+        <notesStmt>
+            <note anchored="true">There are two versions of the Lord's Prayer in Romanized Lushootseed.</note>
+        </notesStmt>
+        <sourceDesc><p>Source description</p>
+      </sourceDesc>
+    </fileDesc><encodingDesc> 
+          <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc></teiHeader>
+  <text>
+      <front>
+          <div>
+              <listWit>
+                      <witness xml:id="Ch">Chirouse</witness>
+                      <witness xml:id="Bo">Boulet</witness>
+                      <witness xml:id="LB">Bates and Lonsdale</witness>
+                      <witness xml:id="CBL">Chirouse -- Bates and Lonsdale</witness>
+              </listWit>
+          </div>
+      </front>
+      
+      <body>
+          <l n="1">
+              <app>
+                  <rdg wit="#Ch">Confiteor.</rdg>
+                  <rdg wit="#Bo">THE CONFITEOR.</rdg>                  
+                  <rdg wit="#LB">THE CONFITEOR.</rdg>
+                  <rdg wit="#CBL">Gloria Patri: the Confiteor</rdg>
+             </app></l>
+            
+          <l n="2">
+              <app>
+                  <rdg wit="#Ch"> Ŏrhārhă -sbilālămchĕd twal de Sherhk Siam, lilzir kwēkr twal ki mok stam, </rdg> 
+                  <rdg wit="#Bo">Rarasmilalamched dhual di Sherk-Siam lilhzihu kwerkru dhual kwi boku stab,</rdg>
+                  <rdg wit="#LB">x̌̌ax̌asbil'ʔallaʔəb čəd dxʷʔal di šəq siʔab liɬʤixʷ qʷiqʼʷ dxʷʔal  kʷi bəkʼʷ stab,</rdg>
+                  <rdg wit="#CBL"> ʔux̌̌ax̌asbil'ʔallaʔəb čəd dxʷʔal di šəq siʔab liɬʤixʷ qʷiqʼʷ dxʷʔal  kʷi bəkʼʷ stab, </rdg>
+              </app></l>
+          
+          <l n="3">
+              <app>
+                  <rdg wit="#Ch"> twalde telh alh Maly skwākhēd durhkalap,</rdg> 
+                  <rdg wit="#Bo">dhual tsde telh halh Mari tskwakred duhkralap,</rdg>
+                  <rdg wit="#LB">dxʷʔal di təɬ haʔɬ Mari ckʼʷaqid dxʷqaləp,</rdg>
+                  <rdg wit="#CBL"> dxʷʔal di təɬ haʔɬ Mari ckʼʷaqid dxʷqaləp,</rdg>
+              </app></l>
+            
+          <l n="4">
+              <app>
+                  <rdg wit="#Ch"> twaldē St. Michel alcange, twal dĕ St. Jean Baptiste, twalde les Apōtres St. Piere ē St. Paul (gwal Sherk Siam Tjussand) </rdg>
+                  <rdg wit="#Bo">dhual di Sen-Mishel Akash, dhual di Sen-San-Batis, dhunal di Sen-Piel eba Sen-Pol, gwalh Sherk-Siam schiss^ad,</rdg>
+                  <rdg wit="#LB">dxʷʔal di Sen-Mishel Akash, dxʷʔal di Sen-San-Batis, dxʷʔal di Sen-Piel ʔibə Sen-Pol, gʷəɬ šəq siʔab sčəsad,</rdg>
+                  <rdg wit="#CBL"> dxʷʔal di Sən-Michəl Akash, dxʷʔal di Sən-San-Batis, dxʷʔal di Sən-Piəl ʔi ??? Sən-Pol, gʷəɬ šəq siʔab sčəsad,  </rdg>
+              </app></l>
+
+          <l n="5">
+              <app>
+                  <rdg wit="#Ch"> ema twal mok tol sherk assǐlhtamērh, klal bassīsta, twal degwe dsgwa deban (Leplet.)  </rdg>
+                  <rdg wit="#Bo">eba dhual boku gwalh sherk satsilhtalbihu 'tlalba asista dhual dgwe dsgwa deban,</rdg>
+                  <rdg wit="#LB">ʔibə dxʷʔal bəkʼʷ gʷəɬ šəq sʔaciɬtalbixʷ ƛalʼbəasʔistəʔ dxʷʔal dəgʷi dsgʷaʔ dbad,</rdg>
+                  <rdg wit="#CBL"> ʔi ??? dxʷʔal bəkʼʷ tul' šəq ʔaciɬtalbixʷ, ƛalʼbəasʔistəʔ, dxʷʔal dəgʷi dsgʷaʔ dbad, </rdg>
+              </app></l>
+   
+          <l n="6">
+              <app>
+                  <rdg wit="#Ch"> Tēēlh khā tudskwadched atechispetedgwassem, </rdg>
+                  <rdg wit="#Bo">dhual tih^ilh kra tu tskwadad ate disduhspet^edegwasseb,</rdg>
+                  <rdg wit="#LB">dxʷʔal tiʔiɬ xʷaʔ tuʤəkʼʷadad ʔə tə dsdxʷspətidgʷasəb,</rdg>
+                  <rdg wit="#CBL"> tiʔiɬ qa tuʤəkʼʷad čəd ʔə dišəʔ spətidgʷasəb, </rdg>
+              </app></l>
+          
+          <l n="7">
+              <app>
+                  <rdg wit="#Ch"> Atēdeschgwādgwăd, atedech sǐayus, atedesch wēladsiāyus, </rdg>
+                  <rdg wit="#Bo">ate disduhsgwadgwad, ate disduhsiayus eba te wheladisduhsiayus,</rdg>
+                  <rdg wit="#LB">ʔə tə dsdxʷsgʷadgʷad, ʔə tə dsdxʷsyayus ʔibə tə xʷiʔlədxʷsyayus,</rdg>
+                  <rdg wit="#CBL"> ʔə tə dxʷsgʷadgʷad, ʔə tə dxʷsyayus,  ʔə tə dxʷswəladsyayus, </rdg>
+              </app></l>
+          
+          <l n="8">
+              <app>
+                  <rdg wit="#Ch"> atedsgwā skhop derhach (bis). ătedsgwā ik ăskhŏp drăch </rdg>
+                  <rdg wit="#Bo">ate dsgwa askrop drech, ate disgwa askrop drech, ate dsgwa heku askrop drech.</rdg>
+                  <rdg wit="#LB">ʔə tə dsgʷaʔ ʔəsqəp dx̌əč, ʔə tə dsgʷaʔ ʔəsqəp dxʷ̌əc,  ʔə tə dsgʷaʔ hikʷ ʔəsqəp dxʷ̌əč.</rdg>
+                  <rdg wit="#CBL"> ʔə tə dsgʷaʔ sqəp dx̌əč, ʔə tə dsgʷaʔ sqəp dx̌əč,  ʔə tə dsgʷaʔ hikʷ ʔəsqəp dx̌əč. </rdg>
+              </app></l>
+          
+          <l n="9">
+              <app>
+                  <rdg wit="#Ch"> Delh sorhotēēch twal tsēēlh alh Maly skwakhed dukālăp, </rdg>
+                  <rdg wit="#Bo">Dilh tsahu otehech dhual tsde telh halh Mari tskwakred duhkralap,</rdg>
+                  <rdg wit="#LB">diɬ cəxʷ ʔutihič dxʷʔal tsi di təɬ haʔɬ Mari ckʼʷaqid dxʷqaləp,</rdg>
+                  <rdg wit="#CBL"> diɬ səxʷut'iwiɬ dxʷʔal tsiʔiɬ  haʔɬ  Mali ckʼʷaqid dxʷqaləp,</rdg>
+              </app></l>
+          
+          <l n="10">
+              <app>
+                  <rdg wit="#Ch"> Twal ta St. Mishel alcange, twal ta St. Jean Baptiste,</rdg>
+                  <rdg wit="#Bo">dhual di Sen-Mishel Akash, dhual di Sen-San-Batis,</rdg>
+                  <rdg wit="#LB">dxʷʔal di Sen-Mishel Akash, dxʷʔal di Sen-San-Batis,</rdg>
+                  <rdg wit="#CBL"> dxʷʔal tə Sən-Michəl alkash, dxʷʔal tə Sən-San-Batis ,</rdg>
+              </app></l>
+          
+          <l n="11">
+              <app>
+                  <rdg wit="#Ch"> twalta St. Pierre ema St. Paul gwalh Sherk Siam chussand</rdg>
+                  <rdg wit="#Bo">dhual di Sen-Piel eba Sen-Pol gwalh Sherk-Siam schiss^ad </rdg>
+                  <rdg wit="#LB">dxʷʔal di Sen-Piel ʔibə Sen-Pol, gʷəɬ šəq siʔab sčəsad</rdg>
+                  <rdg wit="#CBL"> dxʷʔal tə Sən-Piəl ʔi ??? Sən-Pol , gʷəɬ  šəq siʔab sčəsad</rdg>
+              </app></l>
+
+          <l n="12">
+              <app>
+                  <rdg wit="#Ch"> twal mok gwalh Sherhk āssǐlhtămērh </rdg>
+                  <rdg wit="#Bo">eba dhual boku gwalh sherk satsilhtalbihu</rdg>
+                  <rdg wit="#LB">ʔibə dxʷʔal bəkʼʷ gʷəɬ šəq sʔaciɬtalbixʷ</rdg>
+                  <rdg wit="#CBL"> dxʷʔal bəkʼʷ gʷəɬ šəq sʔaciɬtalbixʷ  </rdg>
+              </app></l>
+
+          <l n="13">
+              <app>
+                  <rdg wit="#Ch">  ema twalh dĕgwā  dĕbān (lĕplēt) ,</rdg>
+                  <rdg wit="#Bo">'tlalba asista dualh dgwe dsgwa deban,</rdg>
+                  <rdg wit="#LB"> ƛ'aɬ'bəʔəsʔistəʔ dxʷʔal dəgʷi dsgʷaʔ dəbad.</rdg>
+                  <rdg wit="#CBL">ʔi ??? dxʷʔal dəgʷi dəbad. </rdg>
+              </app></l>
+          
+          <l n="14">
+              <app>
+                  <rdg wit="#Ch">chalap tlha tēēchtomsh twăl dē  Sherkh-Siam sgwachelh sērhsǐāmchelh (twal tsa)</rdg>
+                  <rdg wit="#Bo">chalap tlo tehechtobsh dhual di Sherk-Siam sgwachelh sihusiamchelh dhual tsa.</rdg>
+                  <rdg wit="#LB">čələp ɬutihičtubš dxʷʔal di šəq siʔab sgʷaʔčəɬ sixʷsiʔabčəɬ dxʷʔal ʔəca.</rdg>
+                  <rdg wit="#CBL">čələp ɬut'iwiɬtubš dxʷʔal di  šəq siʔab sgʷaʔčəɬ sixʷsiʔabčəɬ dxʷʔal ʔəca.</rdg>
+              </app></l>
+          
+          <l n="15">
+              <app>
+                  <rdg wit="#Ch"> Klob assista</rdg>
+                  <rdg wit="#Bo"> 'Tlob asista</rdg>
+                  <rdg wit="#LB"> ƛ'ub ʔəsʔistəʔ.</rdg>
+                  <rdg wit="#CBL"> ƛ'ub ʔəsʔistəʔ.</rdg>
+              </app></l>
+
+    </body>
+  </text>
+</TEI>

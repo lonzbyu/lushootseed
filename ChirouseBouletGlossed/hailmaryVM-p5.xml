@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../src/vmachineDWL.xsl" type="text/xsl" ?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader><fileDesc>
+            <titleStmt>
+                <title>Versions of Hail Mary in Lushootseed</title>
+                <author> Dawn Bates and Deryle Lonsdale </author>
+                <respStmt><resp> Text Encoding by </resp><name>Deryle Lonsdale</name></respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>Deryle Lonsdale</publisher><address><addrLine>4039 JFSB, Provo, UT 84097</addrLine></address><availability status="unknown"><p>This information may not be reproduced without the explicit permission from the copyright holder. For copyright information, please contact Deryle Lonsdale at lonz@byu.edu</p></availability></publicationStmt>
+            <notesStmt>
+                <note anchored="true">This has two Romanized versions and our updated orthography.</note>
+                <!--             <note type="image">
+                    <witDetail wit="Ch" target="val">
+                    <figure entity="chirouse1"></figure>
+                    </witDetail>
+                    </note> -->
+            </notesStmt>
+            <sourceDesc><p>Source description</p>
+            </sourceDesc>
+        </fileDesc><encodingDesc> 
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc></teiHeader>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="Ch">Chirouse</witness>
+                    <witness xml:id="Bo">Boulet</witness>
+                    <witness xml:id="LB">Bates and Lonsdale</witness>
+                    <witness xml:id="CBL">Chirouse -- Bates and Lonsdale</witness>
+                </listWit>
+            </div>
+            
+        </front>
+        <body style="font-family:'arial unicode ms'">
+            <l n="1">
+                <app>
+                    <rdg wit="#Ch">Hail Mary:</rdg>
+                    <rdg wit="#Bo">HAIL MARY.</rdg>                  
+                    <rdg wit="#LB">HAIL MARY</rdg>
+                    <rdg wit="#CBL">Hail Mary:</rdg>
+                </app></l>
+            
+            <l n="2">
+                <app>
+                    <rdg wit="#Ch">O Tsī-Tsīam Maly,</rdg>
+                    <rdg wit="#Bo">O Tsisiam Mari,</rdg>
+                    <rdg wit="#LB">ʔu tsi siʔab Mari,</rdg>
+                    <rdg wit="#CBL">ʔu tsi siʔab Mali,</rdg>
+                </app></l>
+            
+            <l n="3">
+                <app>
+                    <rdg wit="#Ch">āslěch ak gwalh Sherk tōsābĭětems</rdg>
+                    <rdg wit="#Bo">aslech a gwalh sherk tusabietobs</rdg>
+                    <rdg wit="#LB"> ʔəsləč ʔə gʷəɬ šəq tusʔabyitubs</rdg>
+                    <rdg wit="#CBL">ʔəsləč ʔə kʷi gʷəɬ šəq tusʔabyitəbs</rdg>
+                </app></l>
+            
+            <l n="4">
+                <app>
+                    <rdg wit="#Ch">ăā al degwe kwi Sherhk-Siam</rdg>
+                    <rdg wit="#Bo">a al dgwe kwi Sherk-Siam </rdg>
+                    <rdg wit="#LB">ʔaʔ ʔal dəgʷi kʷi šəq siʔab</rdg>
+                    <rdg wit="#CBL"> ʔa ʔal dəgʷi kʷi šəq siʔab</rdg>
+                </app></l>
+            
+            <l n="5">
+                <app>
+                    <rdg wit="#Ch">děgwě ktoshēklētem lilzirh walh twal mok tlhādāĭ, </rdg>
+                    <rdg wit="#Bo">dgwi kto shitlitob lilhzihu halh dhual kwi boku sladai, </rdg>
+                    <rdg wit="#LB">dəgʷi kʷi tušiƛ'itəb liɬʤixʷ haʔɬ dxʷʔal kʷi bəkʼʷ sɬadəyʔ,</rdg>
+                    <rdg wit="#CBL"> dəgʷi kʷi tušiƛ'itəb liɬʤixʷ haʔɬ dxʷʔal bəkʼʷ sɬadəyʔ,</rdg>
+                </app></l>
+            
+            <l n="6">
+                <app>
+                    <rdg wit="#Ch">to shěklētem tadsgwa adbědā Jesu! </rdg>
+                    <rdg wit="#Bo">tu shitlitob ta adsgwa ad Beda Shesu.</rdg>
+                    <rdg wit="#LB">tušiƛ'itəb t(i) adsgʷaʔ adbədaʔ Shesu.</rdg>
+                    <rdg wit="#CBL"> tušiƛ'itəb t(i) adsgʷaʔ adbədaʔ Shesu.</rdg>
+                </app></l>
+            
+            <l n="7">
+                <app>
+                    <rdg wit="#Ch"> Sainte Maly skōīăk Sherk Sĭam, </rdg>
+                    <rdg wit="#Bo">Sent-Mari skoi aku Sherk-Siam</rdg>
+                    <rdg wit="#LB">Sent-Mari skʼʷuy ʔə kʷi šəq siʔab</rdg>
+                    <rdg wit="#CBL"> Sent-Mari skʼʷuy ʔə kʷi šəq siʔab </rdg>
+                </app></l>
+            
+            <l n="8">
+                <app>
+                    <rdg wit="#Ch"> klob chorh otēēch ăltē twăl dē Shěkh Siām twălh dēbălh sā āssĭlhtăměrh,</rdg>
+                    <rdg wit="#Bo">o'tehechchohu alti dhual di Sherk-Siam dhual debalh sa atsilhtalbihu,</rdg>
+                    <rdg wit="#LB">ʔutihič čəxʷ ʔal ti dxʷʔal diʔ šəq siʔab dxʷʔal dibəɬ saʔ ʔaciɬtalbixʷ ,</rdg>
+                    <rdg wit="#CBL"> ƛ'ub čəxʷ ʔut'iwiɬ ʔal ti dxʷʔal diʔ šəq siʔab dxʷʔal dibəɬ saʔ ʔaciɬtalbixʷ,</rdg>
+                </app></l>
+            
+            <l n="9">
+                <app>
+                    <rdg wit="#Ch">ōĭ chŏr pōttlhěmătēēch twal kwe tlos atbechelh.</rdg>
+                    <rdg wit="#Bo">hoi chahu apot tlhbatehech dhual kwi tlus atebedchelh. </rdg>
+                    <rdg wit="#LB"> huy čəxʷ apot ɬubətihič dxʷʔal kʷi ƛ'usʔatəbəd čəɬ.</rdg>
+                    <rdg wit="#CBL">huy čəxʷ put ɬəbət'iwiɬ dxʷʔal kʷi ɬusʔatəbəd čəɬ.</rdg>
+                </app></l>
+            
+            <l n="10">
+                <app>
+                    <rdg wit="#Ch"> Klōb āssĭstă! </rdg>
+                    <rdg wit="#Bo"> 'Tlob asista. </rdg>
+                    <rdg wit="#LB"> ƛ'ub ʔəsʔistəʔ.</rdg>
+                    <rdg wit="#CBL"> ƛ'ub ʔəsʔistəʔ!</rdg>
+                </app></l>
+  
+        </body>
+    </text>
+</TEI>
